@@ -62,19 +62,25 @@ and include directories for **glew** and **jansson** third-party libraries and y
  - `GL3 Base` - simple shader that tries to mimic the look and feel of Serious Sam's default `Base` shader in SKAStudio
  
  <img src="https://raw.githubusercontent.com/SeriousAlexej/SamGLShaders/master/images/base.png">
+ 
  - `GL3 Lul` - shader that demonstrates usage of sprite in vertex program, and dynamic texture mapping in fragment program
  
  <img src="https://raw.githubusercontent.com/SeriousAlexej/SamGLShaders/master/images/lul.png">
+ 
  - `GL3 Reflection` - shader that uses cubemaps to render reflections
  
  <img src="https://raw.githubusercontent.com/SeriousAlexej/SamGLShaders/master/images/ref.png">
+ 
  - `GL3 Sprite` - this shader is meant to show how shader profiles work in terms of directory and file structure
+ 
  - `GL3 SS2 Standard` - shader that tries to mimic basic look and feel of Serious Sam 2 model rendering
  
  <img src="https://raw.githubusercontent.com/SeriousAlexej/SamGLShaders/master/images/ss2.png">
+ 
  - `GL3 SS3 Standard` - shader that tries to mimic basic look and feel of Serious Sam 3 model rendering
  
  <img src="https://raw.githubusercontent.com/SeriousAlexej/SamGLShaders/master/images/ss3.png">
+ 
  - `GL3 Water` - this shader is an example of how to render a simple water surface
  
  <img src="https://raw.githubusercontent.com/SeriousAlexej/SamGLShaders/master/images/water.png">
