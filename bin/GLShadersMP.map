@@ -1,0 +1,1516 @@
+ GLShadersMP
+
+ Timestamp is 5c8ee210 (Mon Mar 18 02:10:56 2019)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0001f6dcH .text                   CODE
+ 0001:0001f6e0 00000fcfH .text$x                 CODE
+ 0002:00000000 000005acH .idata$5                DATA
+ 0002:000005b0 00000434H .rdata                  DATA
+ 0002:000009e8 00000044H .rdata$r                DATA
+ 0002:00000a30 000013a8H .xdata$x                DATA
+ 0002:00001dd8 000000b4H .idata$2                DATA
+ 0002:00001e8c 00000014H .idata$3                DATA
+ 0002:00001ea0 000005acH .idata$4                DATA
+ 0002:0000244c 000036a2H .idata$6                DATA
+ 0002:00005af0 00001638H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000044H .CRT$XCU                DATA
+ 0003:00000048 00000004H .CRT$XCZ                DATA
+ 0003:0000004c 00000004H .CRT$XIA                DATA
+ 0003:00000050 00000004H .CRT$XIZ                DATA
+ 0003:00000060 00001e48H .data                   DATA
+ 0003:00001ea8 0000052cH .bss                    DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       ??_H@YGXPAXIHP6EX0@Z@Z     10001000 f i GLCubeMapBaker.obj
+ 0001:00000120       ?GLCubeMapBaker_New@@YAPAVCEntity@@XZ 10001120 f   GLCubeMapBaker.obj
+ 0001:00000180       ?GLCubeMapBaker_OnInitClass@@YAXXZ 10001180 f   GLCubeMapBaker.obj
+ 0001:00000190       ?GLCubeMapBaker_OnEndClass@@YAXXZ 10001190 f   GLCubeMapBaker.obj
+ 0001:000001a0       ?GLCubeMapBaker_OnPrecache@@YAXPAVCDLLEntityClass@@J@Z 100011a0 f   GLCubeMapBaker.obj
+ 0001:000001b0       ?GLCubeMapBaker_OnWorldEnd@@YAXPAVCWorld@@@Z 100011b0 f   GLCubeMapBaker.obj
+ 0001:000001c0       ?GLCubeMapBaker_OnWorldInit@@YAXPAVCWorld@@@Z 100011c0 f   GLCubeMapBaker.obj
+ 0001:000001d0       ?GLCubeMapBaker_OnWorldTick@@YAXPAVCWorld@@@Z 100011d0 f   GLCubeMapBaker.obj
+ 0001:000001e0       ?GLCubeMapBaker_OnWorldRender@@YAXPAVCWorld@@@Z 100011e0 f   GLCubeMapBaker.obj
+ 0001:000002b0       ?SetDefaultProperties@GLCubeMapBaker@@UAEXXZ 100012b0 f   GLCubeMapBaker.obj
+ 0001:000002f0       ??0GLCubeMapBaker@@QAE@XZ  100012f0 f   GLCubeMapBaker.obj
+ 0001:00000360       ??1GLCubeMapBaker@@UAE@XZ  10001360 f   GLCubeMapBaker.obj
+ 0001:00000430       ?SetProfile@GLCubeMapBaker@@QAEXXZ 10001430 f   GLCubeMapBaker.obj
+ 0001:00000470       ?Read_t@GLCubeMapBaker@@UAEXPAVCTStream@@@Z 10001470 f   GLCubeMapBaker.obj
+ 0001:000004a0       ?RenderOneTexture@GLCubeMapBaker@@QAEHPAVCDrawPort@@V?$Vector@M$02@@ABVCTFileName@@@Z 100014a0 f   GLCubeMapBaker.obj
+ 0001:000009d0       ?BakeTexture@GLCubeMapBaker@@QAEXXZ 100019d0 f   GLCubeMapBaker.obj
+ 0001:00001000       ?AdjustShaderParams@GLCubeMapBaker@@UAEXJPAVCShader@@AAUShaderParams@@@Z 10002000 f   GLCubeMapBaker.obj
+ 0001:00001070       ?Main@GLCubeMapBaker@@QAEHABVCEntityEvent@@@Z 10002070 f   GLCubeMapBaker.obj
+ 0001:00001160       ?H0x05290000_Main_01@GLCubeMapBaker@@QAEHABVCEntityEvent@@@Z 10002160 f   GLCubeMapBaker.obj
+ 0001:000011e0       ?H0x05290001_Main_02@GLCubeMapBaker@@QAEHABVCEntityEvent@@@Z 100021e0 f   GLCubeMapBaker.obj
+ 0001:00001250       ?H0x05290002_Main_03@GLCubeMapBaker@@QAEHABVCEntityEvent@@@Z 10002250 f   GLCubeMapBaker.obj
+ 0001:00001270       ?H0x05290003_Main_04@GLCubeMapBaker@@QAEHABVCEntityEvent@@@Z 10002270 f   GLCubeMapBaker.obj
+ 0001:000012d0       ?GetName@GLCubeMapBaker@@UBEABVCTString@@XZ 100022d0 f i GLCubeMapBaker.obj
+ 0001:000012e0       ??_EGLCubeMapBaker@@UAEPAXI@Z 100022e0 f i GLCubeMapBaker.obj
+ 0001:000012e0       ??_GGLCubeMapBaker@@UAEPAXI@Z 100022e0 f i GLCubeMapBaker.obj
+ 0001:00001310       ?ClearToDefault@@YAXAAW4ActionType@@@Z 10002310 f i GLModelHolder.obj
+ 0001:00001320       ??0EGLMHChangeAnim@@QAE@ABV0@@Z 10002320 f i GLModelHolder.obj
+ 0001:000013a0       ??4EGLMHChangeAnim@@QAEAAV0@ABV0@@Z 100023a0 f i GLModelHolder.obj
+ 0001:000013f0       ??1EGLMHChangeAnim@@UAE@XZ 100023f0 f i GLModelHolder.obj
+ 0001:00001440       ??_GEGLMHChangeAnim@@UAEPAXI@Z 10002440 f i GLModelHolder.obj
+ 0001:00001470       ??_EEGLMHChangeAnim@@UAEPAXI@Z 10002470 f i GLModelHolder.obj
+ 0001:000014d0       ?ClearToDefault@@YAXAAVEGLMHChangeAnim@@@Z 100024d0 f i GLModelHolder.obj
+ 0001:00001560       ??0EGLMHRemoveAnim@@QAE@ABV0@@Z 10002560 f i GLModelHolder.obj
+ 0001:000015c0       ??4EGLMHRemoveAnim@@QAEAAV0@ABV0@@Z 100025c0 f i GLModelHolder.obj
+ 0001:00001600       ??1EGLMHRemoveAnim@@UAE@XZ 10002600 f i GLModelHolder.obj
+ 0001:00001650       ??_GEGLMHRemoveAnim@@UAEPAXI@Z 10002650 f i GLModelHolder.obj
+ 0001:00001680       ??_EEGLMHRemoveAnim@@UAEPAXI@Z 10002680 f i GLModelHolder.obj
+ 0001:000016e0       ?ClearToDefault@@YAXAAVEGLMHRemoveAnim@@@Z 100026e0 f i GLModelHolder.obj
+ 0001:00001760       ??0EGLMHRemoveAnimsID@@QAE@ABV0@@Z 10002760 f i GLModelHolder.obj
+ 0001:00001790       ??4EGLMHRemoveAnimsID@@QAEAAV0@ABV0@@Z 10002790 f i GLModelHolder.obj
+ 0001:000017b0       ??1EGLMHRemoveAnimsID@@UAE@XZ 100027b0 f i GLModelHolder.obj
+ 0001:000017c0       ??_GEGLMHRemoveAnimsID@@UAEPAXI@Z 100027c0 f i GLModelHolder.obj
+ 0001:000017f0       ??_EEGLMHRemoveAnimsID@@UAEPAXI@Z 100027f0 f i GLModelHolder.obj
+ 0001:00001850       ?ClearToDefault@@YAXAAVEGLMHRemoveAnimsID@@@Z 10002850 f i GLModelHolder.obj
+ 0001:00001880       ??0EGLMHStopAllAnims@@QAE@ABV0@@Z 10002880 f i GLModelHolder.obj
+ 0001:000018a0       ??4EGLMHStopAllAnims@@QAEAAV0@ABV0@@Z 100028a0 f i GLModelHolder.obj
+ 0001:000018c0       ??1EGLMHStopAllAnims@@UAE@XZ 100028c0 f i GLModelHolder.obj
+ 0001:000018d0       ??_GEGLMHStopAllAnims@@UAEPAXI@Z 100028d0 f i GLModelHolder.obj
+ 0001:00001900       ??_EEGLMHStopAllAnims@@UAEPAXI@Z 10002900 f i GLModelHolder.obj
+ 0001:00001960       ?ClearToDefault@@YAXAAVEGLMHStopAllAnims@@@Z 10002960 f i GLModelHolder.obj
+ 0001:00001980       ?ClearToDefault@@YAXAAW4LightType@@@Z 10002980 f i GLModelHolder.obj
+ 0001:00001990       ?ClearToDefault@@YAXAAW4LensFlareType@@@Z 10002990 f i GLModelHolder.obj
+ 0001:000019a0       ??0EChangeAnim@@QAE@ABV0@@Z 100029a0 f i GLModelHolder.obj
+ 0001:00001a00       ??4EChangeAnim@@QAEAAV0@ABV0@@Z 10002a00 f i GLModelHolder.obj
+ 0001:00001a50       ??1EChangeAnim@@UAE@XZ     10002a50 f i GLModelHolder.obj
+ 0001:00001a60       ??_GEChangeAnim@@UAEPAXI@Z 10002a60 f i GLModelHolder.obj
+ 0001:00001a90       ??_EEChangeAnim@@UAEPAXI@Z 10002a90 f i GLModelHolder.obj
+ 0001:00001af0       ?ClearToDefault@@YAXAAVEChangeAnim@@@Z 10002af0 f i GLModelHolder.obj
+ 0001:00001b50       ??0ESpawnSpray@@QAE@ABV0@@Z 10002b50 f i GLModelHolder.obj
+ 0001:00001bc0       ??4ESpawnSpray@@QAEAAV0@ABV0@@Z 10002bc0 f i GLModelHolder.obj
+ 0001:00001c40       ??1ESpawnSpray@@UAE@XZ     10002c40 f i GLModelHolder.obj
+ 0001:00001cd0       ??_GESpawnSpray@@UAEPAXI@Z 10002cd0 f i GLModelHolder.obj
+ 0001:00001d00       ??_EESpawnSpray@@UAEPAXI@Z 10002d00 f i GLModelHolder.obj
+ 0001:00001d60       ?ClearToDefault@@YAXAAVESpawnSpray@@@Z 10002d60 f i GLModelHolder.obj
+ 0001:00001e30       ?ClearToDefault@@YAXAAW4CustomShadingType@@@Z 10002e30 f i GLModelHolder.obj
+ 0001:00001e40       ?ClearToDefault@@YAXAAW4ShadowType@@@Z 10002e40 f i GLModelHolder.obj
+ 0001:00001e50       ?ClearToDefault@@YAXAAW4BasicEffectType@@@Z 10002e50 f i GLModelHolder.obj
+ 0001:00001e60       ??0ESpawnEffect@@QAE@ABV0@@Z 10002e60 f i GLModelHolder.obj
+ 0001:00001ee0       ??4ESpawnEffect@@QAEAAV0@ABV0@@Z 10002ee0 f i GLModelHolder.obj
+ 0001:00001f50       ??1ESpawnEffect@@UAE@XZ    10002f50 f i GLModelHolder.obj
+ 0001:00001f60       ??_GESpawnEffect@@UAEPAXI@Z 10002f60 f i GLModelHolder.obj
+ 0001:00001f90       ??_EESpawnEffect@@UAEPAXI@Z 10002f90 f i GLModelHolder.obj
+ 0001:00001ff0       ?ClearToDefault@@YAXAAVESpawnEffect@@@Z 10002ff0 f i GLModelHolder.obj
+ 0001:00002060       ?ClearToDefault@@YAXAAW4DebrisParticlesType@@@Z 10003060 f i GLModelHolder.obj
+ 0001:00002070       ??0ESpawnDebris@@QAE@ABV0@@Z 10003070 f i GLModelHolder.obj
+ 0001:00002130       ??4ESpawnDebris@@QAEAAV0@ABV0@@Z 10003130 f i GLModelHolder.obj
+ 0001:00002200       ??1ESpawnDebris@@UAE@XZ    10003200 f i GLModelHolder.obj
+ 0001:00002290       ??_GESpawnDebris@@UAEPAXI@Z 10003290 f i GLModelHolder.obj
+ 0001:000022c0       ??_EESpawnDebris@@UAEPAXI@Z 100032c0 f i GLModelHolder.obj
+ 0001:00002320       ?ClearToDefault@@YAXAAVESpawnDebris@@@Z 10003320 f i GLModelHolder.obj
+ 0001:00002440       ??0ERangeModelDestruction@@QAE@ABV0@@Z 10003440 f i GLModelHolder.obj
+ 0001:00002460       ??4ERangeModelDestruction@@QAEAAV0@ABV0@@Z 10003460 f i GLModelHolder.obj
+ 0001:00002480       ??1ERangeModelDestruction@@UAE@XZ 10003480 f i GLModelHolder.obj
+ 0001:00002490       ??_GERangeModelDestruction@@UAEPAXI@Z 10003490 f i GLModelHolder.obj
+ 0001:000024c0       ??_EERangeModelDestruction@@UAEPAXI@Z 100034c0 f i GLModelHolder.obj
+ 0001:00002520       ?ClearToDefault@@YAXAAVERangeModelDestruction@@@Z 10003520 f i GLModelHolder.obj
+ 0001:00002540       ?ClearToDefault@@YAXAAW4DestructionDebrisType@@@Z 10003540 f i GLModelHolder.obj
+ 0001:00002550       ?ClearToDefault@@YAXAAW4SkaCustomShadingType@@@Z 10003550 f i GLModelHolder.obj
+ 0001:00002560       ?ClearToDefault@@YAXAAW4SkaShadowType@@@Z 10003560 f i GLModelHolder.obj
+ 0001:00002930       ?GLModelHolder_New@@YAPAVCEntity@@XZ 10003930 f   GLModelHolder.obj
+ 0001:00002990       ?GLModelHolder_OnInitClass@@YAXXZ 10003990 f   GLModelHolder.obj
+ 0001:000029a0       ?GLModelHolder_OnEndClass@@YAXXZ 100039a0 f   GLModelHolder.obj
+ 0001:000029b0       ?GLModelHolder_OnPrecache@@YAXPAVCDLLEntityClass@@J@Z 100039b0 f   GLModelHolder.obj
+ 0001:000029c0       ?GLModelHolder_OnWorldEnd@@YAXPAVCWorld@@@Z 100039c0 f   GLModelHolder.obj
+ 0001:000029d0       ?GLModelHolder_OnWorldInit@@YAXPAVCWorld@@@Z 100039d0 f   GLModelHolder.obj
+ 0001:000029e0       ?GLModelHolder_OnWorldTick@@YAXPAVCWorld@@@Z 100039e0 f   GLModelHolder.obj
+ 0001:000029f0       ?GLModelHolder_OnWorldRender@@YAXPAVCWorld@@@Z 100039f0 f   GLModelHolder.obj
+ 0001:00002ac0       ?SetDefaultProperties@GLModelHolder@@UAEXXZ 10003ac0 f   GLModelHolder.obj
+ 0001:00002c50       ??0GLModelHolder@@QAE@XZ   10003c50 f   GLModelHolder.obj
+ 0001:00002d00       ??1GLModelHolder@@UAE@XZ   10003d00 f   GLModelHolder.obj
+ 0001:00002df0       ?SetProfile@GLModelHolder@@QAEXXZ 10003df0 f   GLModelHolder.obj
+ 0001:00002e30       ?Read_t@GLModelHolder@@UAEXPAVCTStream@@@Z 10003e30 f   GLModelHolder.obj
+ 0001:00002f00       ?Write_t@GLModelHolder@@UAEXPAVCTStream@@@Z 10003f00 f   GLModelHolder.obj
+ 0001:00002fa0       ?AdjustShaderParams@GLModelHolder@@UAEXJPAVCShader@@AAUShaderParams@@@Z 10003fa0 f   GLModelHolder.obj
+ 0001:00003010       ?FillEntityStatistics@GLModelHolder@@UAEHPAUEntityStats@@@Z 10004010 f   GLModelHolder.obj
+ 0001:000030a0       ?GetClassificationBoxStretch@GLModelHolder@@UAE?AV?$Vector@M$02@@XZ 100040a0 f   GLModelHolder.obj
+ 0001:000030e0       ?ReceiveDamage@GLModelHolder@@UAEXPAVCEntity@@W4DamageType@@MABV?$Vector@M$02@@2@Z 100040e0 f   GLModelHolder.obj
+ 0001:000030f0       ?GetEntityInfo@GLModelHolder@@UAEPAXXZ 100040f0 f   GLModelHolder.obj
+ 0001:00003100       ?IsTargetable@GLModelHolder@@UBEHXZ 10004100 f   GLModelHolder.obj
+ 0001:00003110       ?AdjustShadingParameters@GLModelHolder@@UAEHAAV?$Vector@M$02@@AAK1@Z 10004110 f   GLModelHolder.obj
+ 0001:00003250       ?MirrorAndStretch@GLModelHolder@@UAEXMH@Z 10004250 f   GLModelHolder.obj
+ 0001:00003280       ?StretchModel@GLModelHolder@@QAEXXZ 10004280 f   GLModelHolder.obj
+ 0001:00003490       ?InitModelHolder@GLModelHolder@@QAEXXZ 10004490 f   GLModelHolder.obj
+ 0001:000036d0       ?Die@GLModelHolder@@QAEHABVCEntityEvent@@@Z 100046d0 f   GLModelHolder.obj
+ 0001:00003770       ?Main@GLModelHolder@@QAEHABVCEntityEvent@@@Z 10004770 f   GLModelHolder.obj
+ 0001:000037e0       ?H0x05280001_Main_01@GLModelHolder@@QAEHABVCEntityEvent@@@Z 100047e0 f   GLModelHolder.obj
+ 0001:000039c0       ?H0x05280002_Main_02@GLModelHolder@@QAEHABVCEntityEvent@@@Z 100049c0 f   GLModelHolder.obj
+ 0001:000039d0       ?GetName@GLModelHolder@@UBEABVCTString@@XZ 100049d0 f i GLModelHolder.obj
+ 0001:000039e0       ?GetDescription@GLModelHolder@@UBEABVCTString@@XZ 100049e0 f i GLModelHolder.obj
+ 0001:000039f0       ??_EGLModelHolder@@UAEPAXI@Z 100049f0 f i GLModelHolder.obj
+ 0001:000039f0       ??_GGLModelHolder@@UAEPAXI@Z 100049f0 f i GLModelHolder.obj
+ 0001:00003d10       ?GLModelHolderAnimationChanger_New@@YAPAVCEntity@@XZ 10004d10 f   GLModelHolderAnimationChanger.obj
+ 0001:00003db0       ?GLModelHolderAnimationChanger_OnInitClass@@YAXXZ 10004db0 f   GLModelHolderAnimationChanger.obj
+ 0001:00003dc0       ?GLModelHolderAnimationChanger_OnEndClass@@YAXXZ 10004dc0 f   GLModelHolderAnimationChanger.obj
+ 0001:00003dd0       ?GLModelHolderAnimationChanger_OnPrecache@@YAXPAVCDLLEntityClass@@J@Z 10004dd0 f   GLModelHolderAnimationChanger.obj
+ 0001:00003de0       ?GLModelHolderAnimationChanger_OnWorldEnd@@YAXPAVCWorld@@@Z 10004de0 f   GLModelHolderAnimationChanger.obj
+ 0001:00003df0       ?GLModelHolderAnimationChanger_OnWorldInit@@YAXPAVCWorld@@@Z 10004df0 f   GLModelHolderAnimationChanger.obj
+ 0001:00003e00       ?GLModelHolderAnimationChanger_OnWorldTick@@YAXPAVCWorld@@@Z 10004e00 f   GLModelHolderAnimationChanger.obj
+ 0001:00003e10       ?GLModelHolderAnimationChanger_OnWorldRender@@YAXPAVCWorld@@@Z 10004e10 f   GLModelHolderAnimationChanger.obj
+ 0001:00003ee0       ?MakeCopy@EGLMHChangeAnim@@UAEPAVCEntityEvent@@XZ 10004ee0 f   GLModelHolderAnimationChanger.obj
+ 0001:00003f70       ??0EGLMHChangeAnim@@QAE@XZ 10004f70 f   GLModelHolderAnimationChanger.obj
+ 0001:00004000       ?MakeCopy@EGLMHRemoveAnim@@UAEPAVCEntityEvent@@XZ 10005000 f   GLModelHolderAnimationChanger.obj
+ 0001:00004070       ??0EGLMHRemoveAnim@@QAE@XZ 10005070 f   GLModelHolderAnimationChanger.obj
+ 0001:000040f0       ?MakeCopy@EGLMHRemoveAnimsID@@UAEPAVCEntityEvent@@XZ 100050f0 f   GLModelHolderAnimationChanger.obj
+ 0001:00004130       ??0EGLMHRemoveAnimsID@@QAE@XZ 10005130 f   GLModelHolderAnimationChanger.obj
+ 0001:00004150       ?MakeCopy@EGLMHStopAllAnims@@UAEPAVCEntityEvent@@XZ 10005150 f   GLModelHolderAnimationChanger.obj
+ 0001:00004180       ??0EGLMHStopAllAnims@@QAE@XZ 10005180 f   GLModelHolderAnimationChanger.obj
+ 0001:00004190       ?SetDefaultProperties@GLModelHolderAnimationChanger@@UAEXXZ 10005190 f   GLModelHolderAnimationChanger.obj
+ 0001:00004240       ?GetUsedMemory@GLModelHolderAnimationChanger@@UAEJXZ 10005240 f   GLModelHolderAnimationChanger.obj
+ 0001:00004270       ?Main@GLModelHolderAnimationChanger@@QAEHABVCEntityEvent@@@Z 10005270 f   GLModelHolderAnimationChanger.obj
+ 0001:00004310       ?H0x052a0004_Main_01@GLModelHolderAnimationChanger@@QAEHABVCEntityEvent@@@Z 10005310 f   GLModelHolderAnimationChanger.obj
+ 0001:00004390       ?H0x052a0005_Main_02@GLModelHolderAnimationChanger@@QAEHABVCEntityEvent@@@Z 10005390 f   GLModelHolderAnimationChanger.obj
+ 0001:00004400       ?H0x052a0006_Main_03@GLModelHolderAnimationChanger@@QAEHABVCEntityEvent@@@Z 10005400 f   GLModelHolderAnimationChanger.obj
+ 0001:00004600       ?H0x052a0007_Main_04@GLModelHolderAnimationChanger@@QAEHABVCEntityEvent@@@Z 10005600 f   GLModelHolderAnimationChanger.obj
+ 0001:00004660       ??1CEntityPointer@@QAE@XZ  10005660 f i GLModelHolderAnimationChanger.obj
+ 0001:00004680       ?GetName@GLModelHolderAnimationChanger@@UBEABVCTString@@XZ 10005680 f i GLModelHolderAnimationChanger.obj
+ 0001:00004690       ?GetTarget@GLModelHolderAnimationChanger@@UBEPAVCEntity@@XZ 10005690 f i GLModelHolderAnimationChanger.obj
+ 0001:000046a0       ?IsTargetable@GLModelHolderAnimationChanger@@UBEHXZ 100056a0 f i GLModelHolderAnimationChanger.obj
+ 0001:000046b0       ??_GGLModelHolderAnimationChanger@@UAEPAXI@Z 100056b0 f i GLModelHolderAnimationChanger.obj
+ 0001:000046b0       ??_EGLModelHolderAnimationChanger@@UAEPAXI@Z 100056b0 f i GLModelHolderAnimationChanger.obj
+ 0001:000046e0       ??1GLModelHolderAnimationChanger@@UAE@XZ 100056e0 f i GLModelHolderAnimationChanger.obj
+ 0001:000047c0       ?HashValue@@YAKPBD@Z       100057c0 f   Hash.obj
+ 0001:000047f0       ?hFOVtovFOV@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@YAMMM@Z 100057f0 f   RenderSession.obj
+ 0001:00004860       ?LoadTextureData@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@YA_NPBDAAPAEAAH22@Z 10005860 f   RenderSession.obj
+ 0001:00004a30       ?AlexShaders_RegisterRenderSession@@YAHXZ 10005a30 f   RenderSession.obj
+ 0001:00004b60       ?AlexShaders_SetRenderSession@@YAXH@Z 10005b60 f   RenderSession.obj
+ 0001:00004b70       ?AlexShaders_Initialize@@YA_NXZ 10005b70 f   RenderSession.obj
+ 0001:00004c50       ?AlexShaders_Initialized@@YA_NXZ 10005c50 f   RenderSession.obj
+ 0001:00004c60       ?AlexShaders_ClearAllSessions@@YAXXZ 10005c60 f   RenderSession.obj
+ 0001:00004e20       ?AlexShaders_Finalize@@YAXXZ 10005e20 f   RenderSession.obj
+ 0001:00004e40       ?LoadTexture2D@@YAIPAVCTextureObject@@@Z 10005e40 f   RenderSession.obj
+ 0001:000051d0       ?LoadTextureCube@@YAIPAVCTextureObject@@@Z 100061d0 f   RenderSession.obj
+ 0001:000056d0       ?AlexShaders_Precache@@YAXAAVCModelInstance@@@Z 100066d0 f   RenderSession.obj
+ 0001:00005770       ?AlexShaders_SetCustomFloatPool@@YAPAMPAM@Z 10006770 f   RenderSession.obj
+ 0001:00005790       ?AlexShaders_SetCustomVecPool@@YAPAMPAM@Z 10006790 f   RenderSession.obj
+ 0001:000057b0       ?LoadTexture@@YAIIPAVCTextureObject@@@Z 100067b0 f   RenderSession.obj
+ 0001:000058f0       ?CreateTangentBuffers@@YAXAAURenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@@Z 100068f0 f   RenderSession.obj
+ 0001:00006460       ?UpdateVertexBuffer@@YAXAAURenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@_N@Z 10007460 f   RenderSession.obj
+ 0001:00006700       ?InitSession@@YAXAAURenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@@Z 10007700 f   RenderSession.obj
+ 0001:00006860       ?FindOrCreateProperSessionForSurface@@YAAAURenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@AAV?$vector@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@V?$allocator@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@@std@@@std@@J@Z 10007860 f   RenderSession.obj
+ 0001:00006950       ?AlexRenderWithShader@@YAXABUShaderSettings@@@Z 10007950 f   RenderSession.obj
+ 0001:00008990       ??1?$map@KIU?$less@K@std@@V?$allocator@I@2@@std@@QAE@XZ 10009990 f i RenderSession.obj
+ 0001:00008a00       ??1RenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@QAE@XZ 10009a00 f i RenderSession.obj
+ 0001:00008a40       ??0vec3@glm@@QAE@ABU01@@Z  10009a40 f i RenderSession.obj
+ 0001:00008a60       ??0vec4@glm@@QAE@XZ        10009a60 f i RenderSession.obj
+ 0001:00008a70       ??0vec3@glm@@QAE@XZ        10009a70 f i RenderSession.obj
+ 0001:00008a80       ??0vec4@glm@@QAE@ABU01@@Z  10009a80 f i RenderSession.obj
+ 0001:00008ab0       ??0vec4@glm@@QAE@ABUvec3@1@M@Z 10009ab0 f i RenderSession.obj
+ 0001:00008ae0       ??0vec4@glm@@QAE@MMMM@Z    10009ae0 f i RenderSession.obj
+ 0001:00008b00       ??1?$vector@IV?$allocator@I@std@@@std@@QAE@XZ 10009b00 f i RenderSession.obj
+ 0001:00008b30       ??1?$vector@PAVCTextureObject@@V?$allocator@PAVCTextureObject@@@std@@@std@@QAE@XZ 10009b30 f i RenderSession.obj
+ 0001:00008b60       ?size@?$vector@PAVCTextureObject@@V?$allocator@PAVCTextureObject@@@std@@@std@@QBEIXZ 10009b60 f i RenderSession.obj
+ 0001:00008b80       ??0?$map@KIU?$less@K@std@@V?$allocator@I@2@@std@@QAE@ABU?$less@K@1@ABV?$allocator@I@1@@Z 10009b80 f i RenderSession.obj
+ 0001:00008c40       ??1?$vector@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@V?$allocator@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@@std@@@std@@QAE@XZ 10009c40 f i RenderSession.obj
+ 0001:00008c80       ??1?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@XZ 10009c80 f i RenderSession.obj
+ 0001:00008cf0       ?size@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBEIXZ 10009cf0 f i RenderSession.obj
+ 0001:00008d10       ?insert@?$vector@IV?$allocator@I@std@@@std@@QAEXPAIIABI@Z 10009d10 f i RenderSession.obj
+ 0001:00008f20       ?_Xran@?$vector@UShaderUniform@ShaderSettings@@V?$allocator@UShaderUniform@ShaderSettings@@@std@@@std@@IBEXXZ 10009f20 f i RenderSession.obj
+ 0001:00009000       ?_Destroy@?$vector@PAVCTextureObject@@V?$allocator@PAVCTextureObject@@@std@@@std@@IAEXPAPAVCTextureObject@@0@Z 1000a000 f i RenderSession.obj
+ 0001:00009010       ?insert@?$map@KIU?$less@K@std@@V?$allocator@I@2@@std@@QAE?AU?$pair@Viterator@?$_Tree@KU?$pair@$$CBKI@std@@U_Kfn@?$map@KIU?$less@K@std@@V?$allocator@I@2@@2@U?$less@K@2@V?$allocator@I@2@@std@@_N@2@ABU?$pair@$$CBKI@2@@Z 1000a010 f i RenderSession.obj
+ 0001:00009040       ?erase@?$_Tree@KU?$pair@$$CBKI@std@@U_Kfn@?$map@KIU?$less@K@std@@V?$allocator@I@2@@2@U?$less@K@2@V?$allocator@I@2@@std@@QAE?AViterator@12@V312@0@Z 1000a040 f i RenderSession.obj
+ 0001:00009170       ?find@?$_Tree@KU?$pair@$$CBKI@std@@U_Kfn@?$map@KIU?$less@K@std@@V?$allocator@I@2@@2@U?$less@K@2@V?$allocator@I@2@@std@@QAE?AViterator@12@ABK@Z 1000a170 f i RenderSession.obj
+ 0001:000091c0       ?_Inc@const_iterator@?$_Tree@KU?$pair@$$CBKI@std@@U_Kfn@?$map@KIU?$less@K@std@@V?$allocator@I@2@@2@U?$less@K@2@V?$allocator@I@2@@std@@QAEXXZ 1000a1c0 f i RenderSession.obj
+ 0001:00009270       ?capacity@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBEIXZ 1000a270 f i RenderSession.obj
+ 0001:00009290       ?insert@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@PAV32@ABV32@@Z 1000a290 f i RenderSession.obj
+ 0001:00009430       ?_Destroy@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@0@Z 1000a430 f i RenderSession.obj
+ 0001:00009480       ?_Ucopy@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@PBV32@0PAV32@@Z 1000a480 f i RenderSession.obj
+ 0001:000094c0       ?_Xran@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IBEXXZ 1000a4c0 f i RenderSession.obj
+ 0001:000095a0       ?insert@?$vector@PAVCTextureObject@@V?$allocator@PAVCTextureObject@@@std@@@std@@QAEXPAPAVCTextureObject@@IABQAV3@@Z 1000a5a0 f i RenderSession.obj
+ 0001:000097b0       ?insert@?$vector@V?$vector@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@V?$allocator@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@@std@@@std@@V?$allocator@V?$vector@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@V?$allocator@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@@std@@@std@@@2@@std@@QAEXPAV?$vector@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@V?$allocator@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@@std@@@2@IABV32@@Z 1000a7b0 f i RenderSession.obj
+ 0001:00009a50       ?insert@?$_Tree@KU?$pair@$$CBKI@std@@U_Kfn@?$map@KIU?$less@K@std@@V?$allocator@I@2@@2@U?$less@K@2@V?$allocator@I@2@@std@@QAE?AU?$pair@Viterator@?$_Tree@KU?$pair@$$CBKI@std@@U_Kfn@?$map@KIU?$less@K@std@@V?$allocator@I@2@@2@U?$less@K@2@V?$allocator@I@2@@std@@_N@2@ABU?$pair@$$CBKI@2@@Z 1000aa50 f i RenderSession.obj
+ 0001:00009b70       ?erase@?$_Tree@KU?$pair@$$CBKI@std@@U_Kfn@?$map@KIU?$less@K@std@@V?$allocator@I@2@@2@U?$less@K@2@V?$allocator@I@2@@std@@QAE?AViterator@12@V312@@Z 1000ab70 f i RenderSession.obj
+ 0001:0000a0b0       ?_Erase@?$_Tree@KU?$pair@$$CBKI@std@@U_Kfn@?$map@KIU?$less@K@std@@V?$allocator@I@2@@2@U?$less@K@2@V?$allocator@I@2@@std@@IAEXPAU_Node@12@@Z 1000b0b0 f i RenderSession.obj
+ 0001:0000a130       ?insert@?$vector@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@V?$allocator@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@@std@@@std@@QAEXPAURenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@IABU34@@Z 1000b130 f i RenderSession.obj
+ 0001:0000a420       ??4?$vector@IV?$allocator@I@std@@@std@@QAEAAV01@ABV01@@Z 1000b420 f i RenderSession.obj
+ 0001:0000a5b0       ?destroy@?$allocator@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@@std@@QAEXPAURenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@@Z 1000b5b0 f i RenderSession.obj
+ 0001:0000a5c0       ?insert@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@IABV32@@Z 1000b5c0 f i RenderSession.obj
+ 0001:0000a880       ??0?$pair@Viterator@?$_Tree@KU?$pair@$$CBKI@std@@U_Kfn@?$map@KIU?$less@K@std@@V?$allocator@I@2@@2@U?$less@K@2@V?$allocator@I@2@@std@@_N@std@@QAE@ABViterator@?$_Tree@KU?$pair@$$CBKI@std@@U_Kfn@?$map@KIU?$less@K@std@@V?$allocator@I@2@@2@U?$less@K@2@V?$allocator@I@2@@1@AB_N@Z 1000b880 f i RenderSession.obj
+ 0001:0000a8a0       ?_Insert@?$_Tree@KU?$pair@$$CBKI@std@@U_Kfn@?$map@KIU?$less@K@std@@V?$allocator@I@2@@2@U?$less@K@2@V?$allocator@I@2@@std@@IAE?AViterator@12@PAU_Node@12@0ABU?$pair@$$CBKI@2@@Z 1000b8a0 f i RenderSession.obj
+ 0001:0000abb0       ?_Lbound@?$_Tree@KU?$pair@$$CBKI@std@@U_Kfn@?$map@KIU?$less@K@std@@V?$allocator@I@2@@2@U?$less@K@2@V?$allocator@I@2@@std@@IBEPAU_Node@12@ABK@Z 1000bbb0 f i RenderSession.obj
+ 0001:0000ac00       ?_Ufill@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@IAEXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@IABV32@@Z 1000bc00 f i RenderSession.obj
+ 0001:0000ac30       ?_Dec@const_iterator@?$_Tree@KU?$pair@$$CBKI@std@@U_Kfn@?$map@KIU?$less@K@std@@V?$allocator@I@2@@2@U?$less@K@2@V?$allocator@I@2@@std@@QAEXXZ 1000bc30 f i RenderSession.obj
+ 0001:0000acf0       ??1?$CStaticArrayIterator@UMeshInstance@@@@QAE@XZ 1000bcf0 f i RenderSession.obj
+ 0001:0000ad00       ??1?$CStaticArrayIterator@UTextureInstance@@@@QAE@XZ 1000bd00 f i RenderSession.obj
+ 0001:0000ad10       ?_Construct@std@@YAXPAPAVCTextureObject@@ABQAV2@@Z 1000bd10 f i RenderSession.obj
+ 0001:0000ad30       ?_Destroy@std@@YAXPAURenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@@Z 1000bd30 f i RenderSession.obj
+ 0001:0000ad40       ?fill@std@@YAXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@0ABV21@@Z 1000bd40 f i RenderSession.obj
+ 0001:0000aea0       ?copy_backward@std@@YAPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PAV21@00@Z 1000bea0 f i RenderSession.obj
+ 0001:0000b010       ?_Construct@std@@YAXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@ABV21@@Z 1000c010 f i RenderSession.obj
+ 0001:0000b190       ??3@YAXPAX0@Z              1000c190 f i RenderSession.obj
+ 0001:0000b1a0       ?_Construct@std@@YAXPAV?$vector@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@V?$allocator@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@@std@@@1@ABV21@@Z 1000c1a0 f i RenderSession.obj
+ 0001:0000b360       ?_Construct@std@@YAXPAIABI@Z 1000c360 f i RenderSession.obj
+ 0001:0000b380       ?_Construct@std@@YAXPAU?$pair@$$CBKI@1@ABU21@@Z 1000c380 f i RenderSession.obj
+ 0001:0000b3a0       ?_Construct@std@@YAXPAURenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@ABU23@@Z 1000c3a0 f i RenderSession.obj
+ 0001:0000b4d0       ??4RenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@QAEAAU01@ABU01@@Z 1000c4d0 f i RenderSession.obj
+ 0001:0000b660       ?size@?$vector@IV?$allocator@I@std@@@std@@QBEIXZ 1000c660 f i RenderSession.obj
+ 0001:0000b680       ?_Destroy@?$vector@IV?$allocator@I@std@@@std@@IAEXPAI0@Z 1000c680 f i RenderSession.obj
+ 0001:0000b690       ?_Ucopy@?$vector@IV?$allocator@I@std@@@std@@IAEPAIPBI0PAI@Z 1000c690 f i RenderSession.obj
+ 0001:0000b6c0       ?copy@std@@YAPAIPBI0PAI@Z  1000c6c0 f i RenderSession.obj
+ 0001:0000b6f0       ??_GRenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@QAEPAXI@Z 1000c6f0 f i RenderSession.obj
+ 0001:0000b720       ??_G?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEPAXI@Z 1000c720 f i RenderSession.obj
+ 0001:0000b780       ??4?$vector@PAVCTextureObject@@V?$allocator@PAVCTextureObject@@@std@@@std@@QAEAAV01@ABV01@@Z 1000c780 f i RenderSession.obj
+ 0001:0000b910       ??4?$vector@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@V?$allocator@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@@std@@@std@@QAEAAV01@ABV01@@Z 1000c910 f i RenderSession.obj
+ 0001:0000bae0       _Shader_GLShader_1         1000cae0 f   ShaderEntryPoints.obj
+ 0001:0000bbb0       _Shader_Desc_GLShader_1    1000cbb0 f   ShaderEntryPoints.obj
+ 0001:0000bf40       _Shader_GLShader_2         1000cf40 f   ShaderEntryPoints.obj
+ 0001:0000c010       _Shader_Desc_GLShader_2    1000d010 f   ShaderEntryPoints.obj
+ 0001:0000c3a0       _Shader_GLShader_3         1000d3a0 f   ShaderEntryPoints.obj
+ 0001:0000c470       _Shader_Desc_GLShader_3    1000d470 f   ShaderEntryPoints.obj
+ 0001:0000c800       _Shader_GLShader_4         1000d800 f   ShaderEntryPoints.obj
+ 0001:0000c8d0       _Shader_Desc_GLShader_4    1000d8d0 f   ShaderEntryPoints.obj
+ 0001:0000cc60       _Shader_GLShader_5         1000dc60 f   ShaderEntryPoints.obj
+ 0001:0000cd30       _Shader_Desc_GLShader_5    1000dd30 f   ShaderEntryPoints.obj
+ 0001:0000d0c0       _Shader_GLShader_6         1000e0c0 f   ShaderEntryPoints.obj
+ 0001:0000d190       _Shader_Desc_GLShader_6    1000e190 f   ShaderEntryPoints.obj
+ 0001:0000d520       _Shader_GLShader_7         1000e520 f   ShaderEntryPoints.obj
+ 0001:0000d5f0       _Shader_Desc_GLShader_7    1000e5f0 f   ShaderEntryPoints.obj
+ 0001:0000d980       _Shader_GLShader_8         1000e980 f   ShaderEntryPoints.obj
+ 0001:0000da50       _Shader_Desc_GLShader_8    1000ea50 f   ShaderEntryPoints.obj
+ 0001:0000dde0       _Shader_GLShader_9         1000ede0 f   ShaderEntryPoints.obj
+ 0001:0000deb0       _Shader_Desc_GLShader_9    1000eeb0 f   ShaderEntryPoints.obj
+ 0001:0000e240       _Shader_GLShader_10        1000f240 f   ShaderEntryPoints.obj
+ 0001:0000e310       _Shader_Desc_GLShader_10   1000f310 f   ShaderEntryPoints.obj
+ 0001:0000e6a0       _Shader_GLShader_11        1000f6a0 f   ShaderEntryPoints.obj
+ 0001:0000e770       _Shader_Desc_GLShader_11   1000f770 f   ShaderEntryPoints.obj
+ 0001:0000eb00       _Shader_GLShader_12        1000fb00 f   ShaderEntryPoints.obj
+ 0001:0000ebd0       _Shader_Desc_GLShader_12   1000fbd0 f   ShaderEntryPoints.obj
+ 0001:0000ef60       _Shader_GLShader_13        1000ff60 f   ShaderEntryPoints.obj
+ 0001:0000f030       _Shader_Desc_GLShader_13   10010030 f   ShaderEntryPoints.obj
+ 0001:0000f3c0       _Shader_GLShader_14        100103c0 f   ShaderEntryPoints.obj
+ 0001:0000f490       _Shader_Desc_GLShader_14   10010490 f   ShaderEntryPoints.obj
+ 0001:0000f820       _Shader_GLShader_15        10010820 f   ShaderEntryPoints.obj
+ 0001:0000f8f0       _Shader_Desc_GLShader_15   100108f0 f   ShaderEntryPoints.obj
+ 0001:0000fc80       _Shader_GLShader_16        10010c80 f   ShaderEntryPoints.obj
+ 0001:0000fd50       _Shader_Desc_GLShader_16   10010d50 f   ShaderEntryPoints.obj
+ 0001:000100e0       _Shader_GLShader_17        100110e0 f   ShaderEntryPoints.obj
+ 0001:000101b0       _Shader_Desc_GLShader_17   100111b0 f   ShaderEntryPoints.obj
+ 0001:00010540       _Shader_GLShader_18        10011540 f   ShaderEntryPoints.obj
+ 0001:00010610       _Shader_Desc_GLShader_18   10011610 f   ShaderEntryPoints.obj
+ 0001:000109a0       _Shader_GLShader_19        100119a0 f   ShaderEntryPoints.obj
+ 0001:00010a70       _Shader_Desc_GLShader_19   10011a70 f   ShaderEntryPoints.obj
+ 0001:00010e00       _Shader_GLShader_20        10011e00 f   ShaderEntryPoints.obj
+ 0001:00010ed0       _Shader_Desc_GLShader_20   10011ed0 f   ShaderEntryPoints.obj
+ 0001:00011260       ?New@?$CStaticArray@VCTString@@@@QAEXJ@Z 10012260 f i ShaderEntryPoints.obj
+ 0001:000112e0       ??_ECTString@@QAEPAXI@Z    100122e0 f i ShaderEntryPoints.obj
+ 0001:00011560       ??0ShaderProfile@@QAE@XZ   10012560 f   ShaderProfile.obj
+ 0001:000116a0       ?Clear@ShaderProfile@@QAEXXZ 100126a0 f   ShaderProfile.obj
+ 0001:00011970       ?AlexShaders_CreateShaderProfile@@YAHPBD@Z 10012970 f   ShaderProfile.obj
+ 0001:00011ad0       ?AlexShaders_SetCurrentProfile@@YAHH@Z 10012ad0 f   ShaderProfile.obj
+ 0001:00011af0       ?AlexShaders_GetCurrentProfile@@YAHXZ 10012af0 f   ShaderProfile.obj
+ 0001:00011b00       ?ClearAllProfiles@@YAXXZ   10012b00 f   ShaderProfile.obj
+ 0001:00011b30       ?GetCurrentShaderLoadingDir@@YAABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ 10012b30 f   ShaderProfile.obj
+ 0001:00011b50       ?GetOrCreateShader@@YAAAUShaderSettings@@H@Z 10012b50 f   ShaderProfile.obj
+ 0001:00011e40       ??1ShaderProfile@@QAE@XZ   10012e40 f i ShaderProfile.obj
+ 0001:00011ee0       ??0DefaultProfileLoader@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\ShaderProfile.cpp1650426709@@QAE@XZ 10012ee0 f i ShaderProfile.obj
+ 0001:00012170       ??1?$vector@UShaderSettings@@V?$allocator@UShaderSettings@@@std@@@std@@QAE@XZ 10013170 f i ShaderProfile.obj
+ 0001:000121b0       ?size@?$vector@UShaderSettings@@V?$allocator@UShaderSettings@@@std@@@std@@QBEIXZ 100131b0 f i ShaderProfile.obj
+ 0001:000121e0       ?erase@?$vector@UShaderSettings@@V?$allocator@UShaderSettings@@@std@@@std@@QAEPAUShaderSettings@@PAU3@0@Z 100131e0 f i ShaderProfile.obj
+ 0001:00012250       ?_Destroy@?$vector@UShaderSettings@@V?$allocator@UShaderSettings@@@std@@@std@@IAEXPAUShaderSettings@@0@Z 10013250 f i ShaderProfile.obj
+ 0001:00012280       ?_Ucopy@?$vector@UShaderSettings@@V?$allocator@UShaderSettings@@@std@@@std@@IAEPAUShaderSettings@@PBU3@0PAU3@@Z 10013280 f i ShaderProfile.obj
+ 0001:000122c0       ?_Ufill@?$vector@UShaderSettings@@V?$allocator@UShaderSettings@@@std@@@std@@IAEXPAUShaderSettings@@IABU3@@Z 100132c0 f i ShaderProfile.obj
+ 0001:000122f0       ?insert@?$vector@UShaderProfile@@V?$allocator@UShaderProfile@@@std@@@std@@QAEXPAUShaderProfile@@IABU3@@Z 100132f0 f i ShaderProfile.obj
+ 0001:000125e0       ?fill@std@@YAXPAUShaderSettings@@0ABU2@@Z 100135e0 f i ShaderProfile.obj
+ 0001:00012900       ?copy_backward@std@@YAPAUShaderSettings@@PAU2@00@Z 10013900 f i ShaderProfile.obj
+ 0001:00012c20       ?_Construct@std@@YAXPAUShaderSettings@@ABU2@@Z 10013c20 f i ShaderProfile.obj
+ 0001:00012e70       ?_Construct@std@@YAXPAUShaderProfile@@ABU2@@Z 10013e70 f i ShaderProfile.obj
+ 0001:00012f70       ??4ShaderSettings@@QAEAAU0@ABU0@@Z 10013f70 f i ShaderProfile.obj
+ 0001:000133d0       ??_GShaderSettings@@QAEPAXI@Z 100143d0 f i ShaderProfile.obj
+ 0001:00013400       ??0ShaderSettings@@QAE@ABU0@@Z 10014400 f i ShaderProfile.obj
+ 0001:00013820       ??1ShaderField@ShaderSettings@@QAE@XZ 10014820 f i ShaderProfile.obj
+ 0001:00013890       ??1?$vector@UShaderTexture@ShaderSettings@@V?$allocator@UShaderTexture@ShaderSettings@@@std@@@std@@QAE@XZ 10014890 f i ShaderProfile.obj
+ 0001:000138d0       ??0?$vector@UShaderUniform@ShaderSettings@@V?$allocator@UShaderUniform@ShaderSettings@@@std@@@std@@QAE@ABV01@@Z 100148d0 f i ShaderProfile.obj
+ 0001:00013950       ??1?$vector@UShaderUniform@ShaderSettings@@V?$allocator@UShaderUniform@ShaderSettings@@@std@@@std@@QAE@XZ 10014950 f i ShaderProfile.obj
+ 0001:00013990       ??4?$vector@UShaderUniform@ShaderSettings@@V?$allocator@UShaderUniform@ShaderSettings@@@std@@@std@@QAEAAV01@ABV01@@Z 10014990 f i ShaderProfile.obj
+ 0001:00013bf0       ??4ShaderField@ShaderSettings@@QAEAAU01@ABU01@@Z 10014bf0 f i ShaderProfile.obj
+ 0001:00013e40       ??4?$vector@UShaderSettings@@V?$allocator@UShaderSettings@@@std@@@std@@QAEAAV01@ABV01@@Z 10014e40 f i ShaderProfile.obj
+ 0001:000140f0       ?capacity@?$vector@UShaderTexture@ShaderSettings@@V?$allocator@UShaderTexture@ShaderSettings@@@std@@@std@@QBEIXZ 100150f0 f i ShaderProfile.obj
+ 0001:00014120       ?size@?$vector@UShaderTexture@ShaderSettings@@V?$allocator@UShaderTexture@ShaderSettings@@@std@@@std@@QBEIXZ 10015120 f i ShaderProfile.obj
+ 0001:00014150       ?_Destroy@?$vector@UShaderTexture@ShaderSettings@@V?$allocator@UShaderTexture@ShaderSettings@@@std@@@std@@IAEXPAUShaderTexture@ShaderSettings@@0@Z 10015150 f i ShaderProfile.obj
+ 0001:00014180       ?_Ucopy@?$vector@UShaderTexture@ShaderSettings@@V?$allocator@UShaderTexture@ShaderSettings@@@std@@@std@@IAEPAUShaderTexture@ShaderSettings@@PBU34@0PAU34@@Z 10015180 f i ShaderProfile.obj
+ 0001:000141c0       ?capacity@?$vector@UShaderUniform@ShaderSettings@@V?$allocator@UShaderUniform@ShaderSettings@@@std@@@std@@QBEIXZ 100151c0 f i ShaderProfile.obj
+ 0001:000141f0       ?size@?$vector@UShaderUniform@ShaderSettings@@V?$allocator@UShaderUniform@ShaderSettings@@@std@@@std@@QBEIXZ 100151f0 f i ShaderProfile.obj
+ 0001:00014220       ?_Destroy@?$vector@UShaderUniform@ShaderSettings@@V?$allocator@UShaderUniform@ShaderSettings@@@std@@@std@@IAEXPAUShaderUniform@ShaderSettings@@0@Z 10015220 f i ShaderProfile.obj
+ 0001:00014250       ?_Ucopy@?$vector@UShaderUniform@ShaderSettings@@V?$allocator@UShaderUniform@ShaderSettings@@@std@@@std@@IAEPAUShaderUniform@ShaderSettings@@PBU34@0PAU34@@Z 10015250 f i ShaderProfile.obj
+ 0001:00014290       ?copy@std@@YAPAUShaderTexture@ShaderSettings@@PBU23@0PAU23@@Z 10015290 f i ShaderProfile.obj
+ 0001:000144e0       ?copy@std@@YAPAUShaderUniform@ShaderSettings@@PBU23@0PAU23@@Z 100154e0 f i ShaderProfile.obj
+ 0001:00014720       ?_Construct@std@@YAXPAUShaderTexture@ShaderSettings@@ABU23@@Z 10015720 f i ShaderProfile.obj
+ 0001:00014870       ?_Construct@std@@YAXPAUShaderUniform@ShaderSettings@@ABU23@@Z 10015870 f i ShaderProfile.obj
+ 0001:000149c0       ??4ShaderUniform@ShaderSettings@@QAEAAU01@ABU01@@Z 100159c0 f i ShaderProfile.obj
+ 0001:00014c00       ??_GShaderUniform@ShaderSettings@@QAEPAXI@Z 10015c00 f i ShaderProfile.obj
+ 0001:00014c30       ??1ShaderUniform@ShaderSettings@@QAE@XZ 10015c30 f i ShaderProfile.obj
+ 0001:00014ca0       ??1ShaderTexture@ShaderSettings@@QAE@XZ 10015ca0 f i ShaderProfile.obj
+ 0001:00014d10       ?ReadTextFile@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\ShaderSettings.cpp276567713@@YA?AV?$vector@DV?$allocator@D@std@@@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@0AAV?$basic_ofstream@DU?$char_traits@D@std@@@3@@Z 10015d10 f   ShaderSettings.obj
+ 0001:00014ff0       ?ReadFieldValue@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\ShaderSettings.cpp276567713@@YAXAAUShaderField@ShaderSettings@@PAUjson_t@@_NAAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@AA_N@Z 10015ff0 f   ShaderSettings.obj
+ 0001:00015210       ?ReadTextureWrapping@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\ShaderSettings.cpp276567713@@YAHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10016210 f   ShaderSettings.obj
+ 0001:00015250       ?ReadCulling@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\ShaderSettings.cpp276567713@@YAHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10016250 f   ShaderSettings.obj
+ 0001:000152b0       ?ReadDepthFunc@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\ShaderSettings.cpp276567713@@YAHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100162b0 f   ShaderSettings.obj
+ 0001:000153a0       ?ReadBlendMode@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\ShaderSettings.cpp276567713@@YAHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100163a0 f   ShaderSettings.obj
+ 0001:00015490       ??0ShaderUniform@ShaderSettings@@QAE@XZ 10016490 f   ShaderSettings.obj
+ 0001:000154c0       ?Bind@ShaderUniform@ShaderSettings@@QAEXI@Z 100164c0 f   ShaderSettings.obj
+ 0001:000154f0       ?LoadTextureType@ShaderTexture@ShaderSettings@@QAEXI@Z 100164f0 f   ShaderSettings.obj
+ 0001:00015630       ??0ShaderSettings@@QAE@XZ  10016630 f   ShaderSettings.obj
+ 0001:00015820       ??1ShaderSettings@@QAE@XZ  10016820 f   ShaderSettings.obj
+ 0001:00015a80       ?CompileShader@ShaderSettings@@QAEXXZ 10016a80 f   ShaderSettings.obj
+ 0001:00016350       ?LoadShader@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AAUShaderSettings@@@Z 10017350 f   ShaderSettings.obj
+ 0001:00017af0       ??1JSONScope@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\ShaderSettings.cpp276567713@@QAE@XZ 10018af0 f i ShaderSettings.obj
+ 0001:00017b00       ??1?$vector@DV?$allocator@D@std@@@std@@QAE@XZ 10018b00 f i ShaderSettings.obj
+ 0001:00017b30       ??0?$fpos@H@std@@QAE@J@Z   10018b30 f i ShaderSettings.obj
+ 0001:00017b70       ?insert@?$vector@UShaderTexture@ShaderSettings@@V?$allocator@UShaderTexture@ShaderSettings@@@std@@@std@@QAEPAUShaderTexture@ShaderSettings@@PAU34@ABU34@@Z 10018b70 f i ShaderSettings.obj
+ 0001:00017d60       ?insert@?$vector@UShaderUniform@ShaderSettings@@V?$allocator@UShaderUniform@ShaderSettings@@@std@@@std@@QAEPAUShaderUniform@ShaderSettings@@PAU34@ABU34@@Z 10018d60 f i ShaderSettings.obj
+ 0001:00017f50       ?insert@?$vector@UShaderUniform@ShaderSettings@@V?$allocator@UShaderUniform@ShaderSettings@@@std@@@std@@QAEXPAUShaderUniform@ShaderSettings@@IABU34@@Z 10018f50 f i ShaderSettings.obj
+ 0001:00018280       ?erase@?$vector@UShaderUniform@ShaderSettings@@V?$allocator@UShaderUniform@ShaderSettings@@@std@@@std@@QAEPAUShaderUniform@ShaderSettings@@PAU34@0@Z 10019280 f i ShaderSettings.obj
+ 0001:00018330       ?_Destroy@?$vector@DV?$allocator@D@std@@@std@@IAEXPAD0@Z 10019330 f i ShaderSettings.obj
+ 0001:00018340       ?_Ucopy@?$vector@DV?$allocator@D@std@@@std@@IAEPADPBD0PAD@Z 10019340 f i ShaderSettings.obj
+ 0001:00018370       ?_Ufill@?$vector@DV?$allocator@D@std@@@std@@IAEXPADIABD@Z 10019370 f i ShaderSettings.obj
+ 0001:000183a0       ?_Ufill@?$vector@UShaderUniform@ShaderSettings@@V?$allocator@UShaderUniform@ShaderSettings@@@std@@@std@@IAEXPAUShaderUniform@ShaderSettings@@IABU34@@Z 100193a0 f i ShaderSettings.obj
+ 0001:000183d0       ?_Ufill@?$vector@UShaderTexture@ShaderSettings@@V?$allocator@UShaderTexture@ShaderSettings@@@std@@@std@@IAEXPAUShaderTexture@ShaderSettings@@IABU34@@Z 100193d0 f i ShaderSettings.obj
+ 0001:00018400       ?fill@std@@YAXPAUShaderUniform@ShaderSettings@@0ABU23@@Z 10019400 f i ShaderSettings.obj
+ 0001:00018620       ?copy_backward@std@@YAPAUShaderUniform@ShaderSettings@@PAU23@00@Z 10019620 f i ShaderSettings.obj
+ 0001:00018860       ?fill@std@@YAXPAUShaderTexture@ShaderSettings@@0ABU23@@Z 10019860 f i ShaderSettings.obj
+ 0001:00018a80       ?copy_backward@std@@YAPAUShaderTexture@ShaderSettings@@PAU23@00@Z 10019a80 f i ShaderSettings.obj
+ 0001:00018d20       _stbi_failure_reason       10019d20 f   stb.obj
+ 0001:00018d30       _stbi_image_free           10019d30 f   stb.obj
+ 0001:00018d50       _stbi_set_flip_vertically_on_load 10019d50 f   stb.obj
+ 0001:00018d60       _stbi_load                 10019d60 f   stb.obj
+ 0001:00018df0       _stbi_load_from_file       10019df0 f   stb.obj
+ 0001:00019140       _stbi_load_from_file_16    1001a140 f   stb.obj
+ 0001:000192b0       _stbi_load_16              1001a2b0 f   stb.obj
+ 0001:00019310       _stbi_load_16_from_memory  1001a310 f   stb.obj
+ 0001:00019380       _stbi_load_16_from_callbacks 1001a380 f   stb.obj
+ 0001:000193c0       _stbi_load_from_memory     1001a3c0 f   stb.obj
+ 0001:00019400       _stbi_load_from_callbacks  1001a400 f   stb.obj
+ 0001:00019440       _stbi_loadf_from_memory    1001a440 f   stb.obj
+ 0001:000194e0       _stbi_loadf_from_callbacks 1001a4e0 f   stb.obj
+ 0001:00019520       _stbi_loadf                1001a520 f   stb.obj
+ 0001:00019580       _stbi_loadf_from_file      1001a580 f   stb.obj
+ 0001:000195c0       _stbi_is_hdr_from_memory   1001a5c0 f   stb.obj
+ 0001:000195d0       _stbi_is_hdr               1001a5d0 f   stb.obj
+ 0001:00019610       _stbi_is_hdr_from_file     1001a610 f   stb.obj
+ 0001:00019620       _stbi_is_hdr_from_callbacks 1001a620 f   stb.obj
+ 0001:00019630       _stbi_ldr_to_hdr_gamma     1001a630 f   stb.obj
+ 0001:00019640       _stbi_ldr_to_hdr_scale     1001a640 f   stb.obj
+ 0001:00019650       _stbi_hdr_to_ldr_gamma     1001a650 f   stb.obj
+ 0001:00019670       _stbi_hdr_to_ldr_scale     1001a670 f   stb.obj
+ 0001:0001aa50       _stbi_info                 1001ba50 f   stb.obj
+ 0001:0001aaa0       _stbi_info_from_file       1001baa0 f   stb.obj
+ 0001:0001ae70       _stbi_is_16_bit            1001be70 f   stb.obj
+ 0001:0001aec0       _stbi_is_16_bit_from_file  1001bec0 f   stb.obj
+ 0001:0001af20       _stbi_info_from_memory     1001bf20 f   stb.obj
+ 0001:0001af60       _stbi_info_from_callbacks  1001bf60 f   stb.obj
+ 0001:0001afa0       _stbi_is_16_bit_from_memory 1001bfa0 f   stb.obj
+ 0001:0001afd0       _stbi_is_16_bit_from_callbacks 1001bfd0 f   stb.obj
+ 0001:0001b000       _json_object               1001c000 f   jansson:value.obj
+ 0001:0001b070       _json_object_size          1001c070 f   jansson:value.obj
+ 0001:0001b090       _json_object_get           1001c090 f   jansson:value.obj
+ 0001:0001b0c0       _json_object_set_new_nocheck 1001c0c0 f   jansson:value.obj
+ 0001:0001b140       _json_object_set_new       1001c140 f   jansson:value.obj
+ 0001:0001b190       _json_object_del           1001c190 f   jansson:value.obj
+ 0001:0001b1c0       _json_object_clear         1001c1c0 f   jansson:value.obj
+ 0001:0001b1e0       _json_object_update        1001c1e0 f   jansson:value.obj
+ 0001:0001b2a0       _json_object_update_existing 1001c2a0 f   jansson:value.obj
+ 0001:0001b330       _json_object_update_missing 1001c330 f   jansson:value.obj
+ 0001:0001b3c0       _json_object_iter          1001c3c0 f   jansson:value.obj
+ 0001:0001b3e0       _json_object_iter_at       1001c3e0 f   jansson:value.obj
+ 0001:0001b410       _json_object_iter_next     1001c410 f   jansson:value.obj
+ 0001:0001b440       _json_object_iter_key      1001c440 f   jansson:value.obj
+ 0001:0001b460       _json_object_iter_value    1001c460 f   jansson:value.obj
+ 0001:0001b480       _json_object_iter_set_new  1001c480 f   jansson:value.obj
+ 0001:0001b4c0       _json_object_key_to_iter   1001c4c0 f   jansson:value.obj
+ 0001:0001b4d0       _json_array                1001c4d0 f   jansson:value.obj
+ 0001:0001b520       _json_array_size           1001c520 f   jansson:value.obj
+ 0001:0001b540       _json_array_get            1001c540 f   jansson:value.obj
+ 0001:0001b570       _json_array_set_new        1001c570 f   jansson:value.obj
+ 0001:0001b5d0       _json_array_append_new     1001c5d0 f   jansson:value.obj
+ 0001:0001b6d0       _json_array_insert_new     1001c6d0 f   jansson:value.obj
+ 0001:0001b7d0       _json_array_remove         1001c7d0 f   jansson:value.obj
+ 0001:0001b830       _json_array_clear          1001c830 f   jansson:value.obj
+ 0001:0001b870       _json_array_extend         1001c870 f   jansson:value.obj
+ 0001:0001b900       _json_string_nocheck       1001c900 f   jansson:value.obj
+ 0001:0001b9a0       _json_stringn_nocheck      1001c9a0 f   jansson:value.obj
+ 0001:0001b9c0       _jsonp_stringn_nocheck_own 1001c9c0 f   jansson:value.obj
+ 0001:0001b9e0       _json_string               1001c9e0 f   jansson:value.obj
+ 0001:0001ba10       _json_stringn              1001ca10 f   jansson:value.obj
+ 0001:0001ba40       _json_string_value         1001ca40 f   jansson:value.obj
+ 0001:0001ba60       _json_string_length        1001ca60 f   jansson:value.obj
+ 0001:0001ba80       _json_string_set_nocheck   1001ca80 f   jansson:value.obj
+ 0001:0001bab0       _json_string_setn_nocheck  1001cab0 f   jansson:value.obj
+ 0001:0001bb00       _json_string_set           1001cb00 f   jansson:value.obj
+ 0001:0001bb30       _json_string_setn          1001cb30 f   jansson:value.obj
+ 0001:0001bb70       _json_vsprintf             1001cb70 f   jansson:value.obj
+ 0001:0001bbf0       _json_sprintf              1001cbf0 f   jansson:value.obj
+ 0001:0001bc10       _json_integer              1001cc10 f   jansson:value.obj
+ 0001:0001bc40       _json_integer_value        1001cc40 f   jansson:value.obj
+ 0001:0001bc60       _json_integer_set          1001cc60 f   jansson:value.obj
+ 0001:0001bc80       _json_real                 1001cc80 f   jansson:value.obj
+ 0001:0001bd20       _json_real_value           1001cd20 f   jansson:value.obj
+ 0001:0001bd40       _json_real_set             1001cd40 f   jansson:value.obj
+ 0001:0001bd90       _json_number_value         1001cd90 f   jansson:value.obj
+ 0001:0001bdd0       _json_true                 1001cdd0 f   jansson:value.obj
+ 0001:0001bde0       _json_false                1001cde0 f   jansson:value.obj
+ 0001:0001bdf0       _json_null                 1001cdf0 f   jansson:value.obj
+ 0001:0001be00       _json_delete               1001ce00 f   jansson:value.obj
+ 0001:0001bf00       _json_equal                1001cf00 f   jansson:value.obj
+ 0001:0001c120       _json_copy                 1001d120 f   jansson:value.obj
+ 0001:0001c2d0       _json_deep_copy            1001d2d0 f   jansson:value.obj
+ 0001:0001c3f0       _json_loads                1001d3f0 f   jansson:load.obj
+ 0001:0001d6e0       _json_loadb                1001e6e0 f   jansson:load.obj
+ 0001:0001d7b0       _json_loadf                1001e7b0 f   jansson:load.obj
+ 0001:0001d840       _json_loadfd               1001e840 f   jansson:load.obj
+ 0001:0001d8e0       _json_load_file            1001e8e0 f   jansson:load.obj
+ 0001:0001d970       _json_load_callback        1001e970 f   jansson:load.obj
+ 0001:0001daa0       _jsonp_malloc              1001eaa0 f   jansson:memory.obj
+ 0001:0001dac0       _jsonp_free                1001eac0 f   jansson:memory.obj
+ 0001:0001dae0       _jsonp_strdup              1001eae0 f   jansson:memory.obj
+ 0001:0001db00       _jsonp_strndup             1001eb00 f   jansson:memory.obj
+ 0001:0001db40       _json_set_alloc_funcs      1001eb40 f   jansson:memory.obj
+ 0001:0001db60       _json_get_alloc_funcs      1001eb60 f   jansson:memory.obj
+ 0001:0001db90       _hashtable_init            1001eb90 f   jansson:hashtable.obj
+ 0001:0001dc20       _hashtable_close           1001ec20 f   jansson:hashtable.obj
+ 0001:0001dca0       _hashtable_set             1001eca0 f   jansson:hashtable.obj
+ 0001:0001e1f0       _hashtable_get             1001f1f0 f   jansson:hashtable.obj
+ 0001:0001e240       _hashtable_del             1001f240 f   jansson:hashtable.obj
+ 0001:0001e340       _hashtable_clear           1001f340 f   jansson:hashtable.obj
+ 0001:0001e3b0       _hashtable_iter            1001f3b0 f   jansson:hashtable.obj
+ 0001:0001e3d0       _hashtable_iter_at         1001f3d0 f   jansson:hashtable.obj
+ 0001:0001e420       _hashtable_iter_next       1001f420 f   jansson:hashtable.obj
+ 0001:0001e440       _hashtable_iter_key        1001f440 f   jansson:hashtable.obj
+ 0001:0001e450       _hashtable_iter_value      1001f450 f   jansson:hashtable.obj
+ 0001:0001e460       _hashtable_iter_set        1001f460 f   jansson:hashtable.obj
+ 0001:0001e480       _json_object_seed          1001f480 f   jansson:hashtable_seed.obj
+ 0001:0001e530       _utf8_encode               1001f530 f   jansson:utf.obj
+ 0001:0001e610       _utf8_check_first          1001f610 f   jansson:utf.obj
+ 0001:0001e660       _utf8_check_full           1001f660 f   jansson:utf.obj
+ 0001:0001e710       _utf8_iterate              1001f710 f   jansson:utf.obj
+ 0001:0001e780       _utf8_check_string         1001f780 f   jansson:utf.obj
+ 0001:0001e7e0       _jsonp_error_init          1001f7e0 f   jansson:error.obj
+ 0001:0001e820       _jsonp_error_set_source    1001f820 f   jansson:error.obj
+ 0001:0001e890       _jsonp_error_set           1001f890 f   jansson:error.obj
+ 0001:0001e8c0       _jsonp_error_vset          1001f8c0 f   jansson:error.obj
+ 0001:0001e920       _strbuffer_init            1001f920 f   jansson:strbuffer.obj
+ 0001:0001e950       _strbuffer_close           1001f950 f   jansson:strbuffer.obj
+ 0001:0001e980       _strbuffer_clear           1001f980 f   jansson:strbuffer.obj
+ 0001:0001e9a0       _strbuffer_value           1001f9a0 f   jansson:strbuffer.obj
+ 0001:0001e9b0       _strbuffer_steal_value     1001f9b0 f   jansson:strbuffer.obj
+ 0001:0001e9c0       _strbuffer_append_byte     1001f9c0 f   jansson:strbuffer.obj
+ 0001:0001e9e0       _strbuffer_append_bytes    1001f9e0 f   jansson:strbuffer.obj
+ 0001:0001eaa0       _strbuffer_pop             1001faa0 f   jansson:strbuffer.obj
+ 0001:0001eac0       _jsonp_strtod              1001fac0 f   jansson:strconv.obj
+ 0001:0001eb70       _jsonp_dtostr              1001fb70 f   jansson:strconv.obj
+ 0001:0001ec90       ??0CEntityComponent@@QAE@XZ 1001fc90 f   Engine:Engine.dll
+ 0001:0001ec96       ??1CEntityComponent@@QAE@XZ 1001fc96 f   Engine:Engine.dll
+ 0001:0001ec9c       ??0CTFileName@@QAE@PBDH@Z  1001fc9c f   Engine:Engine.dll
+ 0001:0001eca2       ??1CTFileName@@QAE@XZ      1001fca2 f   Engine:Engine.dll
+ 0001:0001eca8       ?SetDefaultProperties@CEntity@@UAEXXZ 1001fca8 f   Engine:Engine.dll
+ 0001:0001ecae       ?FreeMemory@@YAXPAX@Z      1001fcae f   Engine:Engine.dll
+ 0001:0001ecb4       ?StringDuplicate@@YAPADPBD@Z 1001fcb4 f   Engine:Engine.dll
+ 0001:0001ecba       ?PostMoving@CRationalEntity@@UAEXXZ 1001fcba f   Engine:Engine.dll
+ 0001:0001ecc0       ?DoMoving@CRationalEntity@@UAEXXZ 1001fcc0 f   Engine:Engine.dll
+ 0001:0001ecc6       ?PreMoving@CRationalEntity@@UAEXXZ 1001fcc6 f   Engine:Engine.dll
+ 0001:0001eccc       ?ClearMovingTemp@CRationalEntity@@UAEXXZ 1001fccc f   Engine:Engine.dll
+ 0001:0001ecd2       ?FillEntityStatistics@CEntity@@UAEHPAUEntityStats@@@Z 1001fcd2 f   Engine:Engine.dll
+ 0001:0001ecd8       ?GetEntityInfo@CEntity@@UAEPAXXZ 1001fcd8 f   Engine:Engine.dll
+ 0001:0001ecde       ?ReceiveItem@CEntity@@UAEHABVCEntityEvent@@@Z 1001fcde f   Engine:Engine.dll
+ 0001:0001ece4       ?ReceiveDamage@CLiveEntity@@UAEXPAVCEntity@@W4DamageType@@MABV?$Vector@M$02@@2@Z 1001fce4 f   Engine:Engine.dll
+ 0001:0001ecea       ?CopyForPrediction@CEntity@@UAEXAAV1@@Z 1001fcea f   Engine:Engine.dll
+ 0001:0001ecf0       ?AddDependentsToPrediction@CEntity@@UAEXXZ 1001fcf0 f   Engine:Engine.dll
+ 0001:0001ecf6       ?GetPredictionRange@CEntity@@UAEMXZ 1001fcf6 f   Engine:Engine.dll
+ 0001:0001ecfc       ?GetPredictionTime@CEntity@@UAEMXZ 1001fcfc f   Engine:Engine.dll
+ 0001:0001ed02       ?SetPredictionTime@CEntity@@UAEXM@Z 1001fd02 f   Engine:Engine.dll
+ 0001:0001ed08       ?SetPredictionPair@CEntity@@UAEXPAV1@@Z 1001fd08 f   Engine:Engine.dll
+ 0001:0001ed0e       ?GetPredictionPair@CEntity@@UAEPAV1@XZ 1001fd0e f   Engine:Engine.dll
+ 0001:0001ed14       ?GetMaxTessellationLevel@CEntity@@UAEMXZ 1001fd14 f   Engine:Engine.dll
+ 0001:0001ed1a       ?GetVisTweaks@CEntity@@UAEKXZ 1001fd1a f   Engine:Engine.dll
+ 0001:0001ed20       ?GetDepthSortOffset@CEntity@@UAEMXZ 1001fd20 f   Engine:Engine.dll
+ 0001:0001ed26       ?MirrorAndStretch@CEntity@@UAEXMH@Z 1001fd26 f   Engine:Engine.dll
+ 0001:0001ed2c       ?RenderGameView@CEntity@@UAEXPAVCDrawPort@@PAX@Z 1001fd2c f   Engine:Engine.dll
+ 0001:0001ed32       ?GetCollisionBoxParameters@CEntity@@UAEXJAAV?$AABBox@M$02@@AAJ@Z 1001fd32 f   Engine:Engine.dll
+ 0001:0001ed38       ?GetCollisionBoxIndex@CEntity@@UAEJXZ 1001fd38 f   Engine:Engine.dll
+ 0001:0001ed3e       ?RenderParticles@CEntity@@UAEXXZ 1001fd3e f   Engine:Engine.dll
+ 0001:0001ed44       ?GetFieldSettings@CEntity@@UAEPAVCFieldSettings@@XZ 1001fd44 f   Engine:Engine.dll
+ 0001:0001ed4a       ?GetModelInstanceForRendering@CEntity@@UAEPAVCModelInstance@@XZ 1001fd4a f   Engine:Engine.dll
+ 0001:0001ed50       ?GetModelForRendering@CEntity@@UAEPAVCModelObject@@XZ 1001fd50 f   Engine:Engine.dll
+ 0001:0001ed56       ?AdjustMipFactor@CEntity@@UAEXAAM@Z 1001fd56 f   Engine:Engine.dll
+ 0001:0001ed5c       ?AdjustShadingParameters@CEntity@@UAEHAAV?$Vector@M$02@@AAK1@Z 1001fd5c f   Engine:Engine.dll
+ 0001:0001ed62       ?GetAnimData@CEntity@@UAEPAVCAnimData@@J@Z 1001fd62 f   Engine:Engine.dll
+ 0001:0001ed68       ?GetClassificationBoxStretch@CEntity@@UAE?AV?$Vector@M$02@@XZ 1001fd68 f   Engine:Engine.dll
+ 0001:0001ed6e       ?GetGradient@CEntity@@UAEHJAAVCGradientParameters@@@Z 1001fd6e f   Engine:Engine.dll
+ 0001:0001ed74       ?GetGradientName@CEntity@@UAEABVCTString@@J@Z 1001fd74 f   Engine:Engine.dll
+ 0001:0001ed7a       ?GetMirror@CEntity@@UAEHJAAVCMirrorParameters@@@Z 1001fd7a f   Engine:Engine.dll
+ 0001:0001ed80       ?GetMirrorName@CEntity@@UAEABVCTString@@J@Z 1001fd80 f   Engine:Engine.dll
+ 0001:0001ed86       ?GetHaze@CEntity@@UAEHJAAVCHazeParameters@@AAV?$Vector@M$02@@@Z 1001fd86 f   Engine:Engine.dll
+ 0001:0001ed8c       ?GetHazeName@CEntity@@UAEABVCTString@@J@Z 1001fd8c f   Engine:Engine.dll
+ 0001:0001ed92       ?GetFog@CEntity@@UAEHJAAVCFogParameters@@@Z 1001fd92 f   Engine:Engine.dll
+ 0001:0001ed98       ?GetFogName@CEntity@@UAEABVCTString@@J@Z 1001fd98 f   Engine:Engine.dll
+ 0001:0001ed9e       ?GetForceController@CEntity@@UAEPAV1@J@Z 1001fd9e f   Engine:Engine.dll
+ 0001:0001eda4       ?GetForce@CEntity@@UAEXJABV?$Vector@M$02@@AAVCForceStrength@@1@Z 1001fda4 f   Engine:Engine.dll
+ 0001:0001edaa       ?GetForceName@CEntity@@UAEABVCTString@@J@Z 1001fdaa f   Engine:Engine.dll
+ 0001:0001edb0       ?IsTargetValid@CEntity@@UAEHJPAV1@@Z 1001fdb0 f   Engine:Engine.dll
+ 0001:0001edb6       ?GetLightSource@CEntity@@UAEPAVCLightSource@@XZ 1001fdb6 f   Engine:Engine.dll
+ 0001:0001edbc       ?DropsMarker@CEntity@@UBEHAAVCTFileName@@AAVCTString@@@Z 1001fdbc f   Engine:Engine.dll
+ 0001:0001edc2       ?MovesByTargetedRoute@CEntity@@UBEHAAVCTString@@@Z 1001fdc2 f   Engine:Engine.dll
+ 0001:0001edc8       ?IsImportant@CEntity@@UBEHXZ 1001fdc8 f   Engine:Engine.dll
+ 0001:0001edce       ?IsMarker@CEntity@@UBEHXZ  1001fdce f   Engine:Engine.dll
+ 0001:0001edd4       ?IsTargetable@CEntity@@UBEHXZ 1001fdd4 f   Engine:Engine.dll
+ 0001:0001edda       ?GetTarget@CEntity@@UBEPAV1@XZ 1001fdda f   Engine:Engine.dll
+ 0001:0001ede0       ?GetDescription@CEntity@@UBEABVCTString@@XZ 1001fde0 f   Engine:Engine.dll
+ 0001:0001ede6       ?GetLerpedPlacement@CEntity@@UBE?AVCPlacement3D@@XZ 1001fde6 f   Engine:Engine.dll
+ 0001:0001edec       ?HandleEvent@CRationalEntity@@UAEHABVCEntityEvent@@@Z 1001fdec f   Engine:Engine.dll
+ 0001:0001edf2       ?HandlerForStateAndEvent@CEntity@@UAEP81@AEHABVCEntityEvent@@@ZJJ@Z 1001fdf2 f   Engine:Engine.dll
+ 0001:0001edf8       ?GetUsedMemory@CRationalEntity@@UAEJXZ 1001fdf8 f   Engine:Engine.dll
+ 0001:0001edfe       ?GetOpacity@CEntity@@UAEMXZ 1001fdfe f   Engine:Engine.dll
+ 0001:0001ee04       ?PrintStackDebug@CRationalEntity@@UAEPBDXZ 1001fe04 f   Engine:Engine.dll
+ 0001:0001ee0a       ?OnEnd@CRationalEntity@@UAEXXZ 1001fe0a f   Engine:Engine.dll
+ 0001:0001ee10       ?OnInitialize@CRationalEntity@@UAEXABVCEntityEvent@@@Z 1001fe10 f   Engine:Engine.dll
+ 0001:0001ee16       ?AdjustBones@CEntity@@UAEXXZ 1001fe16 f   Engine:Engine.dll
+ 0001:0001ee1c       ?DumpSync_t@CRationalEntity@@UAEXAAVCTStream@@J@Z 1001fe1c f   Engine:Engine.dll
+ 0001:0001ee22       ?ChecksumForSync@CRationalEntity@@UAEXAAKJ@Z 1001fe22 f   Engine:Engine.dll
+ 0001:0001ee28       ?Precache@CEntity@@UAEXXZ  1001fe28 f   Engine:Engine.dll
+ 0001:0001ee2e       ?Write_t@CRationalEntity@@UAEXPAVCTStream@@@Z 1001fe2e f   Engine:Engine.dll
+ 0001:0001ee34       ??4CEntity@@UAEAAV0@AAV0@@Z 1001fe34 f   Engine:Engine.dll
+ 0001:0001ee3a       ?Copy@CRationalEntity@@UAEXAAVCEntity@@K@Z 1001fe3a f   Engine:Engine.dll
+ 0001:0001ee40       ?SetPlacement_internal@CEntity@@UAEXABVCPlacement3D@@ABV?$Matrix@M$02$02@@H@Z 1001fe40 f   Engine:Engine.dll
+ 0001:0001ee46       ??1CRationalEntity@@UAE@XZ 1001fe46 f   Engine:Engine.dll
+ 0001:0001ee4c       ??0CRationalEntity@@QAE@XZ 1001fe4c f   Engine:Engine.dll
+ 0001:0001ee52       ??1CListNode@@QAE@XZ       1001fe52 f   Engine:Engine.dll
+ 0001:0001ee58       ??1CLiveEntity@@UAE@XZ     1001fe58 f   Engine:Engine.dll
+ 0001:0001ee5e       ??1CTString@@QAE@XZ        1001fe5e f   Engine:Engine.dll
+ 0001:0001ee64       ??1CEntity@@UAE@XZ         1001fe64 f   Engine:Engine.dll
+ 0001:0001ee6a       ?Remove@CListNode@@QAEXXZ  1001fe6a f   Engine:Engine.dll
+ 0001:0001ee70       ?IsLinked@CListNode@@QBEHXZ 1001fe70 f   Engine:Engine.dll
+ 0001:0001ee76       ?Read_t@CRationalEntity@@UAEXPAVCTStream@@@Z 1001fe76 f   Engine:Engine.dll
+ 0001:0001ee7c       ??1CImageInfo@@QAE@XZ      1001fe7c f   Engine:Engine.dll
+ 0001:0001ee82       ?SaveTGA_t@CImageInfo@@QBEXABVCTFileName@@@Z 1001fe82 f   Engine:Engine.dll
+ 0001:0001ee88       ?GrabScreen@CDrawPort@@QBEXAAVCImageInfo@@J@Z 1001fe88 f   Engine:Engine.dll
+ 0001:0001ee8e       ??0CImageInfo@@QAE@XZ      1001fe8e f   Engine:Engine.dll
+ 0001:0001ee94       ?Unlock@CDrawPort@@QAEXXZ  1001fe94 f   Engine:Engine.dll
+ 0001:0001ee9a       ?RenderView@@YAXAAVCWorld@@AAVCEntity@@AAVCAnyProjection3D@@AAVCDrawPort@@@Z 1001fe9a f   Engine:Engine.dll
+ 0001:0001eea0       ??4CProjection3D@@QAEAAV0@ABV0@@Z 1001fea0 f   Engine:Engine.dll
+ 0001:0001eea6       ??0CParallelProjection3D@@QAE@XZ 1001fea6 f   Engine:Engine.dll
+ 0001:0001eeac       ??0CPerspectiveProjection3D@@QAE@XZ 1001feac f   Engine:Engine.dll
+ 0001:0001eeb2       ??0CProjection3D@@QAE@XZ   1001feb2 f   Engine:Engine.dll
+ 0001:0001eeb8       ?FillZBuffer@CDrawPort@@QBEXM@Z 1001feb8 f   Engine:Engine.dll
+ 0001:0001eebe       ?Lock@CDrawPort@@QAEHXZ    1001febe f   Engine:Engine.dll
+ 0001:0001eec4       ?AllocMemory@@YAPAXJ@Z     1001fec4 f   Engine:Engine.dll
+ 0001:0001eeca       ?DestroyWorkCanvas@CGfxLibrary@@QAEXPAVCDrawPort@@@Z 1001feca f   Engine:Engine.dll
+ 0001:0001eed0       ?CreateTexture_t@@YAXABVCTFileName@@0JJH@Z 1001fed0 f   Engine:Engine.dll
+ 0001:0001eed6       ??HCTString@@QBE?AV0@ABV0@@Z 1001fed6 f   Engine:Engine.dll
+ 0001:0001eedc       ?CreateWorkCanvas@CGfxLibrary@@QAEXJJPAPAVCDrawPort@@@Z 1001fedc f   Engine:Engine.dll
+ 0001:0001eee2       ??4CTString@@QAEAAV0@ABV0@@Z 1001fee2 f   Engine:Engine.dll
+ 0001:0001eee8       ?NoExt@CTFileName@@QBE?AV1@XZ 1001fee8 f   Engine:Engine.dll
+ 0001:0001eeee       ??8CTString@@QBEHPBD@Z     1001feee f   Engine:Engine.dll
+ 0001:0001eef4       ??0CTString@@QAE@PBD@Z     1001fef4 f   Engine:Engine.dll
+ 0001:0001eefa       ??1EBegin@@UAE@XZ          1001fefa f   Engine:Engine.dll
+ 0001:0001ef00       ?Jump@CRationalEntity@@QAEXJJHABVCEntityEvent@@@Z 1001ff00 f   Engine:Engine.dll
+ 0001:0001ef06       ??0EBegin@@QAE@XZ          1001ff06 f   Engine:Engine.dll
+ 0001:0001ef0c       ?SetTimerAfter@CRationalEntity@@QAEXM@Z 1001ff0c f   Engine:Engine.dll
+ 0001:0001ef12       ?SetSkaModel@CEntity@@QAEHABVCTString@@@Z 1001ff12 f   Engine:Engine.dll
+ 0001:0001ef18       ?SetCollisionFlags@CEntity@@QAEXK@Z 1001ff18 f   Engine:Engine.dll
+ 0001:0001ef1e       ?SetPhysicsFlags@CEntity@@QAEXK@Z 1001ff1e f   Engine:Engine.dll
+ 0001:0001ef24       ?InitAsSkaEditorModel@CEntity@@QAEXXZ 1001ff24 f   Engine:Engine.dll
+ 0001:0001ef2a       ??1EInternal@@UAE@XZ       1001ff2a f   Engine:Engine.dll
+ 0001:0001ef30       ??0EInternal@@QAE@XZ       1001ff30 f   Engine:Engine.dll
+ 0001:0001ef36       ?SetTimerAt@CRationalEntity@@QAEXM@Z 1001ff36 f   Engine:Engine.dll
+ 0001:0001ef3c       ??1EVoid@@UAE@XZ           1001ff3c f   Engine:Engine.dll
+ 0001:0001ef42       ?Return@CRationalEntity@@QAEXJABVCEntityEvent@@@Z 1001ff42 f   Engine:Engine.dll
+ 0001:0001ef48       ??0EVoid@@QAE@XZ           1001ff48 f   Engine:Engine.dll
+ 0001:0001ef4e       ??1CEntityEvent@@UAE@XZ    1001ff4e f   Engine:Engine.dll
+ 0001:0001ef54       ??0CEntityProperty@@QAE@W4PropertyType@0@PAVCEntityPropertyEnumType@@KJPADDKK@Z 1001ff54 f   Engine:Engine.dll
+ 0001:0001ef5a       ?ExpectID_t@CTStream@@QAEXABVCChunkID@@@Z 1001ff5a f   Engine:Engine.dll
+ 0001:0001ef60       ?WriteID_t@CTStream@@QAEXABVCChunkID@@@Z 1001ff60 f   Engine:Engine.dll
+ 0001:0001ef66       ?FileName@CTFileName@@QBE?AV1@XZ 1001ff66 f   Engine:Engine.dll
+ 0001:0001ef6c       ?AnglesToDirectionVector@@YAXABV?$Vector@M$02@@AAV1@@Z 1001ff6c f   Engine:Engine.dll
+ 0001:0001ef72       ?ModelChangeNotify@CEntity@@QAEXXZ 1001ff72 f   Engine:Engine.dll
+ 0001:0001ef78       ?StretchModel@CModelInstance@@QAEXAAV?$Vector@M$02@@@Z 1001ff78 f   Engine:Engine.dll
+ 0001:0001ef7e       ?PrintF@CTString@@QAAJPBDZZ 1001ff7e f   Engine:Engine.dll
+ 0001:0001ef84       ?SetFlags@CEntity@@QAEXK@Z 1001ff84 f   Engine:Engine.dll
+ 0001:0001ef8a       ?WarningMessage@@YAXPBDZZ  1001ff8a f   Engine:Engine.dll
+ 0001:0001ef90       ?Translate@@YAPADPADJ@Z    1001ff90 f   Engine:Engine.dll
+ 0001:0001ef96       ?SetSkaModel_t@CEntity@@QAEXABVCTString@@@Z 1001ff96 f   Engine:Engine.dll
+ 0001:0001ef9c       ?InitAsSkaModel@CEntity@@QAEXXZ 1001ff9c f   Engine:Engine.dll
+ 0001:0001efa2       ?Destroy@CEntity@@QAEXXZ   1001ffa2 f   Engine:Engine.dll
+ 0001:0001efa8       ?SendEvent@CEntity@@QAEXABVCEntityEvent@@@Z 1001ffa8 f   Engine:Engine.dll
+ 0001:0001efae       ?StopAllAnimations@CModelInstance@@QAEXM@Z 1001ffae f   Engine:Engine.dll
+ 0001:0001efb4       ?RemAnimsWithID@CModelInstance@@QAEXJ@Z 1001ffb4 f   Engine:Engine.dll
+ 0001:0001efba       ?RemAnimation@CModelInstance@@QAEXJ@Z 1001ffba f   Engine:Engine.dll
+ 0001:0001efc0       ?AddAnimation@CModelInstance@@QAEXJKMJM@Z 1001ffc0 f   Engine:Engine.dll
+ 0001:0001efc6       ?GetModelInstance@CEntity@@QAEPAVCModelInstance@@XZ 1001ffc6 f   Engine:Engine.dll
+ 0001:0001efcc       ?ska_GetIDFromStringTable@@YAJVCTString@@@Z 1001ffcc f   Engine:Engine.dll
+ 0001:0001efd2       ??0CTString@@QAE@ABV0@@Z   1001ffd2 f   Engine:Engine.dll
+ 0001:0001efd8       ?SwitchToModel@CEntity@@QAEXXZ 1001ffd8 f   Engine:Engine.dll
+ 0001:0001efde       ?SwitchToEditorModel@CEntity@@QAEXXZ 1001ffde f   Engine:Engine.dll
+ 0001:0001efe4       ??0CEntityComponent@@QAE@W4EntityComponentType@@KPAD@Z 1001ffe4 f   Engine:Engine.dll
+ 0001:0001efea       ?AdjustShaderParams@CEntity@@UAEXJPAVCShader@@AAUShaderParams@@@Z 1001ffea f   Engine:Engine.dll
+ 0001:0001eff0       ?GetUsedMemory@CEntity@@UAEJXZ 1001fff0 f   Engine:Engine.dll
+ 0001:0001eff6       ?SetModelMainTexture@CEntity@@QAEXJ@Z 1001fff6 f   Engine:Engine.dll
+ 0001:0001effc       ?SetModel@CEntity@@QAEXJ@Z 1001fffc f   Engine:Engine.dll
+ 0001:0001f002       ?InitAsEditorModel@CEntity@@QAEXXZ 10020002 f   Engine:Engine.dll
+ 0001:0001f008       ?CPrintF@@YAXPBDZZ         10020008 f   Engine:Engine.dll
+ 0001:0001f00e       ?IsDerivedFromClass@@YAHPAVCEntity@@PBD@Z 1002000e f   Engine:Engine.dll
+ 0001:0001f014       ?ExpandFilePath@@YAJKABVCTFileName@@AAV1@@Z 10020014 f   Engine:Engine.dll
+ 0001:0001f01a       ?GetName@CTextureObject@@QAEABVCTFileName@@XZ 1002001a f   Engine:Engine.dll
+ 0001:0001f020       ?shaGetUVMap@@YAPAUGFXTexCoord@@J@Z 10020020 f   Engine:Engine.dll
+ 0001:0001f026       ?shaGetNormalArray@@YAPAUGFXNormal4@@XZ 10020026 f   Engine:Engine.dll
+ 0001:0001f02c       ?shaGetVertexArray@@YAPAUGFXVertex4@@XZ 1002002c f   Engine:Engine.dll
+ 0001:0001f032       ?shaGetIndexArray@@YAPAJXZ 10020032 f   Engine:Engine.dll
+ 0001:0001f038       ?shaGetIndexCount@@YAJXZ   10020038 f   Engine:Engine.dll
+ 0001:0001f03e       ?shaGetObjToAbsMatrix@@YAPAY0M@MXZ 1002003e f   Engine:Engine.dll
+ 0001:0001f044       ?shaGetVertexCount@@YAJXZ  10020044 f   Engine:Engine.dll
+ 0001:0001f04a       ?shaGetTexture@@YAPAVCTextureObject@@J@Z 1002004a f   Engine:Engine.dll
+ 0001:0001f050       ?shaGetFlags@@YAAAKXZ      10020050 f   Engine:Engine.dll
+ 0001:0001f056       ?shaGetColor@@YAAAKJ@Z     10020056 f   Engine:Engine.dll
+ 0001:0001f05c       ?shaGetFloat@@YAMJ@Z       1002005c f   Engine:Engine.dll
+ 0001:0001f062       ?CurrentTick@CTimer@@QBE?BMXZ 10020062 f   Engine:Engine.dll
+ 0001:0001f068       ?shaGetAmbientColor@@YAAAKXZ 10020068 f   Engine:Engine.dll
+ 0001:0001f06e       ?shaGetLightColor@@YAAAKXZ 1002006e f   Engine:Engine.dll
+ 0001:0001f074       ?shaGetLightDirection@@YAAAV?$Vector@M$02@@XZ 10020074 f   Engine:Engine.dll
+ 0001:0001f07a       ?MakeRotationMatrix@@YAXAAV?$Matrix@M$02$02@@ABV?$Vector@M$02@@@Z 1002007a f   Engine:Engine.dll
+ 0001:0001f080       ?shaGetProjection@@YAPAVCAnyProjection3D@@XZ 10020080 f   Engine:Engine.dll
+ 0001:0001f086       ?shaCullFace@@YAXW4GfxFace@@@Z 10020086 f   Engine:Engine.dll
+ 0001:0001f08c       ?shaDisableBlend@@YAXXZ    1002008c f   Engine:Engine.dll
+ 0001:0001f092       ?shaBlendFunc@@YAXW4GfxBlend@@0@Z 10020092 f   Engine:Engine.dll
+ 0001:0001f098       ?shaEnableBlend@@YAXXZ     10020098 f   Engine:Engine.dll
+ 0001:0001f09e       ?shaDisableAlphaTest@@YAXXZ 1002009e f   Engine:Engine.dll
+ 0001:0001f0a4       ?shaEnableAlphaTest@@YAXXZ 100200a4 f   Engine:Engine.dll
+ 0001:0001f0aa       ?shaDisableDepthWrite@@YAXXZ 100200aa f   Engine:Engine.dll
+ 0001:0001f0b0       ?shaEnableDepthWrite@@YAXXZ 100200b0 f   Engine:Engine.dll
+ 0001:0001f0b6       ?shaDisableDepthTest@@YAXXZ 100200b6 f   Engine:Engine.dll
+ 0001:0001f0bc       ?shaDepthFunc@@YAXW4GfxComp@@@Z 100200bc f   Engine:Engine.dll
+ 0001:0001f0c2       ?shaEnableDepthTest@@YAXXZ 100200c2 f   Engine:Engine.dll
+ 0001:0001f0c8       ?shaSetTextureWrapping@@YAXW4GfxWrap@@0@Z 100200c8 f   Engine:Engine.dll
+ 0001:0001f0ce       ??0CTString@@QAE@XZ        100200ce f   Engine:Engine.dll
+ 0001:0001f0d4       ?FileRequester@CEngineGUI@@QAE?AVCTFileName@@PAD00VCTString@@1PAV?$CDynamicArray@VCTFileName@@@@H@Z 100200d4 f   EngineGUI:EngineGUI.dll
+ 0001:0001f0da       _glewInit                  100200da f   glew32:glew32.dll
+ 0001:0001f0e0       _glewGetExtension          100200e0 f   glew32:glew32.dll
+ 0001:0001f0e6       _glDeleteTextures@8        100200e6 f   opengl32:OPENGL32.dll
+ 0001:0001f0ec       _glTexImage2D@36           100200ec f   opengl32:OPENGL32.dll
+ 0001:0001f0f2       _glTexParameterf@12        100200f2 f   opengl32:OPENGL32.dll
+ 0001:0001f0f8       _glGetFloatv@8             100200f8 f   opengl32:OPENGL32.dll
+ 0001:0001f0fe       _glTexParameteri@12        100200fe f   opengl32:OPENGL32.dll
+ 0001:0001f104       _glBindTexture@8           10020104 f   opengl32:OPENGL32.dll
+ 0001:0001f10a       _glGenTextures@8           1002010a f   opengl32:OPENGL32.dll
+ 0001:0001f110       _glGetIntegerv@8           10020110 f   opengl32:OPENGL32.dll
+ 0001:0001f116       _glDrawElements@16         10020116 f   opengl32:OPENGL32.dll
+ 0001:0001f11c       _MessageBoxA@16            1002011c f   User32:USER32.dll
+ 0001:0001f122       _GetActiveWindow@0         10020122 f   User32:USER32.dll
+ 0001:0001f128       ?MakeCopy@EChangeAnim@@UAEPAVCEntityEvent@@XZ 10020128 f   EntitiesMP:EntitiesMP.dll
+ 0001:0001f12e       ??0EChangeAnim@@QAE@XZ     1002012e f   EntitiesMP:EntitiesMP.dll
+ 0001:0001f134       ?MakeCopy@ESpawnSpray@@UAEPAVCEntityEvent@@XZ 10020134 f   EntitiesMP:EntitiesMP.dll
+ 0001:0001f13a       ??0ESpawnSpray@@QAE@XZ     1002013a f   EntitiesMP:EntitiesMP.dll
+ 0001:0001f140       ?MakeCopy@ESpawnEffect@@UAEPAVCEntityEvent@@XZ 10020140 f   EntitiesMP:EntitiesMP.dll
+ 0001:0001f146       ??0ESpawnEffect@@QAE@XZ    10020146 f   EntitiesMP:EntitiesMP.dll
+ 0001:0001f14c       ?MakeCopy@ESpawnDebris@@UAEPAVCEntityEvent@@XZ 1002014c f   EntitiesMP:EntitiesMP.dll
+ 0001:0001f152       ??0ESpawnDebris@@QAE@XZ    10020152 f   EntitiesMP:EntitiesMP.dll
+ 0001:0001f158       ?MakeCopy@ERangeModelDestruction@@UAEPAVCEntityEvent@@XZ 10020158 f   EntitiesMP:EntitiesMP.dll
+ 0001:0001f15e       ??0ERangeModelDestruction@@QAE@XZ 1002015e f   EntitiesMP:EntitiesMP.dll
+ 0001:0001f164       __onexit                   10020164 f   MSVCRT:atonexit.obj
+ 0001:0001f190       _atexit                    10020190 f   MSVCRT:atonexit.obj
+ 0001:0001f1a2       ??_M@YGXPAXIHP6EX0@Z@Z     100201a2 f   MSVCRT:ehvecdtr.obj
+ 0001:0001f222       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10020222 f   MSVCRT:ehvecdtr.obj
+ 0001:0001f296       ??3@YAXPAX@Z               10020296 f   MSVCRT:MSVCRT.dll
+ 0001:0001f29c       ??2@YAPAXI@Z               1002029c f   MSVCRT:MSVCRT.dll
+ 0001:0001f2a2       ___CxxFrameHandler         100202a2 f   MSVCRT:MSVCRT.dll
+ 0001:0001f2b0       ??0type_info@@AAE@ABV0@@Z  100202b0 f   MSVCRT:ti_inst.obj
+ 0001:0001f2bb       ??_Etype_info@@UAEPAXI@Z   100202bb f i MSVCRT:ti_inst.obj
+ 0001:0001f2bb       ??_Gtype_info@@UAEPAXI@Z   100202bb f i MSVCRT:ti_inst.obj
+ 0001:0001f2d7       ??4type_info@@AAEAAV0@ABV0@@Z 100202d7 f   MSVCRT:ti_inst.obj
+ 0001:0001f2dc       ??0exception@@QAE@ABV0@@Z  100202dc f   MSVCRT:MSVCRT.dll
+ 0001:0001f2e2       ??1exception@@UAE@XZ       100202e2 f   MSVCRT:MSVCRT.dll
+ 0001:0001f2e8       ??0exception@@QAE@ABQBD@Z  100202e8 f   MSVCRT:MSVCRT.dll
+ 0001:0001f2ee       __CxxThrowException@8      100202ee f   MSVCRT:MSVCRT.dll
+ 0001:0001f2f4       _memmove                   100202f4 f   MSVCRT:MSVCRT.dll
+ 0001:0001f2fa       ??_L@YGXPAXIHP6EX0@Z1@Z    100202fa f   MSVCRT:ehvecctr.obj
+ 0001:0001f37c       _fclose                    1002037c f   MSVCRT:MSVCRT.dll
+ 0001:0001f382       _sprintf                   10020382 f   MSVCRT:MSVCRT.dll
+ 0001:0001f388       _fread                     10020388 f   MSVCRT:MSVCRT.dll
+ 0001:0001f38e       _fseek                     1002038e f   MSVCRT:MSVCRT.dll
+ 0001:0001f394       _free                      10020394 f   MSVCRT:MSVCRT.dll
+ 0001:0001f39a       _fopen                     1002039a f   MSVCRT:MSVCRT.dll
+ 0001:0001f3a0       _malloc                    100203a0 f   MSVCRT:MSVCRT.dll
+ 0001:0001f3a6       __CIpow                    100203a6 f   MSVCRT:MSVCRT.dll
+ 0001:0001f3ac       _ftell                     100203ac f   MSVCRT:MSVCRT.dll
+ 0001:0001f3b2       __CRT_INIT@12              100203b2 f   MSVCRT:crtdll.obj
+ 0001:0001f45d       __DllMainCRTStartup@12     1002045d f   MSVCRT:crtdll.obj
+ 0001:0001f4fa       __vsnprintf                100204fa f   MSVCRT:MSVCRT.dll
+ 0001:0001f500       __snprintf                 10020500 f   MSVCRT:MSVCRT.dll
+ 0001:0001f506       _strtol                    10020506 f   MSVCRT:MSVCRT.dll
+ 0001:0001f50c       __errno                    1002050c f   MSVCRT:MSVCRT.dll
+ 0001:0001f512       _memchr                    10020512 f   MSVCRT:MSVCRT.dll
+ 0001:0001f518       _fgetc                     10020518 f   MSVCRT:MSVCRT.dll
+ 0001:0001f51e       _strerror                  1002051e f   MSVCRT:MSVCRT.dll
+ 0001:0001f524       _strncpy                   10020524 f   MSVCRT:MSVCRT.dll
+ 0001:0001f52a       _time                      1002052a f   MSVCRT:MSVCRT.dll
+ 0001:0001f530       _strtod                    10020530 f   MSVCRT:MSVCRT.dll
+ 0001:0001f536       _strchr                    10020536 f   MSVCRT:MSVCRT.dll
+ 0001:0001f53c       _localeconv                1002053c f   MSVCRT:MSVCRT.dll
+ 0001:0001f542       ___dllonexit               10020542 f   MSVCRT:MSVCRT.dll
+ 0001:0001f548       __except_handler3          10020548 f   MSVCRT:MSVCRT.dll
+ 0001:0001f54e       ?terminate@@YAXXZ          1002054e f   MSVCRT:MSVCRT.dll
+ 0001:0001f554       ??1type_info@@UAE@XZ       10020554 f   MSVCRT:MSVCRT.dll
+ 0001:0001f55a       __initterm                 1002055a f   MSVCRT:MSVCRT.dll
+ 0001:0001f560       _DllMain@12                10020560 f   MSVCRT:dllmain.obj
+ 0001:0001f580       ??1_Lockit@std@@QAE@XZ     10020580 f   msvcprt:MSVCP60.dll
+ 0001:0001f586       ??0_Lockit@std@@QAE@XZ     10020586 f   msvcprt:MSVCP60.dll
+ 0001:0001f58c       ??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 1002058c f   msvcprt:MSVCP60.dll
+ 0001:0001f592       ??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z 10020592 f   msvcprt:MSVCP60.dll
+ 0001:0001f598       ?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXI@Z 10020598 f   msvcprt:MSVCP60.dll
+ 0001:0001f59e       ?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAE_NI_N@Z 1002059e f   msvcprt:MSVCP60.dll
+ 0001:0001f5a4       ?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEX_N@Z 100205a4 f   msvcprt:MSVCP60.dll
+ 0001:0001f5aa       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 100205aa f   msvcprt:MSVCP60.dll
+ 0001:0001f5b0       ??0runtime_error@std@@QAE@ABV01@@Z 100205b0 f   msvcprt:MSVCP60.dll
+ 0001:0001f5b6       ??1runtime_error@std@@UAE@XZ 100205b6 f   msvcprt:MSVCP60.dll
+ 0001:0001f5bc       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z 100205bc f   msvcprt:MSVCP60.dll
+ 0001:0001f5c2       ??0logic_error@std@@QAE@ABV01@@Z 100205c2 f   msvcprt:MSVCP60.dll
+ 0001:0001f5c8       ??0out_of_range@std@@QAE@ABV01@@Z 100205c8 f   msvcprt:MSVCP60.dll
+ 0001:0001f5ce       ??1out_of_range@std@@UAE@XZ 100205ce f   msvcprt:MSVCP60.dll
+ 0001:0001f5d4       ??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 100205d4 f   msvcprt:MSVCP60.dll
+ 0001:0001f5da       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBDABV?$allocator@D@1@@Z 100205da f   msvcprt:MSVCP60.dll
+ 0001:0001f5e0       ?_Split@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXXZ 100205e0 f   msvcprt:MSVCP60.dll
+ 0001:0001f5e6       ?_Xran@std@@YAXXZ          100205e6 f   msvcprt:MSVCP60.dll
+ 0001:0001f5ec       ?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXI@Z 100205ec f   msvcprt:MSVCP60.dll
+ 0001:0001f5f2       ?_Xlen@std@@YAXXZ          100205f2 f   msvcprt:MSVCP60.dll
+ 0001:0001f5f8       ??_D?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXXZ 100205f8 f   msvcprt:MSVCP60.dll
+ 0001:0001f5fe       ??1?$basic_istream@DU?$char_traits@D@std@@@std@@UAE@XZ 100205fe f   msvcprt:MSVCP60.dll
+ 0001:0001f604       ??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ 10020604 f   msvcprt:MSVCP60.dll
+ 0001:0001f60a       ??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAE@XZ 1002060a f   msvcprt:MSVCP60.dll
+ 0001:0001f610       ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z 10020610 f   msvcprt:MSVCP60.dll
+ 0001:0001f616       ?_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAEXPAU_iobuf@@W4_Initfl@12@@Z 10020616 f   msvcprt:MSVCP60.dll
+ 0001:0001f61c       ??5std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z 1002061c f   msvcprt:MSVCP60.dll
+ 0001:0001f622       ?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z 10020622 f   msvcprt:MSVCP60.dll
+ 0001:0001f628       ?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDH@Z 10020628 f   msvcprt:MSVCP60.dll
+ 0001:0001f62e       ??0?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAE@PAU_iobuf@@@Z 1002062e f   msvcprt:MSVCP60.dll
+ 0001:0001f634       ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z 10020634 f   msvcprt:MSVCP60.dll
+ 0001:0001f63a       ??0ios_base@std@@IAE@XZ    1002063a f   msvcprt:MSVCP60.dll
+ 0001:0001f640       ?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z 10020640 f   msvcprt:MSVCP60.dll
+ 0001:0001f646       ??8std@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBD@Z 10020646 f   msvcprt:MSVCP60.dll
+ 0001:0001f64c       ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 1002064c f   msvcprt:MSVCP60.dll
+ 0001:0001f652       ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ID@Z 10020652 f   msvcprt:MSVCP60.dll
+ 0001:0001f658       ??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@0@Z 10020658 f   msvcprt:MSVCP60.dll
+ 0001:0001f65e       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 1002065e f   msvcprt:MSVCP60.dll
+ 0001:0001f664       ?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PADH@Z 10020664 f   msvcprt:MSVCP60.dll
+ 0001:0001f66a       ?pubseekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE?AV?$fpos@H@2@JW4seekdir@ios_base@2@H@Z 1002066a f   msvcprt:MSVCP60.dll
+ 0001:0001f670       ??1ios_base@std@@UAE@XZ    10020670 f   msvcprt:MSVCP60.dll
+ 0001:0001f676       ??1?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAE@XZ 10020676 f   msvcprt:MSVCP60.dll
+ 0001:0001f67c       ??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z 1002067c f   msvcprt:MSVCP60.dll
+ 0001:0001f682       ??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 10020682 f   msvcprt:MSVCP60.dll
+ 0001:0001f688       ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ 10020688 f   msvcprt:MSVCP60.dll
+ 0001:0001f68e       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV?$allocator@D@1@@Z 1002068e f   msvcprt:MSVCP60.dll
+ 0001:0001f694       ??_D?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAEXXZ 10020694 f   msvcprt:MSVCP60.dll
+ 0001:0001f69a       ??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ 1002069a f   msvcprt:MSVCP60.dll
+ 0001:0001f6a0       ??1?$basic_ofstream@DU?$char_traits@D@std@@@std@@UAE@XZ 100206a0 f   msvcprt:MSVCP60.dll
+ 0001:0001f6a6       ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ 100206a6 f   msvcprt:MSVCP60.dll
+ 0001:0001f6ac       ??1locale@std@@QAE@XZ      100206ac f   msvcprt:MSVCP60.dll
+ 0001:0001f6b2       ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N1@Z 100206b2 f   msvcprt:MSVCP60.dll
+ 0001:0001f6b8       ?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@XZ 100206b8 f   msvcprt:MSVCP60.dll
+ 0001:0001f6be       ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z 100206be f   msvcprt:MSVCP60.dll
+ 0001:0001f6c4       _SwitchToThread@0          100206c4 f   kernel32:KERNEL32.dll
+ 0001:0001f6ca       _InterlockedIncrement@4    100206ca f   kernel32:KERNEL32.dll
+ 0001:0001f6d0       _GetCurrentProcessId@0     100206d0 f   kernel32:KERNEL32.dll
+ 0001:0001f6d6       _DisableThreadLibraryCalls@4 100206d6 f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp_??0CEntityComponent@@QAE@XZ 10022000     Engine:Engine.dll
+ 0002:00000004       __imp_??1CEntityComponent@@QAE@XZ 10022004     Engine:Engine.dll
+ 0002:00000008       __imp__CRationalEntity_DLLClass 10022008     Engine:Engine.dll
+ 0002:0000000c       __imp_??0CTFileName@@QAE@PBDH@Z 1002200c     Engine:Engine.dll
+ 0002:00000010       __imp_??1CTFileName@@QAE@XZ 10022010     Engine:Engine.dll
+ 0002:00000014       __imp_?SetDefaultProperties@CEntity@@UAEXXZ 10022014     Engine:Engine.dll
+ 0002:00000018       __imp_?FreeMemory@@YAXPAX@Z 10022018     Engine:Engine.dll
+ 0002:0000001c       __imp_?StringDuplicate@@YAPADPBD@Z 1002201c     Engine:Engine.dll
+ 0002:00000020       __imp_?PostMoving@CRationalEntity@@UAEXXZ 10022020     Engine:Engine.dll
+ 0002:00000024       __imp_?DoMoving@CRationalEntity@@UAEXXZ 10022024     Engine:Engine.dll
+ 0002:00000028       __imp_?PreMoving@CRationalEntity@@UAEXXZ 10022028     Engine:Engine.dll
+ 0002:0000002c       __imp_?ClearMovingTemp@CRationalEntity@@UAEXXZ 1002202c     Engine:Engine.dll
+ 0002:00000030       __imp_?FillEntityStatistics@CEntity@@UAEHPAUEntityStats@@@Z 10022030     Engine:Engine.dll
+ 0002:00000034       __imp_?GetEntityInfo@CEntity@@UAEPAXXZ 10022034     Engine:Engine.dll
+ 0002:00000038       __imp_?ReceiveItem@CEntity@@UAEHABVCEntityEvent@@@Z 10022038     Engine:Engine.dll
+ 0002:0000003c       __imp_?ReceiveDamage@CLiveEntity@@UAEXPAVCEntity@@W4DamageType@@MABV?$Vector@M$02@@2@Z 1002203c     Engine:Engine.dll
+ 0002:00000040       __imp_?CopyForPrediction@CEntity@@UAEXAAV1@@Z 10022040     Engine:Engine.dll
+ 0002:00000044       __imp_?AddDependentsToPrediction@CEntity@@UAEXXZ 10022044     Engine:Engine.dll
+ 0002:00000048       __imp_?GetPredictionRange@CEntity@@UAEMXZ 10022048     Engine:Engine.dll
+ 0002:0000004c       __imp_?GetPredictionTime@CEntity@@UAEMXZ 1002204c     Engine:Engine.dll
+ 0002:00000050       __imp_?SetPredictionTime@CEntity@@UAEXM@Z 10022050     Engine:Engine.dll
+ 0002:00000054       __imp_?SetPredictionPair@CEntity@@UAEXPAV1@@Z 10022054     Engine:Engine.dll
+ 0002:00000058       __imp_?GetPredictionPair@CEntity@@UAEPAV1@XZ 10022058     Engine:Engine.dll
+ 0002:0000005c       __imp_?GetMaxTessellationLevel@CEntity@@UAEMXZ 1002205c     Engine:Engine.dll
+ 0002:00000060       __imp_?GetVisTweaks@CEntity@@UAEKXZ 10022060     Engine:Engine.dll
+ 0002:00000064       __imp_?GetDepthSortOffset@CEntity@@UAEMXZ 10022064     Engine:Engine.dll
+ 0002:00000068       __imp_?MirrorAndStretch@CEntity@@UAEXMH@Z 10022068     Engine:Engine.dll
+ 0002:0000006c       __imp_?RenderGameView@CEntity@@UAEXPAVCDrawPort@@PAX@Z 1002206c     Engine:Engine.dll
+ 0002:00000070       __imp_?GetCollisionBoxParameters@CEntity@@UAEXJAAV?$AABBox@M$02@@AAJ@Z 10022070     Engine:Engine.dll
+ 0002:00000074       __imp_?GetCollisionBoxIndex@CEntity@@UAEJXZ 10022074     Engine:Engine.dll
+ 0002:00000078       __imp_?RenderParticles@CEntity@@UAEXXZ 10022078     Engine:Engine.dll
+ 0002:0000007c       __imp_?GetFieldSettings@CEntity@@UAEPAVCFieldSettings@@XZ 1002207c     Engine:Engine.dll
+ 0002:00000080       __imp_?GetModelInstanceForRendering@CEntity@@UAEPAVCModelInstance@@XZ 10022080     Engine:Engine.dll
+ 0002:00000084       __imp_?GetModelForRendering@CEntity@@UAEPAVCModelObject@@XZ 10022084     Engine:Engine.dll
+ 0002:00000088       __imp_?AdjustMipFactor@CEntity@@UAEXAAM@Z 10022088     Engine:Engine.dll
+ 0002:0000008c       __imp_?AdjustShadingParameters@CEntity@@UAEHAAV?$Vector@M$02@@AAK1@Z 1002208c     Engine:Engine.dll
+ 0002:00000090       __imp_?GetAnimData@CEntity@@UAEPAVCAnimData@@J@Z 10022090     Engine:Engine.dll
+ 0002:00000094       __imp_?GetClassificationBoxStretch@CEntity@@UAE?AV?$Vector@M$02@@XZ 10022094     Engine:Engine.dll
+ 0002:00000098       __imp_?GetGradient@CEntity@@UAEHJAAVCGradientParameters@@@Z 10022098     Engine:Engine.dll
+ 0002:0000009c       __imp_?GetGradientName@CEntity@@UAEABVCTString@@J@Z 1002209c     Engine:Engine.dll
+ 0002:000000a0       __imp_?GetMirror@CEntity@@UAEHJAAVCMirrorParameters@@@Z 100220a0     Engine:Engine.dll
+ 0002:000000a4       __imp_?GetMirrorName@CEntity@@UAEABVCTString@@J@Z 100220a4     Engine:Engine.dll
+ 0002:000000a8       __imp_?GetHaze@CEntity@@UAEHJAAVCHazeParameters@@AAV?$Vector@M$02@@@Z 100220a8     Engine:Engine.dll
+ 0002:000000ac       __imp_?GetHazeName@CEntity@@UAEABVCTString@@J@Z 100220ac     Engine:Engine.dll
+ 0002:000000b0       __imp_?GetFog@CEntity@@UAEHJAAVCFogParameters@@@Z 100220b0     Engine:Engine.dll
+ 0002:000000b4       __imp_?GetFogName@CEntity@@UAEABVCTString@@J@Z 100220b4     Engine:Engine.dll
+ 0002:000000b8       __imp_?GetForceController@CEntity@@UAEPAV1@J@Z 100220b8     Engine:Engine.dll
+ 0002:000000bc       __imp_?GetForce@CEntity@@UAEXJABV?$Vector@M$02@@AAVCForceStrength@@1@Z 100220bc     Engine:Engine.dll
+ 0002:000000c0       __imp_?GetForceName@CEntity@@UAEABVCTString@@J@Z 100220c0     Engine:Engine.dll
+ 0002:000000c4       __imp_?IsTargetValid@CEntity@@UAEHJPAV1@@Z 100220c4     Engine:Engine.dll
+ 0002:000000c8       __imp_?GetLightSource@CEntity@@UAEPAVCLightSource@@XZ 100220c8     Engine:Engine.dll
+ 0002:000000cc       __imp_?DropsMarker@CEntity@@UBEHAAVCTFileName@@AAVCTString@@@Z 100220cc     Engine:Engine.dll
+ 0002:000000d0       __imp_?MovesByTargetedRoute@CEntity@@UBEHAAVCTString@@@Z 100220d0     Engine:Engine.dll
+ 0002:000000d4       __imp_?IsImportant@CEntity@@UBEHXZ 100220d4     Engine:Engine.dll
+ 0002:000000d8       __imp_?IsMarker@CEntity@@UBEHXZ 100220d8     Engine:Engine.dll
+ 0002:000000dc       __imp_?IsTargetable@CEntity@@UBEHXZ 100220dc     Engine:Engine.dll
+ 0002:000000e0       __imp_?GetTarget@CEntity@@UBEPAV1@XZ 100220e0     Engine:Engine.dll
+ 0002:000000e4       __imp_?GetDescription@CEntity@@UBEABVCTString@@XZ 100220e4     Engine:Engine.dll
+ 0002:000000e8       __imp_?GetLerpedPlacement@CEntity@@UBE?AVCPlacement3D@@XZ 100220e8     Engine:Engine.dll
+ 0002:000000ec       __imp_?HandleEvent@CRationalEntity@@UAEHABVCEntityEvent@@@Z 100220ec     Engine:Engine.dll
+ 0002:000000f0       __imp_?HandlerForStateAndEvent@CEntity@@UAEP81@AEHABVCEntityEvent@@@ZJJ@Z 100220f0     Engine:Engine.dll
+ 0002:000000f4       __imp_?GetUsedMemory@CRationalEntity@@UAEJXZ 100220f4     Engine:Engine.dll
+ 0002:000000f8       __imp_?GetOpacity@CEntity@@UAEMXZ 100220f8     Engine:Engine.dll
+ 0002:000000fc       __imp_?PrintStackDebug@CRationalEntity@@UAEPBDXZ 100220fc     Engine:Engine.dll
+ 0002:00000100       __imp_?OnEnd@CRationalEntity@@UAEXXZ 10022100     Engine:Engine.dll
+ 0002:00000104       __imp_?OnInitialize@CRationalEntity@@UAEXABVCEntityEvent@@@Z 10022104     Engine:Engine.dll
+ 0002:00000108       __imp_?AdjustBones@CEntity@@UAEXXZ 10022108     Engine:Engine.dll
+ 0002:0000010c       __imp_?DumpSync_t@CRationalEntity@@UAEXAAVCTStream@@J@Z 1002210c     Engine:Engine.dll
+ 0002:00000110       __imp_?ChecksumForSync@CRationalEntity@@UAEXAAKJ@Z 10022110     Engine:Engine.dll
+ 0002:00000114       __imp_?Precache@CEntity@@UAEXXZ 10022114     Engine:Engine.dll
+ 0002:00000118       __imp_?Write_t@CRationalEntity@@UAEXPAVCTStream@@@Z 10022118     Engine:Engine.dll
+ 0002:0000011c       __imp_??4CEntity@@UAEAAV0@AAV0@@Z 1002211c     Engine:Engine.dll
+ 0002:00000120       __imp_?Copy@CRationalEntity@@UAEXAAVCEntity@@K@Z 10022120     Engine:Engine.dll
+ 0002:00000124       __imp_?SetPlacement_internal@CEntity@@UAEXABVCPlacement3D@@ABV?$Matrix@M$02$02@@H@Z 10022124     Engine:Engine.dll
+ 0002:00000128       __imp_??1CRationalEntity@@UAE@XZ 10022128     Engine:Engine.dll
+ 0002:0000012c       __imp_??0CRationalEntity@@QAE@XZ 1002212c     Engine:Engine.dll
+ 0002:00000130       __imp_??1CListNode@@QAE@XZ 10022130     Engine:Engine.dll
+ 0002:00000134       __imp_??1CLiveEntity@@UAE@XZ 10022134     Engine:Engine.dll
+ 0002:00000138       __imp_??1CTString@@QAE@XZ  10022138     Engine:Engine.dll
+ 0002:0000013c       __imp_??1CEntity@@UAE@XZ   1002213c     Engine:Engine.dll
+ 0002:00000140       __imp_?Remove@CListNode@@QAEXXZ 10022140     Engine:Engine.dll
+ 0002:00000144       __imp_?IsLinked@CListNode@@QBEHXZ 10022144     Engine:Engine.dll
+ 0002:00000148       __imp_?Read_t@CRationalEntity@@UAEXPAVCTStream@@@Z 10022148     Engine:Engine.dll
+ 0002:0000014c       __imp_??1CImageInfo@@QAE@XZ 1002214c     Engine:Engine.dll
+ 0002:00000150       __imp_?SaveTGA_t@CImageInfo@@QBEXABVCTFileName@@@Z 10022150     Engine:Engine.dll
+ 0002:00000154       __imp_?GrabScreen@CDrawPort@@QBEXAAVCImageInfo@@J@Z 10022154     Engine:Engine.dll
+ 0002:00000158       __imp_??0CImageInfo@@QAE@XZ 10022158     Engine:Engine.dll
+ 0002:0000015c       __imp_?Unlock@CDrawPort@@QAEXXZ 1002215c     Engine:Engine.dll
+ 0002:00000160       __imp_?RenderView@@YAXAAVCWorld@@AAVCEntity@@AAVCAnyProjection3D@@AAVCDrawPort@@@Z 10022160     Engine:Engine.dll
+ 0002:00000164       __imp_??4CProjection3D@@QAEAAV0@ABV0@@Z 10022164     Engine:Engine.dll
+ 0002:00000168       __imp_??0CParallelProjection3D@@QAE@XZ 10022168     Engine:Engine.dll
+ 0002:0000016c       __imp_??0CPerspectiveProjection3D@@QAE@XZ 1002216c     Engine:Engine.dll
+ 0002:00000170       __imp_??_7CIsometricProjection3D@@6B@ 10022170     Engine:Engine.dll
+ 0002:00000174       __imp_??_7CSimpleProjection3D@@6B@ 10022174     Engine:Engine.dll
+ 0002:00000178       __imp_??0CProjection3D@@QAE@XZ 10022178     Engine:Engine.dll
+ 0002:0000017c       __imp_?FillZBuffer@CDrawPort@@QBEXM@Z 1002217c     Engine:Engine.dll
+ 0002:00000180       __imp_?Lock@CDrawPort@@QAEHXZ 10022180     Engine:Engine.dll
+ 0002:00000184       __imp_?AllocMemory@@YAPAXJ@Z 10022184     Engine:Engine.dll
+ 0002:00000188       __imp_?DestroyWorkCanvas@CGfxLibrary@@QAEXPAVCDrawPort@@@Z 10022188     Engine:Engine.dll
+ 0002:0000018c       __imp_?CreateTexture_t@@YAXABVCTFileName@@0JJH@Z 1002218c     Engine:Engine.dll
+ 0002:00000190       __imp_??HCTString@@QBE?AV0@ABV0@@Z 10022190     Engine:Engine.dll
+ 0002:00000194       __imp_?CreateWorkCanvas@CGfxLibrary@@QAEXJJPAPAVCDrawPort@@@Z 10022194     Engine:Engine.dll
+ 0002:00000198       __imp_?_pGfx@@3PAVCGfxLibrary@@A 10022198     Engine:Engine.dll
+ 0002:0000019c       __imp_??4CTString@@QAEAAV0@ABV0@@Z 1002219c     Engine:Engine.dll
+ 0002:000001a0       __imp_?NoExt@CTFileName@@QBE?AV1@XZ 100221a0     Engine:Engine.dll
+ 0002:000001a4       __imp_??8CTString@@QBEHPBD@Z 100221a4     Engine:Engine.dll
+ 0002:000001a8       __imp_??0CTString@@QAE@PBD@Z 100221a8     Engine:Engine.dll
+ 0002:000001ac       __imp_??1EBegin@@UAE@XZ    100221ac     Engine:Engine.dll
+ 0002:000001b0       __imp_?Jump@CRationalEntity@@QAEXJJHABVCEntityEvent@@@Z 100221b0     Engine:Engine.dll
+ 0002:000001b4       __imp_??0EBegin@@QAE@XZ    100221b4     Engine:Engine.dll
+ 0002:000001b8       __imp_?SetTimerAfter@CRationalEntity@@QAEXM@Z 100221b8     Engine:Engine.dll
+ 0002:000001bc       __imp_?_bWorldEditorApp@@3HA 100221bc     Engine:Engine.dll
+ 0002:000001c0       __imp_?SetSkaModel@CEntity@@QAEHABVCTString@@@Z 100221c0     Engine:Engine.dll
+ 0002:000001c4       __imp_?SetCollisionFlags@CEntity@@QAEXK@Z 100221c4     Engine:Engine.dll
+ 0002:000001c8       __imp_?SetPhysicsFlags@CEntity@@QAEXK@Z 100221c8     Engine:Engine.dll
+ 0002:000001cc       __imp_?InitAsSkaEditorModel@CEntity@@QAEXXZ 100221cc     Engine:Engine.dll
+ 0002:000001d0       __imp_??1EInternal@@UAE@XZ 100221d0     Engine:Engine.dll
+ 0002:000001d4       __imp_??0EInternal@@QAE@XZ 100221d4     Engine:Engine.dll
+ 0002:000001d8       __imp_?SetTimerAt@CRationalEntity@@QAEXM@Z 100221d8     Engine:Engine.dll
+ 0002:000001dc       __imp_??1EVoid@@UAE@XZ     100221dc     Engine:Engine.dll
+ 0002:000001e0       __imp_?Return@CRationalEntity@@QAEXJABVCEntityEvent@@@Z 100221e0     Engine:Engine.dll
+ 0002:000001e4       __imp_??0EVoid@@QAE@XZ     100221e4     Engine:Engine.dll
+ 0002:000001e8       __imp_??1CEntityEvent@@UAE@XZ 100221e8     Engine:Engine.dll
+ 0002:000001ec       __imp_??_7CEntityEvent@@6B@ 100221ec     Engine:Engine.dll
+ 0002:000001f0       __imp_??0CEntityProperty@@QAE@W4PropertyType@0@PAVCEntityPropertyEnumType@@KJPADDKK@Z 100221f0     Engine:Engine.dll
+ 0002:000001f4       __imp_?ExpectID_t@CTStream@@QAEXABVCChunkID@@@Z 100221f4     Engine:Engine.dll
+ 0002:000001f8       __imp_?WriteID_t@CTStream@@QAEXABVCChunkID@@@Z 100221f8     Engine:Engine.dll
+ 0002:000001fc       __imp_?FileName@CTFileName@@QBE?AV1@XZ 100221fc     Engine:Engine.dll
+ 0002:00000200       __imp_?AnglesToDirectionVector@@YAXABV?$Vector@M$02@@AAV1@@Z 10022200     Engine:Engine.dll
+ 0002:00000204       __imp_?ModelChangeNotify@CEntity@@QAEXXZ 10022204     Engine:Engine.dll
+ 0002:00000208       __imp_?StretchModel@CModelInstance@@QAEXAAV?$Vector@M$02@@@Z 10022208     Engine:Engine.dll
+ 0002:0000020c       __imp_?PrintF@CTString@@QAAJPBDZZ 1002220c     Engine:Engine.dll
+ 0002:00000210       __imp_?SetFlags@CEntity@@QAEXK@Z 10022210     Engine:Engine.dll
+ 0002:00000214       __imp_?WarningMessage@@YAXPBDZZ 10022214     Engine:Engine.dll
+ 0002:00000218       __imp_?Translate@@YAPADPADJ@Z 10022218     Engine:Engine.dll
+ 0002:0000021c       __imp_?SetSkaModel_t@CEntity@@QAEXABVCTString@@@Z 1002221c     Engine:Engine.dll
+ 0002:00000220       __imp_?InitAsSkaModel@CEntity@@QAEXXZ 10022220     Engine:Engine.dll
+ 0002:00000224       __imp_?Destroy@CEntity@@QAEXXZ 10022224     Engine:Engine.dll
+ 0002:00000228       __imp_?SendEvent@CEntity@@QAEXABVCEntityEvent@@@Z 10022228     Engine:Engine.dll
+ 0002:0000022c       __imp_?StopAllAnimations@CModelInstance@@QAEXM@Z 1002222c     Engine:Engine.dll
+ 0002:00000230       __imp_?RemAnimsWithID@CModelInstance@@QAEXJ@Z 10022230     Engine:Engine.dll
+ 0002:00000234       __imp_?RemAnimation@CModelInstance@@QAEXJ@Z 10022234     Engine:Engine.dll
+ 0002:00000238       __imp_?AddAnimation@CModelInstance@@QAEXJKMJM@Z 10022238     Engine:Engine.dll
+ 0002:0000023c       __imp_?GetModelInstance@CEntity@@QAEPAVCModelInstance@@XZ 1002223c     Engine:Engine.dll
+ 0002:00000240       __imp_?ska_GetIDFromStringTable@@YAJVCTString@@@Z 10022240     Engine:Engine.dll
+ 0002:00000244       __imp_??0CTString@@QAE@ABV0@@Z 10022244     Engine:Engine.dll
+ 0002:00000248       __imp_?SwitchToModel@CEntity@@QAEXXZ 10022248     Engine:Engine.dll
+ 0002:0000024c       __imp_?SwitchToEditorModel@CEntity@@QAEXXZ 1002224c     Engine:Engine.dll
+ 0002:00000250       __imp_??0CEntityComponent@@QAE@W4EntityComponentType@@KPAD@Z 10022250     Engine:Engine.dll
+ 0002:00000254       __imp_?AdjustShaderParams@CEntity@@UAEXJPAVCShader@@AAUShaderParams@@@Z 10022254     Engine:Engine.dll
+ 0002:00000258       __imp_?GetUsedMemory@CEntity@@UAEJXZ 10022258     Engine:Engine.dll
+ 0002:0000025c       __imp_?SetModelMainTexture@CEntity@@QAEXJ@Z 1002225c     Engine:Engine.dll
+ 0002:00000260       __imp_?SetModel@CEntity@@QAEXJ@Z 10022260     Engine:Engine.dll
+ 0002:00000264       __imp_?InitAsEditorModel@CEntity@@QAEXXZ 10022264     Engine:Engine.dll
+ 0002:00000268       __imp_?CPrintF@@YAXPBDZZ   10022268     Engine:Engine.dll
+ 0002:0000026c       __imp_?IsDerivedFromClass@@YAHPAVCEntity@@PBD@Z 1002226c     Engine:Engine.dll
+ 0002:00000270       __imp_?ExpandFilePath@@YAJKABVCTFileName@@AAV1@@Z 10022270     Engine:Engine.dll
+ 0002:00000274       __imp_?GetName@CTextureObject@@QAEABVCTFileName@@XZ 10022274     Engine:Engine.dll
+ 0002:00000278       __imp_?shaGetUVMap@@YAPAUGFXTexCoord@@J@Z 10022278     Engine:Engine.dll
+ 0002:0000027c       __imp_?shaGetNormalArray@@YAPAUGFXNormal4@@XZ 1002227c     Engine:Engine.dll
+ 0002:00000280       __imp_?shaGetVertexArray@@YAPAUGFXVertex4@@XZ 10022280     Engine:Engine.dll
+ 0002:00000284       __imp_?shaGetIndexArray@@YAPAJXZ 10022284     Engine:Engine.dll
+ 0002:00000288       __imp_?shaGetIndexCount@@YAJXZ 10022288     Engine:Engine.dll
+ 0002:0000028c       __imp_?shaGetObjToAbsMatrix@@YAPAY0M@MXZ 1002228c     Engine:Engine.dll
+ 0002:00000290       __imp_?shaGetVertexCount@@YAJXZ 10022290     Engine:Engine.dll
+ 0002:00000294       __imp_?shaGetTexture@@YAPAVCTextureObject@@J@Z 10022294     Engine:Engine.dll
+ 0002:00000298       __imp_?shaGetFlags@@YAAAKXZ 10022298     Engine:Engine.dll
+ 0002:0000029c       __imp_?shaGetColor@@YAAAKJ@Z 1002229c     Engine:Engine.dll
+ 0002:000002a0       __imp_?shaGetFloat@@YAMJ@Z 100222a0     Engine:Engine.dll
+ 0002:000002a4       __imp_?CurrentTick@CTimer@@QBE?BMXZ 100222a4     Engine:Engine.dll
+ 0002:000002a8       __imp_?_pTimer@@3PAVCTimer@@A 100222a8     Engine:Engine.dll
+ 0002:000002ac       __imp_?shaGetAmbientColor@@YAAAKXZ 100222ac     Engine:Engine.dll
+ 0002:000002b0       __imp_?shaGetLightColor@@YAAAKXZ 100222b0     Engine:Engine.dll
+ 0002:000002b4       __imp_?shaGetLightDirection@@YAAAV?$Vector@M$02@@XZ 100222b4     Engine:Engine.dll
+ 0002:000002b8       __imp_?MakeRotationMatrix@@YAXAAV?$Matrix@M$02$02@@ABV?$Vector@M$02@@@Z 100222b8     Engine:Engine.dll
+ 0002:000002bc       __imp_?shaGetProjection@@YAPAVCAnyProjection3D@@XZ 100222bc     Engine:Engine.dll
+ 0002:000002c0       __imp_?shaCullFace@@YAXW4GfxFace@@@Z 100222c0     Engine:Engine.dll
+ 0002:000002c4       __imp_?shaDisableBlend@@YAXXZ 100222c4     Engine:Engine.dll
+ 0002:000002c8       __imp_?shaBlendFunc@@YAXW4GfxBlend@@0@Z 100222c8     Engine:Engine.dll
+ 0002:000002cc       __imp_?shaEnableBlend@@YAXXZ 100222cc     Engine:Engine.dll
+ 0002:000002d0       __imp_?shaDisableAlphaTest@@YAXXZ 100222d0     Engine:Engine.dll
+ 0002:000002d4       __imp_?shaEnableAlphaTest@@YAXXZ 100222d4     Engine:Engine.dll
+ 0002:000002d8       __imp_?shaDisableDepthWrite@@YAXXZ 100222d8     Engine:Engine.dll
+ 0002:000002dc       __imp_?shaEnableDepthWrite@@YAXXZ 100222dc     Engine:Engine.dll
+ 0002:000002e0       __imp_?shaDisableDepthTest@@YAXXZ 100222e0     Engine:Engine.dll
+ 0002:000002e4       __imp_?shaDepthFunc@@YAXW4GfxComp@@@Z 100222e4     Engine:Engine.dll
+ 0002:000002e8       __imp_?shaEnableDepthTest@@YAXXZ 100222e8     Engine:Engine.dll
+ 0002:000002ec       __imp_?shaSetTextureWrapping@@YAXW4GfxWrap@@0@Z 100222ec     Engine:Engine.dll
+ 0002:000002f0       __imp_??0CTString@@QAE@XZ  100222f0     Engine:Engine.dll
+ 0002:000002f4       \177Engine_NULL_THUNK_DATA 100222f4     Engine:Engine.dll
+ 0002:000002f8       __imp_?_EngineGUI@@3VCEngineGUI@@A 100222f8     EngineGUI:EngineGUI.dll
+ 0002:000002fc       __imp_?FileRequester@CEngineGUI@@QAE?AVCTFileName@@PAD00VCTString@@1PAV?$CDynamicArray@VCTFileName@@@@H@Z 100222fc     EngineGUI:EngineGUI.dll
+ 0002:00000300       \177EngineGUI_NULL_THUNK_DATA 10022300     EngineGUI:EngineGUI.dll
+ 0002:00000304       __imp_??0EChangeAnim@@QAE@XZ 10022304     EntitiesMP:EntitiesMP.dll
+ 0002:00000308       __imp_?MakeCopy@ESpawnSpray@@UAEPAVCEntityEvent@@XZ 10022308     EntitiesMP:EntitiesMP.dll
+ 0002:0000030c       __imp_??0ESpawnSpray@@QAE@XZ 1002230c     EntitiesMP:EntitiesMP.dll
+ 0002:00000310       __imp_?MakeCopy@ESpawnEffect@@UAEPAVCEntityEvent@@XZ 10022310     EntitiesMP:EntitiesMP.dll
+ 0002:00000314       __imp_??0ESpawnEffect@@QAE@XZ 10022314     EntitiesMP:EntitiesMP.dll
+ 0002:00000318       __imp_??0ERangeModelDestruction@@QAE@XZ 10022318     EntitiesMP:EntitiesMP.dll
+ 0002:0000031c       __imp_?MakeCopy@ERangeModelDestruction@@UAEPAVCEntityEvent@@XZ 1002231c     EntitiesMP:EntitiesMP.dll
+ 0002:00000320       __imp_??0ESpawnDebris@@QAE@XZ 10022320     EntitiesMP:EntitiesMP.dll
+ 0002:00000324       __imp_?MakeCopy@ESpawnDebris@@UAEPAVCEntityEvent@@XZ 10022324     EntitiesMP:EntitiesMP.dll
+ 0002:00000328       __imp_?MakeCopy@EChangeAnim@@UAEPAVCEntityEvent@@XZ 10022328     EntitiesMP:EntitiesMP.dll
+ 0002:0000032c       \177EntitiesMP_NULL_THUNK_DATA 1002232c     EntitiesMP:EntitiesMP.dll
+ 0002:00000330       __imp__InterlockedIncrement@4 10022330     kernel32:KERNEL32.dll
+ 0002:00000334       __imp__GetCurrentProcessId@0 10022334     kernel32:KERNEL32.dll
+ 0002:00000338       __imp__DisableThreadLibraryCalls@4 10022338     kernel32:KERNEL32.dll
+ 0002:0000033c       __imp__SwitchToThread@0    1002233c     kernel32:KERNEL32.dll
+ 0002:00000340       \177KERNEL32_NULL_THUNK_DATA 10022340     kernel32:KERNEL32.dll
+ 0002:00000344       __imp_??1?$basic_istream@DU?$char_traits@D@std@@@std@@UAE@XZ 10022344     msvcprt:MSVCP60.dll
+ 0002:00000348       __imp_?_Fpz@std@@3_JB      10022348     msvcprt:MSVCP60.dll
+ 0002:0000034c       __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z 1002234c     msvcprt:MSVCP60.dll
+ 0002:00000350       __imp_?close@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@XZ 10022350     msvcprt:MSVCP60.dll
+ 0002:00000354       __imp_??_8?$basic_ofstream@DU?$char_traits@D@std@@@std@@7B@ 10022354     msvcprt:MSVCP60.dll
+ 0002:00000358       __imp_??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N1@Z 10022358     msvcprt:MSVCP60.dll
+ 0002:0000035c       __imp_??_7?$basic_ofstream@DU?$char_traits@D@std@@@std@@6B@ 1002235c     msvcprt:MSVCP60.dll
+ 0002:00000360       __imp_??_7?$basic_filebuf@DU?$char_traits@D@std@@@std@@6B@ 10022360     msvcprt:MSVCP60.dll
+ 0002:00000364       __imp_??1locale@std@@QAE@XZ 10022364     msvcprt:MSVCP60.dll
+ 0002:00000368       __imp_??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ 10022368     msvcprt:MSVCP60.dll
+ 0002:0000036c       __imp_??_7?$basic_ostream@DU?$char_traits@D@std@@@std@@6B@ 1002236c     msvcprt:MSVCP60.dll
+ 0002:00000370       __imp_??1?$basic_ofstream@DU?$char_traits@D@std@@@std@@UAE@XZ 10022370     msvcprt:MSVCP60.dll
+ 0002:00000374       __imp_??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ 10022374     msvcprt:MSVCP60.dll
+ 0002:00000378       __imp_??_D?$basic_ofstream@DU?$char_traits@D@std@@@std@@QAEXXZ 10022378     msvcprt:MSVCP60.dll
+ 0002:0000037c       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV?$allocator@D@1@@Z 1002237c     msvcprt:MSVCP60.dll
+ 0002:00000380       __imp_??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ 10022380     msvcprt:MSVCP60.dll
+ 0002:00000384       __imp_??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 10022384     msvcprt:MSVCP60.dll
+ 0002:00000388       __imp_??6std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z 10022388     msvcprt:MSVCP60.dll
+ 0002:0000038c       __imp_??1?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAE@XZ 1002238c     msvcprt:MSVCP60.dll
+ 0002:00000390       __imp_??1ios_base@std@@UAE@XZ 10022390     msvcprt:MSVCP60.dll
+ 0002:00000394       __imp_?pubseekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE?AV?$fpos@H@2@JW4seekdir@ios_base@2@H@Z 10022394     msvcprt:MSVCP60.dll
+ 0002:00000398       __imp_?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PADH@Z 10022398     msvcprt:MSVCP60.dll
+ 0002:0000039c       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 1002239c     msvcprt:MSVCP60.dll
+ 0002:000003a0       __imp_??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@0@Z 100223a0     msvcprt:MSVCP60.dll
+ 0002:000003a4       __imp_?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ID@Z 100223a4     msvcprt:MSVCP60.dll
+ 0002:000003a8       __imp_?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 100223a8     msvcprt:MSVCP60.dll
+ 0002:000003ac       __imp_??8std@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PBD@Z 100223ac     msvcprt:MSVCP60.dll
+ 0002:000003b0       __imp_?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z 100223b0     msvcprt:MSVCP60.dll
+ 0002:000003b4       __imp_??_8?$basic_ifstream@DU?$char_traits@D@std@@@std@@7B@ 100223b4     msvcprt:MSVCP60.dll
+ 0002:000003b8       __imp_??0ios_base@std@@IAE@XZ 100223b8     msvcprt:MSVCP60.dll
+ 0002:000003bc       __imp_??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@ 100223bc     msvcprt:MSVCP60.dll
+ 0002:000003c0       __imp_??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z 100223c0     msvcprt:MSVCP60.dll
+ 0002:000003c4       __imp_??0?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAE@PAU_iobuf@@@Z 100223c4     msvcprt:MSVCP60.dll
+ 0002:000003c8       __imp_??_7?$basic_ifstream@DU?$char_traits@D@std@@@std@@6B@ 100223c8     msvcprt:MSVCP60.dll
+ 0002:000003cc       __imp_?open@?$basic_filebuf@DU?$char_traits@D@std@@@std@@QAEPAV12@PBDH@Z 100223cc     msvcprt:MSVCP60.dll
+ 0002:000003d0       __imp_?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z 100223d0     msvcprt:MSVCP60.dll
+ 0002:000003d4       __imp_??5std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z 100223d4     msvcprt:MSVCP60.dll
+ 0002:000003d8       __imp_?_Init@?$basic_filebuf@DU?$char_traits@D@std@@@std@@IAEXPAU_iobuf@@W4_Initfl@12@@Z 100223d8     msvcprt:MSVCP60.dll
+ 0002:000003dc       __imp_?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z 100223dc     msvcprt:MSVCP60.dll
+ 0002:000003e0       __imp_??1?$basic_filebuf@DU?$char_traits@D@std@@@std@@UAE@XZ 100223e0     msvcprt:MSVCP60.dll
+ 0002:000003e4       __imp_??_7?$basic_istream@DU?$char_traits@D@std@@@std@@6B@ 100223e4     msvcprt:MSVCP60.dll
+ 0002:000003e8       __imp_?_Xlen@std@@YAXXZ    100223e8     msvcprt:MSVCP60.dll
+ 0002:000003ec       __imp_?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXI@Z 100223ec     msvcprt:MSVCP60.dll
+ 0002:000003f0       __imp_?_Xran@std@@YAXXZ    100223f0     msvcprt:MSVCP60.dll
+ 0002:000003f4       __imp_?_Split@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXXZ 100223f4     msvcprt:MSVCP60.dll
+ 0002:000003f8       __imp_??_7out_of_range@std@@6B@ 100223f8     msvcprt:MSVCP60.dll
+ 0002:000003fc       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBDABV?$allocator@D@1@@Z 100223fc     msvcprt:MSVCP60.dll
+ 0002:00000400       __imp_??0out_of_range@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z 10022400     msvcprt:MSVCP60.dll
+ 0002:00000404       __imp_??1out_of_range@std@@UAE@XZ 10022404     msvcprt:MSVCP60.dll
+ 0002:00000408       __imp_??0out_of_range@std@@QAE@ABV01@@Z 10022408     msvcprt:MSVCP60.dll
+ 0002:0000040c       __imp_??0logic_error@std@@QAE@ABV01@@Z 1002240c     msvcprt:MSVCP60.dll
+ 0002:00000410       __imp_?npos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2IB 10022410     msvcprt:MSVCP60.dll
+ 0002:00000414       __imp_??_D?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXXZ 10022414     msvcprt:MSVCP60.dll
+ 0002:00000418       __imp_?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z 10022418     msvcprt:MSVCP60.dll
+ 0002:0000041c       __imp_??_7runtime_error@std@@6B@ 1002241c     msvcprt:MSVCP60.dll
+ 0002:00000420       __imp_??1runtime_error@std@@UAE@XZ 10022420     msvcprt:MSVCP60.dll
+ 0002:00000424       __imp_??0runtime_error@std@@QAE@ABV01@@Z 10022424     msvcprt:MSVCP60.dll
+ 0002:00000428       __imp_?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 10022428     msvcprt:MSVCP60.dll
+ 0002:0000042c       __imp_?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEX_N@Z 1002242c     msvcprt:MSVCP60.dll
+ 0002:00000430       __imp_?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAE_NI_N@Z 10022430     msvcprt:MSVCP60.dll
+ 0002:00000434       __imp_?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXI@Z 10022434     msvcprt:MSVCP60.dll
+ 0002:00000438       __imp_??Hstd@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@PBD@Z 10022438     msvcprt:MSVCP60.dll
+ 0002:0000043c       __imp_?_C@?1??_Nullstr@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAPBDXZ@4DB 1002243c     msvcprt:MSVCP60.dll
+ 0002:00000440       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 10022440     msvcprt:MSVCP60.dll
+ 0002:00000444       __imp_??0_Lockit@std@@QAE@XZ 10022444     msvcprt:MSVCP60.dll
+ 0002:00000448       __imp_??1_Lockit@std@@QAE@XZ 10022448     msvcprt:MSVCP60.dll
+ 0002:0000044c       __imp_??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ 1002244c     msvcprt:MSVCP60.dll
+ 0002:00000450       \177MSVCP60_NULL_THUNK_DATA 10022450     msvcprt:MSVCP60.dll
+ 0002:00000454       __imp__time                10022454     MSVCRT:MSVCRT.dll
+ 0002:00000458       __imp___HUGE               10022458     MSVCRT:MSVCRT.dll
+ 0002:0000045c       __imp__strtod              1002245c     MSVCRT:MSVCRT.dll
+ 0002:00000460       __imp__strchr              10022460     MSVCRT:MSVCRT.dll
+ 0002:00000464       __imp__localeconv          10022464     MSVCRT:MSVCRT.dll
+ 0002:00000468       __imp____dllonexit         10022468     MSVCRT:MSVCRT.dll
+ 0002:0000046c       __imp___onexit             1002246c     MSVCRT:MSVCRT.dll
+ 0002:00000470       __imp___except_handler3    10022470     MSVCRT:MSVCRT.dll
+ 0002:00000474       __imp_?terminate@@YAXXZ    10022474     MSVCRT:MSVCRT.dll
+ 0002:00000478       __imp__strncpy             10022478     MSVCRT:MSVCRT.dll
+ 0002:0000047c       __imp___initterm           1002247c     MSVCRT:MSVCRT.dll
+ 0002:00000480       __imp___adjust_fdiv        10022480     MSVCRT:MSVCRT.dll
+ 0002:00000484       __imp__strerror            10022484     MSVCRT:MSVCRT.dll
+ 0002:00000488       __imp___iob                10022488     MSVCRT:MSVCRT.dll
+ 0002:0000048c       __imp__fgetc               1002248c     MSVCRT:MSVCRT.dll
+ 0002:00000490       __imp__memchr              10022490     MSVCRT:MSVCRT.dll
+ 0002:00000494       __imp___errno              10022494     MSVCRT:MSVCRT.dll
+ 0002:00000498       __imp__strtol              10022498     MSVCRT:MSVCRT.dll
+ 0002:0000049c       __imp___snprintf           1002249c     MSVCRT:MSVCRT.dll
+ 0002:000004a0       __imp___vsnprintf          100224a0     MSVCRT:MSVCRT.dll
+ 0002:000004a4       __imp__ftell               100224a4     MSVCRT:MSVCRT.dll
+ 0002:000004a8       __imp___CIpow              100224a8     MSVCRT:MSVCRT.dll
+ 0002:000004ac       __imp__malloc              100224ac     MSVCRT:MSVCRT.dll
+ 0002:000004b0       __imp__fopen               100224b0     MSVCRT:MSVCRT.dll
+ 0002:000004b4       __imp__free                100224b4     MSVCRT:MSVCRT.dll
+ 0002:000004b8       __imp__fread               100224b8     MSVCRT:MSVCRT.dll
+ 0002:000004bc       __imp__sprintf             100224bc     MSVCRT:MSVCRT.dll
+ 0002:000004c0       __imp__fclose              100224c0     MSVCRT:MSVCRT.dll
+ 0002:000004c4       __imp__memmove             100224c4     MSVCRT:MSVCRT.dll
+ 0002:000004c8       __imp___CxxThrowException@8 100224c8     MSVCRT:MSVCRT.dll
+ 0002:000004cc       __imp_??0exception@@QAE@ABQBD@Z 100224cc     MSVCRT:MSVCRT.dll
+ 0002:000004d0       __imp_??1exception@@UAE@XZ 100224d0     MSVCRT:MSVCRT.dll
+ 0002:000004d4       __imp_??0exception@@QAE@ABV0@@Z 100224d4     MSVCRT:MSVCRT.dll
+ 0002:000004d8       __imp____CxxFrameHandler   100224d8     MSVCRT:MSVCRT.dll
+ 0002:000004dc       __imp_??2@YAPAXI@Z         100224dc     MSVCRT:MSVCRT.dll
+ 0002:000004e0       __imp_??3@YAXPAX@Z         100224e0     MSVCRT:MSVCRT.dll
+ 0002:000004e4       __imp__fseek               100224e4     MSVCRT:MSVCRT.dll
+ 0002:000004e8       __imp_??1type_info@@UAE@XZ 100224e8     MSVCRT:MSVCRT.dll
+ 0002:000004ec       \177MSVCRT_NULL_THUNK_DATA 100224ec     MSVCRT:MSVCRT.dll
+ 0002:000004f0       __imp__glTexImage2D@36     100224f0     opengl32:OPENGL32.dll
+ 0002:000004f4       __imp__glTexParameterf@12  100224f4     opengl32:OPENGL32.dll
+ 0002:000004f8       __imp__glGetFloatv@8       100224f8     opengl32:OPENGL32.dll
+ 0002:000004fc       __imp__glTexParameteri@12  100224fc     opengl32:OPENGL32.dll
+ 0002:00000500       __imp__glBindTexture@8     10022500     opengl32:OPENGL32.dll
+ 0002:00000504       __imp__glGenTextures@8     10022504     opengl32:OPENGL32.dll
+ 0002:00000508       __imp__glGetIntegerv@8     10022508     opengl32:OPENGL32.dll
+ 0002:0000050c       __imp__glDrawElements@16   1002250c     opengl32:OPENGL32.dll
+ 0002:00000510       __imp__glDeleteTextures@8  10022510     opengl32:OPENGL32.dll
+ 0002:00000514       \177OPENGL32_NULL_THUNK_DATA 10022514     opengl32:OPENGL32.dll
+ 0002:00000518       __imp__MessageBoxA@16      10022518     User32:USER32.dll
+ 0002:0000051c       __imp__GetActiveWindow@0   1002251c     User32:USER32.dll
+ 0002:00000520       \177USER32_NULL_THUNK_DATA 10022520     User32:USER32.dll
+ 0002:00000524       __imp____glewUniform1f     10022524     glew32:glew32.dll
+ 0002:00000528       __imp____glewUniformMatrix4fv 10022528     glew32:glew32.dll
+ 0002:0000052c       __imp____glewUniform4fv    1002252c     glew32:glew32.dll
+ 0002:00000530       __imp____glewActiveTexture 10022530     glew32:glew32.dll
+ 0002:00000534       __imp____glewUniform1i     10022534     glew32:glew32.dll
+ 0002:00000538       __imp____glewDisableVertexAttribArray 10022538     glew32:glew32.dll
+ 0002:0000053c       __imp____glewBufferSubData 1002253c     glew32:glew32.dll
+ 0002:00000540       __imp____glewGenBuffers    10022540     glew32:glew32.dll
+ 0002:00000544       __imp____glewBindBuffer    10022544     glew32:glew32.dll
+ 0002:00000548       __imp____glewBufferData    10022548     glew32:glew32.dll
+ 0002:0000054c       __imp__glewGetExtension    1002254c     glew32:glew32.dll
+ 0002:00000550       __imp____glewUniform3fv    10022550     glew32:glew32.dll
+ 0002:00000554       __imp____glewCreateShader  10022554     glew32:glew32.dll
+ 0002:00000558       __imp____glewShaderSource  10022558     glew32:glew32.dll
+ 0002:0000055c       __imp____glewCompileShader 1002255c     glew32:glew32.dll
+ 0002:00000560       __imp____glewGetShaderiv   10022560     glew32:glew32.dll
+ 0002:00000564       __imp____glewGetShaderInfoLog 10022564     glew32:glew32.dll
+ 0002:00000568       __imp____glewDeleteShader  10022568     glew32:glew32.dll
+ 0002:0000056c       __imp____glewCreateProgram 1002256c     glew32:glew32.dll
+ 0002:00000570       __imp____glewAttachShader  10022570     glew32:glew32.dll
+ 0002:00000574       __imp____glewLinkProgram   10022574     glew32:glew32.dll
+ 0002:00000578       __imp____glewGetProgramiv  10022578     glew32:glew32.dll
+ 0002:0000057c       __imp____glewGetProgramInfoLog 1002257c     glew32:glew32.dll
+ 0002:00000580       __imp____glewDeleteProgram 10022580     glew32:glew32.dll
+ 0002:00000584       __imp____glewGetActiveUniform 10022584     glew32:glew32.dll
+ 0002:00000588       __imp____glewGetUniformLocation 10022588     glew32:glew32.dll
+ 0002:0000058c       __imp____glewEnableVertexAttribArray 1002258c     glew32:glew32.dll
+ 0002:00000590       __imp____glewUseProgram    10022590     glew32:glew32.dll
+ 0002:00000594       __imp____glewGenerateMipmapEXT 10022594     glew32:glew32.dll
+ 0002:00000598       __imp____glewDeleteBuffers 10022598     glew32:glew32.dll
+ 0002:0000059c       __imp__glewExperimental    1002259c     glew32:glew32.dll
+ 0002:000005a0       __imp__glewInit            100225a0     glew32:glew32.dll
+ 0002:000005a4       __imp____glewVertexAttribPointer 100225a4     glew32:glew32.dll
+ 0002:000005a8       \177glew32_NULL_THUNK_DATA 100225a8     glew32:glew32.dll
+ 0002:000005d0       ??_7GLCubeMapBaker@@6B@    100225d0     GLCubeMapBaker.obj
+ 0002:000006f0       ??_7EGLMHChangeAnim@@6B@   100226f0     GLModelHolder.obj
+ 0002:000006f8       ??_7EGLMHRemoveAnim@@6B@   100226f8     GLModelHolder.obj
+ 0002:00000700       ??_7EGLMHRemoveAnimsID@@6B@ 10022700     GLModelHolder.obj
+ 0002:00000708       ??_7EGLMHStopAllAnims@@6B@ 10022708     GLModelHolder.obj
+ 0002:00000710       ??_7EChangeAnim@@6B@       10022710     GLModelHolder.obj
+ 0002:00000718       ??_7ESpawnSpray@@6B@       10022718     GLModelHolder.obj
+ 0002:00000720       ??_7ESpawnEffect@@6B@      10022720     GLModelHolder.obj
+ 0002:00000728       ??_7ESpawnDebris@@6B@      10022728     GLModelHolder.obj
+ 0002:00000730       ??_7ERangeModelDestruction@@6B@ 10022730     GLModelHolder.obj
+ 0002:00000738       ??_7GLModelHolder@@6B@     10022738     GLModelHolder.obj
+ 0002:00000854       __real@4@bfff8000000000000000 10022854     GLModelHolder.obj
+ 0002:00000858       __real@4@3fff8000000000000000 10022858     GLModelHolder.obj
+ 0002:0000085c       __real@4@00000000000000000000 1002285c     GLModelHolder.obj
+ 0002:00000860       __real@4@4008fa00000000000000 10022860     GLModelHolder.obj
+ 0002:00000864       __real@4@3ff8a3d70a0000000000 10022864     GLModelHolder.obj
+ 0002:0000086c       ??_7GLModelHolderAnimationChanger@@6B@ 1002286c     GLModelHolderAnimationChanger.obj
+ 0002:0000098c       __real@4@3ffe8000000000000000 1002298c     RenderSession.obj
+ 0002:00000990       __real@4@3ff98efa350000000000 10022990     RenderSession.obj
+ 0002:00000994       __real@4@3ff78080808080808000 10022994     RenderSession.obj
+ 0002:00000998       __real@4@3ff88102040810204000 10022998     RenderSession.obj
+ 0002:000009a8       __real@8@00000000000000000000 100229a8     jansson:value.obj
+ 0002:000009d0       ??_7type_info@@6B@         100229d0     MSVCRT:ti_inst.obj
+ 0002:000009e8       ??_R1A@?0A@A@type_info@@8  100229e8     MSVCRT:ti_inst.obj
+ 0002:00000a00       ??_R2type_info@@8          10022a00     MSVCRT:ti_inst.obj
+ 0002:00000a08       ??_R3type_info@@8          10022a08     MSVCRT:ti_inst.obj
+ 0002:00000a18       ??_R4type_info@@6B@        10022a18     MSVCRT:ti_inst.obj
+ 0002:000014b0       __CT??_R0?AVexception@@@8??0exception@@QAE@ABV0@@Z12 100234b0     RenderSession.obj
+ 0002:000014d0       __CT??_R0?AVruntime_error@std@@@8??0runtime_error@std@@QAE@ABV01@@Z28 100234d0     RenderSession.obj
+ 0002:000014f0       __CTA2?AVruntime_error@std@@ 100234f0     RenderSession.obj
+ 0002:00001500       __TI2?AVruntime_error@std@@ 10023500     RenderSession.obj
+ 0002:00001510       __CT??_R0?AVlogic_error@std@@@8??0logic_error@std@@QAE@ABV01@@Z28 10023510     RenderSession.obj
+ 0002:00001530       __CT??_R0?AVout_of_range@std@@@8??0out_of_range@std@@QAE@ABV01@@Z28 10023530     RenderSession.obj
+ 0002:00001550       __CTA3?AVout_of_range@std@@ 10023550     RenderSession.obj
+ 0002:00001560       __TI3?AVout_of_range@std@@ 10023560     RenderSession.obj
+ 0002:00001dd8       __IMPORT_DESCRIPTOR_Engine 10023dd8     Engine:Engine.dll
+ 0002:00001dec       __IMPORT_DESCRIPTOR_EngineGUI 10023dec     EngineGUI:EngineGUI.dll
+ 0002:00001e00       __IMPORT_DESCRIPTOR_glew32 10023e00     glew32:glew32.dll
+ 0002:00001e14       __IMPORT_DESCRIPTOR_OPENGL32 10023e14     opengl32:OPENGL32.dll
+ 0002:00001e28       __IMPORT_DESCRIPTOR_USER32 10023e28     User32:USER32.dll
+ 0002:00001e3c       __IMPORT_DESCRIPTOR_EntitiesMP 10023e3c     EntitiesMP:EntitiesMP.dll
+ 0002:00001e50       __IMPORT_DESCRIPTOR_MSVCRT 10023e50     MSVCRT:MSVCRT.dll
+ 0002:00001e64       __IMPORT_DESCRIPTOR_MSVCP60 10023e64     msvcprt:MSVCP60.dll
+ 0002:00001e78       __IMPORT_DESCRIPTOR_KERNEL32 10023e78     kernel32:KERNEL32.dll
+ 0002:00001e8c       __NULL_IMPORT_DESCRIPTOR   10023e8c     Engine:Engine.dll
+ 0003:00000000       ___xc_a                    1002a000     MSVCRT:cinitexe.obj
+ 0003:00000048       ___xc_z                    1002a048     MSVCRT:cinitexe.obj
+ 0003:0000004c       ___xi_a                    1002a04c     MSVCRT:cinitexe.obj
+ 0003:00000050       ___xi_z                    1002a050     MSVCRT:cinitexe.obj
+ 0003:00000060       ?GLCubeMapBaker_handlers@@3PAVCEventHandlerEntry@@A 1002a060     GLCubeMapBaker.obj
+ 0003:000000b0       _GLCubeMapBaker_DLLClass   1002a0b0     GLCubeMapBaker.obj
+ 0003:00000300       ??_R0PAD@8                 1002a300     GLCubeMapBaker.obj
+ 0003:00000310       ?SkaCustomShadingType_values@@3PAVCEntityPropertyEnumValue@@A 1002a310     GLModelHolder.obj
+ 0003:00000328       ?SkaCustomShadingType_enum@@3VCEntityPropertyEnumType@@A 1002a328     GLModelHolder.obj
+ 0003:00000330       ?SkaShadowType_values@@3PAVCEntityPropertyEnumValue@@A 1002a330     GLModelHolder.obj
+ 0003:00000348       ?SkaShadowType_enum@@3VCEntityPropertyEnumType@@A 1002a348     GLModelHolder.obj
+ 0003:00000350       ?GLModelHolder_handlers@@3PAVCEventHandlerEntry@@A 1002a350     GLModelHolder.obj
+ 0003:00000390       _GLModelHolder_DLLClass    1002a390     GLModelHolder.obj
+ 0003:000005f8       ?ActionType_values@@3PAVCEntityPropertyEnumValue@@A 1002a5f8     GLModelHolderAnimationChanger.obj
+ 0003:00000618       ?ActionType_enum@@3VCEntityPropertyEnumType@@A 1002a618     GLModelHolderAnimationChanger.obj
+ 0003:00000620       ?GLModelHolderAnimationChanger_handlers@@3PAVCEventHandlerEntry@@A 1002a620     GLModelHolderAnimationChanger.obj
+ 0003:00000670       _GLModelHolderAnimationChanger_DLLClass 1002a670     GLModelHolderAnimationChanger.obj
+ 0003:000008c4       ?g_currentSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@3HA 1002a8c4     RenderSession.obj
+ 0003:00000968       ??_R0?AVexception@@@8      1002a968     RenderSession.obj
+ 0003:00000980       ??_R0?AVruntime_error@std@@@8 1002a980     RenderSession.obj
+ 0003:000009a0       ??_R0?AVlogic_error@std@@@8 1002a9a0     RenderSession.obj
+ 0003:000009c0       ??_R0?AVout_of_range@std@@@8 1002a9c0     RenderSession.obj
+ 0003:000009e0       ??_C@_0BM@GODI@invalid?5vector?$DMT?$DO?5subscript?$AA@ 1002a9e0     RenderSession.obj
+ 0003:00000b8c       ??_C@_09HLJN@GLShaders?$AA@ 1002ab8c     ShaderProfile.obj
+ 0003:00000b98       ??_C@_0BN@IKFH@EFNMShaders?2GLDefaultProfile?$AA@ 1002ab98     ShaderProfile.obj
+ 0003:00001b98       ??_C@_0BA@BJKB@wrong?5arguments?$AA@ 1002bb98     jansson:load.obj
+ 0003:00001ba8       ??_C@_08JAOD@?$DMstring?$DO?$AA@ 1002bba8     jansson:load.obj
+ 0003:00001bb4       ??_C@_02DILL@?$CFs?$AA@    1002bbb4     jansson:load.obj
+ 0003:00001bb8       ??_C@_0BE@IKBA@?$CFs?5near?5end?5of?5file?$AA@ 1002bbb8     jansson:load.obj
+ 0003:00001bcc       ??_C@_0N@JEN@?$CFs?5near?5?8?$CFs?8?$AA@ 1002bbcc     jansson:load.obj
+ 0003:00001bdc       ??_C@_0BF@GKKE@end?5of?5file?5expected?$AA@ 1002bbdc     jansson:load.obj
+ 0003:00001bf4       ??_C@_0BE@MMAK@?8?$FL?8?5or?5?8?$HL?8?5expected?$AA@ 1002bbf4     jansson:load.obj
+ 0003:00001c08       ??_C@_04GOCP@null?$AA@     1002bc08     jansson:load.obj
+ 0003:00001c10       ??_C@_05NAGO@false?$AA@    1002bc10     jansson:load.obj
+ 0003:00001c18       ??_C@_04NCCD@true?$AA@     1002bc18     jansson:load.obj
+ 0003:00001c20       ??_C@_0BL@LCHE@unable?5to?5decode?5byte?50x?$CFx?$AA@ 1002bc20     jansson:load.obj
+ 0003:00001c3c       ??_C@_0BJ@NGAG@invalid?5Unicode?5?8?2u?$CF04X?8?$AA@ 1002bc3c     jansson:load.obj
+ 0003:00001c58       ??_C@_0BP@EAJB@invalid?5Unicode?5?8?2u?$CF04X?2u?$CF04X?8?$AA@ 1002bc58     jansson:load.obj
+ 0003:00001c78       ??_C@_0BO@LMPL@invalid?5Unicode?5escape?5?8?$CF?46s?8?$AA@ 1002bc78     jansson:load.obj
+ 0003:00001c98       ??_C@_0P@GDHA@invalid?5escape?$AA@ 1002bc98     jansson:load.obj
+ 0003:00001ca8       ??_C@_0BH@LIFO@control?5character?50x?$CFx?$AA@ 1002bca8     jansson:load.obj
+ 0003:00001cc0       ??_C@_0BD@OLNG@unexpected?5newline?$AA@ 1002bcc0     jansson:load.obj
+ 0003:00001cd4       ??_C@_0BH@KACL@premature?5end?5of?5input?$AA@ 1002bcd4     jansson:load.obj
+ 0003:00001cec       ??_C@_0BF@NDAJ@real?5number?5overflow?$AA@ 1002bcec     jansson:load.obj
+ 0003:00001d04       ??_C@_0BA@LJEN@too?5big?5integer?$AA@ 1002bd04     jansson:load.obj
+ 0003:00001d14       ??_C@_0BJ@JKBG@too?5big?5negative?5integer?$AA@ 1002bd14     jansson:load.obj
+ 0003:00001d30       ??_C@_0BB@PFFC@unexpected?5token?$AA@ 1002bd30     jansson:load.obj
+ 0003:00001d44       ??_C@_0CN@BFLG@?2u0000?5is?5not?5allowed?5without?5JS@ 1002bd44     jansson:load.obj
+ 0003:00001d74       ??_C@_0O@BLCG@invalid?5token?$AA@ 1002bd74     jansson:load.obj
+ 0003:00001d84       ??_C@_0BO@PIEL@maximum?5parsing?5depth?5reached?$AA@ 1002bd84     jansson:load.obj
+ 0003:00001da4       ??_C@_0N@JKIB@?8?$HN?8?5expected?$AA@ 1002bda4     jansson:load.obj
+ 0003:00001db4       ??_C@_0N@KMNO@?8?3?8?5expected?$AA@ 1002bdb4     jansson:load.obj
+ 0003:00001dc4       ??_C@_0BF@IKMJ@duplicate?5object?5key?$AA@ 1002bdc4     jansson:load.obj
+ 0003:00001ddc       ??_C@_0CF@HBAH@NUL?5byte?5in?5object?5key?5not?5suppo@ 1002bddc     jansson:load.obj
+ 0003:00001e04       ??_C@_0BH@DMFA@string?5or?5?8?$HN?8?5expected?$AA@ 1002be04     jansson:load.obj
+ 0003:00001e1c       ??_C@_0N@MLHJ@?8?$FN?8?5expected?$AA@ 1002be1c     jansson:load.obj
+ 0003:00001e2c       ??_C@_08NAEF@?$DMbuffer?$DO?$AA@ 1002be2c     jansson:load.obj
+ 0003:00001e38       ??_C@_08JJOO@?$DMstream?$DO?$AA@ 1002be38     jansson:load.obj
+ 0003:00001e44       ??_C@_07MBJB@?$DMstdin?$DO?$AA@ 1002be44     jansson:load.obj
+ 0003:00001e4c       ??_C@_0BG@CHBJ@unable?5to?5open?5?$CFs?3?5?$CFs?$AA@ 1002be4c     jansson:load.obj
+ 0003:00001e64       ??_C@_02JKAF@rb?$AA@       1002be64     jansson:load.obj
+ 0003:00001e68       ??_C@_0L@GDB@?$DMcallback?$DO?$AA@ 1002be68     jansson:load.obj
+ 0003:00001e7c       ??_C@_03NAME@?4?4?4?$AA@   1002be7c     jansson:error.obj
+ 0003:00001e80       ??_C@_04MLNJ@?$CF?4?$CKg?$AA@ 1002be80     jansson:strconv.obj
+ 0003:00001e90       ??_R0?AVtype_info@@@8      1002be90     MSVCRT:ti_inst.obj
+ 0003:00001ea8       ?GLCubeMapBaker_components@@3PAVCEntityComponent@@A 1002bea8     GLCubeMapBaker.obj
+ 0003:00001ec0       ?_fnmGLCubeMapBaker_tbn@@3VCTFileName@@A 1002bec0     GLCubeMapBaker.obj
+ 0003:00001ec8       ?GLCubeMapBaker_properties@@3PAVCEntityProperty@@A 1002bec8     GLCubeMapBaker.obj
+ 0003:00001f28       ??_C@_00A@?$AA@            1002bf28     GLCubeMapBaker.obj
+ 0003:00001f30       ?GLModelHolder_components@@3PAVCEntityComponent@@A 1002bf30     GLModelHolder.obj
+ 0003:00001f48       ?_fnmGLModelHolder_tbn@@3VCTFileName@@A 1002bf48     GLModelHolder.obj
+ 0003:00001f50       ?GLModelHolder_properties@@3PAVCEntityProperty@@A 1002bf50     GLModelHolder.obj
+ 0003:00002170       ?GLModelHolderAnimationChanger_properties@@3PAVCEntityProperty@@A 1002c170     GLModelHolderAnimationChanger.obj
+ 0003:000022d0       ?_fnmGLModelHolderAnimationChanger_tbn@@3VCTFileName@@A 1002c2d0     GLModelHolderAnimationChanger.obj
+ 0003:000022d8       ?GLModelHolderAnimationChanger_components@@3PAVCEntityComponent@@A 1002c2d8     GLModelHolderAnimationChanger.obj
+ 0003:00002318       ?g_AlexShaders_modelMatrix_pos0@@3MA 1002c318     ModelMatrix.obj
+ 0003:0000231c       ?g_AlexShaders_modelMatrix_pos1@@3MA 1002c31c     ModelMatrix.obj
+ 0003:00002320       ?g_AlexShaders_modelMatrix_pos2@@3MA 1002c320     ModelMatrix.obj
+ 0003:00002324       ?g_AlexShaders_modelMatrix_ang0@@3MA 1002c324     ModelMatrix.obj
+ 0003:00002328       ?g_AlexShaders_modelMatrix_ang1@@3MA 1002c328     ModelMatrix.obj
+ 0003:0000232c       ?g_AlexShaders_modelMatrix_ang2@@3MA 1002c32c     ModelMatrix.obj
+ 0003:00002334       ?g_previousArrayBuffer@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@3HA 1002c334     RenderSession.obj
+ 0003:00002338       ?g_renderSessions@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@3V?$vector@V?$vector@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@V?$allocator@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@@std@@@std@@V?$allocator@V?$vector@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@V?$allocator@URenderSession@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@@std@@@std@@@2@@std@@A 1002c338     RenderSession.obj
+ 0003:00002348       ?g_textures@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@3V?$map@KIU?$less@K@std@@V?$allocator@I@2@@std@@A 1002c348     RenderSession.obj
+ 0003:00002358       ?g_previousElementBuffer@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@3HA 1002c358     RenderSession.obj
+ 0003:0000235c       ?g_initialized@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@3_NA 1002c35c     RenderSession.obj
+ 0003:00002360       ?g_customFloatPool@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@3PAMA 1002c360     RenderSession.obj
+ 0003:00002364       ?g_customVecPool@?%C:\GAMES\STEAM\STEAMAPPS\COMMON\SERIOUS SAM CLASSIC THE SECOND ENCOUNTER\Sources\GLShaders\RenderSession.cpp2335331554@@3PAMA 1002c364     RenderSession.obj
+ 0003:00002368       ?_Nil@?$_Tree@KU?$pair@$$CBKI@std@@U_Kfn@?$map@KIU?$less@K@std@@V?$allocator@I@2@@2@U?$less@K@2@V?$allocator@I@2@@std@@1PAU_Node@12@A 1002c368     RenderSession.obj
+ 0003:0000236c       ?_Nilrefs@?$_Tree@KU?$pair@$$CBKI@std@@U_Kfn@?$map@KIU?$less@K@std@@V?$allocator@I@2@@2@U?$less@K@2@V?$allocator@I@2@@std@@1IA 1002c36c     RenderSession.obj
+ 0003:000023b4       _hashtable_seed            1002c3b4     jansson:hashtable_seed.obj
+ 0003:000023c0       ?_Stz@?$fpos@H@std@@0HA    1002c3c0     <common>
+ 0003:000023c4       __adjust_fdiv              1002c3c4     <common>
+ 0003:000023c8       __pRawDllMain              1002c3c8     <common>
+ 0003:000023cc       ___onexitend               1002c3cc     <common>
+ 0003:000023d0       ___onexitbegin             1002c3d0     <common>
+
+ entry point at        0001:0001f45d
+
+ Static symbols
+
+ 0001:00018cd0       ?stbi__stdio_read@@YAHPAXPADH@Z 10019cd0 f   stb.obj
+ 0001:00018cf0       ?stbi__stdio_skip@@YAXPAXH@Z 10019cf0 f   stb.obj
+ 0001:00018d10       ?stbi__stdio_eof@@YAHPAX@Z 10019d10 f   stb.obj
+ 0001:00018dc0       ?stbi__err@@YAHPBD@Z       10019dc0 f   stb.obj
+ 0001:00018dd0       ?stbi__fopen@@YAPAU_iobuf@@PBD0@Z 10019dd0 f   stb.obj
+ 0001:00018e50       ?stbi__start_file@@YAXPAUstbi__context@@PAU_iobuf@@@Z 10019e50 f   stb.obj
+ 0001:00018e70       ?stbi__start_callbacks@@YAXPAUstbi__context@@PAUstbi_io_callbacks@@PAX@Z 10019e70 f   stb.obj
+ 0001:00018ed0       ?stbi__load_and_postprocess_8bit@@YAPAEPAUstbi__context@@PAH11H@Z 10019ed0 f   stb.obj
+ 0001:00018f70       ?stbi__load_main@@YAPAXPAUstbi__context@@PAH11HPAUstbi__result_info@@H@Z 10019f70 f   stb.obj
+ 0001:00018fe0       ?stbi__convert_16_to_8@@YAPAEPAGHHH@Z 10019fe0 f   stb.obj
+ 0001:00019040       ?stbi__malloc@@YAPAXI@Z    1001a040 f   stb.obj
+ 0001:00019060       ?stbi__vertical_flip@@YAXPAXHHH@Z 1001a060 f   stb.obj
+ 0001:000191a0       ?stbi__load_and_postprocess_16bit@@YAPAGPAUstbi__context@@PAH11H@Z 1001a1a0 f   stb.obj
+ 0001:00019240       ?stbi__convert_8_to_16@@YAPAGPAEHHH@Z 1001a240 f   stb.obj
+ 0001:00019350       ?stbi__start_mem@@YAXPAUstbi__context@@PBEH@Z 1001a350 f   stb.obj
+ 0001:00019480       ?stbi__loadf_main@@YAPAMPAUstbi__context@@PAH11H@Z 1001a480 f   stb.obj
+ 0001:00019690       ?stbi__refill_buffer@@YAXPAUstbi__context@@@Z 1001a690 f   stb.obj
+ 0001:000196e0       ?stbi__ldr_to_hdr@@YAPAMPAEHHH@Z 1001a6e0 f   stb.obj
+ 0001:00019810       ?stbi__malloc_mad4@@YAPAXHHHHH@Z 1001a810 f   stb.obj
+ 0001:00019860       ?stbi__mad4sizes_valid@@YAHHHHHH@Z 1001a860 f   stb.obj
+ 0001:000198d0       ?stbi__addsizes_valid@@YAHHH@Z 1001a8d0 f   stb.obj
+ 0001:00019900       ?stbi__mul2sizes_valid@@YAHHH@Z 1001a900 f   stb.obj
+ 0001:00019940       ?stbi__tga_test@@YAHPAUstbi__context@@@Z 1001a940 f   stb.obj
+ 0001:00019b80       ?stbi__rewind@@YAXPAUstbi__context@@@Z 1001ab80 f   stb.obj
+ 0001:00019ba0       ?stbi__skip@@YAXPAUstbi__context@@H@Z 1001aba0 f   stb.obj
+ 0001:00019c10       ?stbi__get16le@@YAHPAUstbi__context@@@Z 1001ac10 f   stb.obj
+ 0001:00019ce0       ?stbi__tga_load@@YAPAXPAUstbi__context@@PAH11HPAUstbi__result_info@@@Z 1001ace0 f   stb.obj
+ 0001:0001a3f0       ?stbi__mad3sizes_valid@@YAHHHHH@Z 1001b3f0 f   stb.obj
+ 0001:0001a440       ?stbi__malloc_mad2@@YAPAXHHH@Z 1001b440 f   stb.obj
+ 0001:0001a480       ?stbi__mad2sizes_valid@@YAHHHH@Z 1001b480 f   stb.obj
+ 0001:0001a4c0       ?stbi__malloc_mad3@@YAPAXHHHH@Z 1001b4c0 f   stb.obj
+ 0001:0001a500       ?stbi__getn@@YAHPAUstbi__context@@PAEH@Z 1001b500 f   stb.obj
+ 0001:0001a5b0       ?stbi__convert_format@@YAPAEPAEHHII@Z 1001b5b0 f   stb.obj
+ 0001:0001a8e0       ?stbi__compute_y@@YAEHHH@Z 1001b8e0 f   stb.obj
+ 0001:0001a920       ?stbi__tga_get_comp@@YAHHHPAH@Z 1001b920 f   stb.obj
+ 0001:0001a9c0       ?stbi__tga_read_rgb16@@YAXPAUstbi__context@@PAE@Z 1001b9c0 f   stb.obj
+ 0001:0001ab00       ?stbi__info_main@@YAHPAUstbi__context@@PAH11@Z 1001bb00 f   stb.obj
+ 0001:0001ab40       ?stbi__tga_info@@YAHPAUstbi__context@@PAH11@Z 1001bb40 f   stb.obj
+ 0001:0001af10       ?stbi__is_16_main@@YAHPAUstbi__context@@@Z 1001bf10 f   stb.obj
+ 0001:00017ac0       _json_decref               10018ac0 f   ShaderSettings.obj
+ 0001:00011340       _$E25                      10012340 f   ShaderProfile.obj
+ 0001:00011350       _$E22                      10012350 f   ShaderProfile.obj
+ 0001:00011440       _$E24                      10012440 f   ShaderProfile.obj
+ 0001:00011450       _$E23                      10012450 f   ShaderProfile.obj
+ 0001:000114a0       _$E30                      100124a0 f   ShaderProfile.obj
+ 0001:000114b0       _$E27                      100124b0 f   ShaderProfile.obj
+ 0001:000114e0       _$E29                      100124e0 f   ShaderProfile.obj
+ 0001:000114f0       _$E28                      100124f0 f   ShaderProfile.obj
+ 0001:00011540       _$E33                      10012540 f   ShaderProfile.obj
+ 0001:00011550       _$E32                      10012550 f   ShaderProfile.obj
+ 0001:00004830       ?atan@glm@@YAMM@Z          10005830 f   RenderSession.obj
+ 0001:00004840       ?tan@glm@@YAMM@Z           10005840 f   RenderSession.obj
+ 0001:00004850       ?radians@glm@@YAMM@Z       10005850 f   RenderSession.obj
+ 0001:00004910       _$E32                      10005910 f   RenderSession.obj
+ 0001:00004920       _$E29                      10005920 f   RenderSession.obj
+ 0001:00004950       _$E31                      10005950 f   RenderSession.obj
+ 0001:00004960       _$E30                      10005960 f   RenderSession.obj
+ 0001:000049e0       _$E39                      100059e0 f   RenderSession.obj
+ 0001:000049f0       _$E36                      100059f0 f   RenderSession.obj
+ 0001:00004a10       _$E38                      10005a10 f   RenderSession.obj
+ 0001:00004a20       _$E37                      10005a20 f   RenderSession.obj
+ 0001:00005f60       ??Dglm@@YA?AUvec3@0@ABU10@M@Z 10006f60 f   RenderSession.obj
+ 0001:00005fa0       ??Gglm@@YA?AUvec3@0@ABU10@0@Z 10006fa0 f   RenderSession.obj
+ 0001:00005fe0       ??Dglm@@YA?AUvec4@0@ABUmat4@0@ABU10@@Z 10006fe0 f   RenderSession.obj
+ 0001:00006190       ??Dglm@@YA?AUvec4@0@ABU10@0@Z 10007190 f   RenderSession.obj
+ 0001:000061f0       ??Hglm@@YA?AUvec4@0@ABU10@0@Z 100071f0 f   RenderSession.obj
+ 0001:00006250       ?transpose@glm@@YA?AUmat4@1@ABU21@@Z 10007250 f   RenderSession.obj
+ 0001:00006320       ?dot@glm@@YAMABUvec3@1@0@Z 10007320 f   RenderSession.obj
+ 0001:00006350       ??Dglm@@YA?AUvec3@0@ABU10@0@Z 10007350 f   RenderSession.obj
+ 0001:00006390       ?normalize@glm@@YA?AUvec3@1@ABU21@@Z 10007390 f   RenderSession.obj
+ 0001:000063d0       ??Kglm@@YA?AUvec3@0@ABU10@M@Z 100073d0 f   RenderSession.obj
+ 0001:00006410       ?cross@glm@@YA?AUvec3@1@ABU21@0@Z 10007410 f   RenderSession.obj
+ 0001:00007b60       ??Dglm@@YA?AUmat4@0@ABU10@0@Z 10008b60 f   RenderSession.obj
+ 0001:00007fa0       ??Dglm@@YA?AUvec4@0@ABU10@M@Z 10008fa0 f   RenderSession.obj
+ 0001:00008000       ?transpose@glm@@YA?AUmat3@1@ABU21@@Z 10009000 f   RenderSession.obj
+ 0001:000080a0       ?clamp@glm@@YAMMMM@Z       100090a0 f   RenderSession.obj
+ 0001:000080e0       ?inverse@glm@@YA?AUmat4@1@ABU21@@Z 100090e0 f   RenderSession.obj
+ 0001:00008740       ??Gglm@@YA?AUvec4@0@ABU10@0@Z 10009740 f   RenderSession.obj
+ 0001:000087a0       ??Dglm@@YA?AUmat4@0@ABU10@M@Z 100097a0 f   RenderSession.obj
+ 0001:000088c0       ?perspective@glm@@YA?AUmat4@1@MMMM@Z 100098c0 f   RenderSession.obj
+ 0001:00003a20       _$E15                      10004a20 f   GLModelHolderAnimationChanger.obj
+ 0001:00003a30       _$E14                      10004a30 f   GLModelHolderAnimationChanger.obj
+ 0001:00003ca0       _$E20                      10004ca0 f   GLModelHolderAnimationChanger.obj
+ 0001:00003cb0       _$E17                      10004cb0 f   GLModelHolderAnimationChanger.obj
+ 0001:00003ce0       _$E19                      10004ce0 f   GLModelHolderAnimationChanger.obj
+ 0001:00003cf0       _$E18                      10004cf0 f   GLModelHolderAnimationChanger.obj
+ 0001:00003e20       _$E23                      10004e20 f   GLModelHolderAnimationChanger.obj
+ 0001:00003e30       _$E22                      10004e30 f   GLModelHolderAnimationChanger.obj
+ 0001:00003e90       _$E28                      10004e90 f   GLModelHolderAnimationChanger.obj
+ 0001:00003ea0       _$E25                      10004ea0 f   GLModelHolderAnimationChanger.obj
+ 0001:00003ec0       _$E27                      10004ec0 f   GLModelHolderAnimationChanger.obj
+ 0001:00003ed0       _$E26                      10004ed0 f   GLModelHolderAnimationChanger.obj
+ 0001:00002570       _$E15                      10003570 f   GLModelHolder.obj
+ 0001:00002580       _$E14                      10003580 f   GLModelHolder.obj
+ 0001:000028e0       _$E20                      100038e0 f   GLModelHolder.obj
+ 0001:000028f0       _$E17                      100038f0 f   GLModelHolder.obj
+ 0001:00002900       _$E19                      10003900 f   GLModelHolder.obj
+ 0001:00002910       _$E18                      10003910 f   GLModelHolder.obj
+ 0001:00002a00       _$E23                      10003a00 f   GLModelHolder.obj
+ 0001:00002a10       _$E22                      10003a10 f   GLModelHolder.obj
+ 0001:00002a70       _$E28                      10003a70 f   GLModelHolder.obj
+ 0001:00002a80       _$E25                      10003a80 f   GLModelHolder.obj
+ 0001:00002aa0       _$E27                      10003aa0 f   GLModelHolder.obj
+ 0001:00002ab0       _$E26                      10003ab0 f   GLModelHolder.obj
+ 0001:00000030       _$E15                      10001030 f   GLCubeMapBaker.obj
+ 0001:00000040       _$E14                      10001040 f   GLCubeMapBaker.obj
+ 0001:000000d0       _$E20                      100010d0 f   GLCubeMapBaker.obj
+ 0001:000000e0       _$E17                      100010e0 f   GLCubeMapBaker.obj
+ 0001:000000f0       _$E19                      100010f0 f   GLCubeMapBaker.obj
+ 0001:00000100       _$E18                      10001100 f   GLCubeMapBaker.obj
+ 0001:000001f0       _$E23                      100011f0 f   GLCubeMapBaker.obj
+ 0001:00000200       _$E22                      10001200 f   GLCubeMapBaker.obj
+ 0001:00000260       _$E28                      10001260 f   GLCubeMapBaker.obj
+ 0001:00000270       _$E25                      10001270 f   GLCubeMapBaker.obj
+ 0001:00000290       _$E27                      10001290 f   GLCubeMapBaker.obj
+ 0001:000002a0       _$E26                      100012a0 f   GLCubeMapBaker.obj
+ 0001:000007f0       ?FlipBitmap@@YAXPAEJJH@Z   100017f0 f   GLCubeMapBaker.obj
+ 0001:000008f0       ?AddAlphaChannel@@YAXPAEPAKJ0@Z 100018f0 f   GLCubeMapBaker.obj
+ 0001:00000980       ?RemoveAlphaChannel@@YAXPAKPAEJ@Z 10001980 f   GLCubeMapBaker.obj
+ 0001:0001eb40       _to_locale                 1001fb40 f   jansson:strconv.obj
+ 0001:0001ec60       _from_locale               1001fc60 f   jansson:strconv.obj
+ 0001:0001e4d0       _generate_seed             1001f4d0 f   jansson:hashtable_seed.obj
+ 0001:0001e500       _seed_from_timestamp_and_pid 1001f500 f   jansson:hashtable_seed.obj
+ 0001:0001dc10       _list_init                 1001ec10 f   jansson:hashtable.obj
+ 0001:0001dc40       _hashtable_do_clear        1001ec40 f   jansson:hashtable.obj
+ 0001:0001dc70       _json_decref               1001ec70 f   jansson:hashtable.obj
+ 0001:0001ddc0       _hashlittle                1001edc0 f   jansson:hashtable.obj
+ 0001:0001e030       _list_insert               1001f030 f   jansson:hashtable.obj
+ 0001:0001e050       _insert_to_bucket          1001f050 f   jansson:hashtable.obj
+ 0001:0001e0a0       _bucket_is_empty           1001f0a0 f   jansson:hashtable.obj
+ 0001:0001e0c0       _hashtable_find_pair       1001f0c0 f   jansson:hashtable.obj
+ 0001:0001e140       _hashtable_do_rehash       1001f140 f   jansson:hashtable.obj
+ 0001:0001e280       _hashtable_do_del          1001f280 f   jansson:hashtable.obj
+ 0001:0001e320       _list_remove               1001f320 f   jansson:hashtable.obj
+ 0001:0001c480       _error_set                 1001d480 f   jansson:load.obj
+ 0001:0001c5b0       _lex_init                  1001d5b0 f   jansson:load.obj
+ 0001:0001c5f0       _stream_init               1001d5f0 f   jansson:load.obj
+ 0001:0001c620       _lex_close                 1001d620 f   jansson:load.obj
+ 0001:0001c650       _lex_free_string           1001d650 f   jansson:load.obj
+ 0001:0001c670       _parse_json                1001d670 f   jansson:load.obj
+ 0001:0001c720       _json_decref               1001d720 f   jansson:load.obj
+ 0001:0001c750       _lex_scan                  1001d750 f   jansson:load.obj
+ 0001:0001c990       _lex_get                   1001d990 f   jansson:load.obj
+ 0001:0001c9b0       _stream_get                1001d9b0 f   jansson:load.obj
+ 0001:0001cad0       _lex_save                  1001dad0 f   jansson:load.obj
+ 0001:0001caf0       _lex_get_save              1001daf0 f   jansson:load.obj
+ 0001:0001cb20       _lex_unget_unsave          1001db20 f   jansson:load.obj
+ 0001:0001cb50       _stream_unget              1001db50 f   jansson:load.obj
+ 0001:0001cba0       _lex_save_cached           1001dba0 f   jansson:load.obj
+ 0001:0001cbe0       _lex_scan_string           1001dbe0 f   jansson:load.obj
+ 0001:0001cfb0       _decode_unicode_escape     1001dfb0 f   jansson:load.obj
+ 0001:0001d010       _lex_scan_number           1001e010 f   jansson:load.obj
+ 0001:0001d230       _lex_unget                 1001e230 f   jansson:load.obj
+ 0001:0001d250       _parse_value               1001e250 f   jansson:load.obj
+ 0001:0001d3e0       _parse_object              1001e3e0 f   jansson:load.obj
+ 0001:0001d5d0       _lex_steal_string          1001e5d0 f   jansson:load.obj
+ 0001:0001d600       _parse_array               1001e600 f   jansson:load.obj
+ 0001:0001d6b0       _string_get                1001e6b0 f   jansson:load.obj
+ 0001:0001d780       _buffer_get                1001e780 f   jansson:load.obj
+ 0001:0001d8d0       _fd_get_func               1001e8d0 f   jansson:load.obj
+ 0001:0001da30       _callback_get              1001ea30 f   jansson:load.obj
+ 0001:0001b050       _json_init                 1001c050 f   jansson:value.obj
+ 0001:0001b110       _json_decref               1001c110 f   jansson:value.obj
+ 0001:0001b260       _json_object_set_nocheck   1001c260 f   jansson:value.obj
+ 0001:0001b280       _json_incref               1001c280 f   jansson:value.obj
+ 0001:0001b620       _json_array_grow           1001c620 f   jansson:value.obj
+ 0001:0001b6a0       _array_copy                1001c6a0 f   jansson:value.obj
+ 0001:0001b7a0       _array_move                1001c7a0 f   jansson:value.obj
+ 0001:0001b930       _string_create             1001c930 f   jansson:value.obj
+ 0001:0001bce0       _isnan                     1001cce0 f   jansson:value.obj
+ 0001:0001bcf0       _isinf                     1001ccf0 f   jansson:value.obj
+ 0001:0001be60       _json_delete_object        1001ce60 f   jansson:value.obj
+ 0001:0001be80       _json_delete_array         1001ce80 f   jansson:value.obj
+ 0001:0001bec0       _json_delete_string        1001cec0 f   jansson:value.obj
+ 0001:0001bee0       _json_delete_integer       1001cee0 f   jansson:value.obj
+ 0001:0001bef0       _json_delete_real          1001cef0 f   jansson:value.obj
+ 0001:0001bf80       _json_object_equal         1001cf80 f   jansson:value.obj
+ 0001:0001c010       _json_array_equal          1001d010 f   jansson:value.obj
+ 0001:0001c080       _json_string_equal         1001d080 f   jansson:value.obj
+ 0001:0001c0b0       _json_integer_equal        1001d0b0 f   jansson:value.obj
+ 0001:0001c0e0       _json_real_equal           1001d0e0 f   jansson:value.obj
+ 0001:0001c190       _json_object_copy          1001d190 f   jansson:value.obj
+ 0001:0001c200       _json_array_copy           1001d200 f   jansson:value.obj
+ 0001:0001c250       _json_array_append         1001d250 f   jansson:value.obj
+ 0001:0001c270       _json_string_copy          1001d270 f   jansson:value.obj
+ 0001:0001c290       _json_integer_copy         1001d290 f   jansson:value.obj
+ 0001:0001c2b0       _json_real_copy            1001d2b0 f   jansson:value.obj
+ 0001:0001c340       _json_object_deep_copy     1001d340 f   jansson:value.obj
+ 0001:0001c3a0       _json_array_deep_copy      1001d3a0 f   jansson:value.obj
+ 0001:0001f280       ?ArrayUnwindFilter@@YAHPAU_EXCEPTION_POINTERS@@@Z 10020280 f   MSVCRT:ehvecdtr.obj

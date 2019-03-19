@@ -1,0 +1,42 @@
+{
+"vertex_shader": "Sources\\GL3Water.vert",
+"fragment_shader": "Sources\\GL3Water.frag",
+"name": "GL3 Water",
+"texture_wrapping_x": "repeat",
+"texture_wrapping_y": "repeat",
+"depth_test": true,
+"depth_write": true,
+"depth_func": "less or equal",
+"culling": "back",
+"alpha_test": false,
+"blending": true,
+"blend_src_mode": "src alpha",
+"blend_dst_mode": "inv src alpha",
+"uv_map_1": { "shader_name": "UV", "name": "uvmap" },
+"uv_map_2": { "shader_name": "maskUV", "name": "mask uvmap" },
+"custom_floats": 0,
+"custom_vecs": 0,
+"textures":
+  [
+    { "shader_name": "dudvTexture", "name": "distortion texture" },
+    { "shader_name": "normalTexture", "name": "normal map" },
+    { "shader_name": "maskTexture", "name": "alpha mask" },
+	{ "shader_name": "reflectionTexture", "name": "reflection texture" }
+  ],
+"floats":
+  [
+    { "shader_name": "dudvStretchU", "name": "distortion stretch U" },
+    { "shader_name": "dudvStretchV", "name": "distortion stretch V" },
+    { "shader_name": "dudvStrength", "name": "distortion strength" },
+    { "shader_name": "speed", "name": "distortion speed" },
+    { "shader_name": "reflectiveStrength", "name": "reflective strength" },
+    { "shader_name": "opacity", "name": "opacity" },
+    { "shader_name": "specularStrength", "name": "specularity strength" }
+  ],
+"colors":
+  [
+  ],
+"flags":
+  [
+  ]
+}

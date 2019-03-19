@@ -1,0 +1,38 @@
+{
+"vertex_shader": "Sources\\SS2Standard.vert",
+"fragment_shader": "Sources\\SS2Standard.frag",
+"name": "GL3 SS2 Standard",
+"texture_wrapping_x": "repeat",
+"texture_wrapping_y": "repeat",
+"depth_test": true,
+"depth_write": true,
+"depth_func": "less or equal",
+"culling": "back",
+"alpha_test": false,
+"blending": true,
+"blend_src_mode": "src alpha",
+"blend_dst_mode": "inv src alpha",
+"uv_map_1": { "shader_name": "UV", "name": "uvmap" },
+"uv_map_2": {},
+"custom_floats": 0,
+"custom_vecs": 0,
+"textures":
+  [
+    { "shader_name": "diffuseTexture", "name": "base texture" },
+    { "shader_name": "normalTexture", "name": "normal map" },
+    { "shader_name": "reflectionTexture", "name": "reflection map" }
+  ],
+"floats":
+  [
+    { "shader_name": "normalStrength", "name": "bump strength" },
+    { "shader_name": "reflectionStrength", "name": "reflection strength" },
+    { "shader_name": "specularStrength", "name": "specularity strength" },
+    { "shader_name": "specularFactor", "name": "specularity factor" }
+  ],
+"colors":
+  [
+  ],
+"flags":
+  [
+  ]
+}

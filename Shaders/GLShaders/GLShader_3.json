@@ -1,0 +1,32 @@
+{
+"vertex_shader": "Sources\\GL3Reflection.vert",
+"fragment_shader": "Sources\\GL3Reflection.frag",
+"name": "GL3 Reflection",
+"texture_wrapping_x": "repeat",
+"texture_wrapping_y": "repeat",
+"depth_test": true,
+"depth_write": true,
+"depth_func": "less or equal",
+"culling": "back",
+"alpha_test": false,
+"blending": false,
+"blend_src_mode": "",
+"blend_dst_mode": "",
+"uv_map_1": { "shader_name": "UV", "name": "uvmap" },
+"uv_map_2": {},
+"custom_floats": 0,
+"custom_vecs": 0,
+"textures":
+  [
+	{ "shader_name": "reflectionTexture", "name": "reflection texture" }
+  ],
+"floats":
+  [
+  ],
+"colors":
+  [
+  ],
+"flags":
+  [
+  ]
+}

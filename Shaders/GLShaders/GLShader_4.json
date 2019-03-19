@@ -1,0 +1,34 @@
+{
+"vertex_shader": "Sources\\GL3Lul.vert",
+"fragment_shader": "Sources\\GL3Lul.frag",
+"name": "GL3 Lul",
+"texture_wrapping_x": "clamp",
+"texture_wrapping_y": "clamp",
+"depth_test": true,
+"depth_write": true,
+"depth_func": "less or equal",
+"culling": "back",
+"alpha_test": true,
+"blending": false,
+"blend_src_mode": "",
+"blend_dst_mode": "",
+"uv_map_1": { "shader_name": "UV", "name": "uvmap" },
+"uv_map_2": {},
+"custom_floats": 0,
+"custom_vecs": 0,
+"textures":
+  [
+	{ "shader_name": "lulTexture", "name": "lul texture" }
+  ],
+"floats":
+  [
+    { "shader_name": "lulCenterX", "name": "lul center X" },
+    { "shader_name": "lulCenterY", "name": "lul center Y" }
+  ],
+"colors":
+  [
+  ],
+"flags":
+  [
+  ]
+}

@@ -1,0 +1,32 @@
+{
+"vertex_shader": "Sprite.vert",
+"fragment_shader": "Sprite.frag",
+"name": "GL3 Sprite",
+"texture_wrapping_x": "clamp",
+"texture_wrapping_y": "clamp",
+"depth_test": true,
+"depth_write": true,
+"depth_func": "less or equal",
+"culling": "back",
+"alpha_test": true,
+"blending": false,
+"blend_src_mode": "",
+"blend_dst_mode": "",
+"uv_map_1": { "shader_name": "UV", "name": "uvmap" },
+"uv_map_2": {},
+"custom_floats": 0,
+"custom_vecs": 0,
+"textures":
+  [
+	{ "shader_name": "diffuseTexture", "name": "texture" }
+  ],
+"floats":
+  [
+  ],
+"colors":
+  [
+  ],
+"flags":
+  [
+  ]
+}

@@ -1,0 +1,35 @@
+{
+"vertex_shader": "Sources\\GL3Base.vert",
+"fragment_shader": "Sources\\GL3Base.frag",
+"name": "GL3 Base",
+"texture_wrapping_x": "repeat",
+"texture_wrapping_y": "repeat",
+"depth_test": true,
+"depth_write": true,
+"depth_func": "less or equal",
+"culling": "back",
+"alpha_test": false,
+"blending": true,
+"blend_src_mode": "src alpha",
+"blend_dst_mode": "inv src alpha",
+"uv_map_1": { "shader_name": "UV", "name": "Base uvmap" },
+"uv_map_2": {},
+"custom_floats": 0,
+"custom_vecs": 0,
+"textures":
+  [
+    { "shader_name": "baseTexture", "name": "Base texture" }
+  ],
+"floats":
+  [
+  ],
+"colors":
+  [
+    { "shader_name": "baseColor", "name": "Base color" }
+  ],
+"flags":
+  [
+    { "shader_name": "smoothLight", "name": "Smooth light" },
+    { "shader_name": "fullbright", "name": "Full bright" }
+  ]
+}

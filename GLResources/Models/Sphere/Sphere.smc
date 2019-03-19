@@ -1,0 +1,12 @@
+NAME "Sphere";
+{
+  MESH       	TFNM "GLResources\Models\Sphere\Sphere.bm";
+  TEXTURES   
+  {
+    "Pool"	TFNM "GLResources\Cubemaps\Pool.tex";
+  }
+  ALLFRAMESBBOX	-0.985456,-1,-0.983024,0.985456,1,0.983023;
+  COLISION
+  {
+  }
+}

@@ -1,0 +1,6 @@
+MESHLODLIST
+{
+  MAX_DISTANCE 150;
+  #INCLUDE "GLResources\Models\Sphere\Sphere.shp"
+  #INCLUDE "GLResources\Models\Sphere\Sphere.am"
+}

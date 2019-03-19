@@ -1,0 +1,24 @@
+SHADER_PARAMS 1.0;
+SHADER_SURFACES 1
+{
+  SHADER_SURFACE "Sphere";
+  {
+    SHADER_NAME "Shaders\GL3 Reflection.sha";
+    SHADER_TEXTURES 1
+    {
+      "Pool";
+    };
+    SHADER_UVMAPS 1
+    {
+      0;
+    };
+    SHADER_COLORS 0
+    {
+    };
+    SHADER_FLOATS 0
+    {
+    };
+    SHADER_FLAGS 0x00000000;
+  };
+};
+SHADER_PARAMS_END
